@@ -1,1 +1,5 @@
-Add all files - git add .
+cd path/to/your/project       # Navigate to your project directory
+git init                       # Initialize Git (if not already done)
+git add .                      # Stage all files
+git commit -m "Your message"  # Commit changes with a message
+git push origin main          # Push changes to the remote repository (if applicable)
