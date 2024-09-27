@@ -1,0 +1,3 @@
+Rename  -
+Remove unused imports   -
+Indent Lines    -   Cmd + Opt + L
