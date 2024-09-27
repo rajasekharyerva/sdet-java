@@ -35,5 +35,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
+      - name: Build with Maven
+        run: mvn clean package
+
       - name: Run Selenium Tests
         run: java -jar target/sdet-repo-1.0-SNAPSHOT.jar 
