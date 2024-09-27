@@ -10,7 +10,7 @@ import java.util.Set;
 public class GetLinksTest extends BaseTest {
 
 
-    @Test
+    @Test(testName = "getLinks")
     public void getLinks() {
         HomePage homePage = new HomePage(webDriver);
         List<String> sourceList = homePage.getSelectOptionsSource();
