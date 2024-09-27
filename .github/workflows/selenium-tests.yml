@@ -41,8 +41,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-      - name: Build with Maven
-        run: mvn clean package
+      # - name: Build with Maven
+      #   run: mvn clean package
 
       - name: Run TestNG Tests
         run: mvn test -DsuiteXmlFile=testng.xml  # Adjust the path if necessary
