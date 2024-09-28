@@ -1,22 +1,29 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class GetLinksTest extends BaseTest {
+
+public class GetLinksTest {
 
 
-    @Test(testName = "getLinks", groups = {"sanity"})
+    @Test(groups = {"sanity"})
     public void getLinks() {
-        HomePage homePage = new HomePage(webDriver);
-        List<String> sourceList = homePage.getSelectOptionsSource();
-        List<String> destinationList = homePage.getSelectOptionsDestination();
-        List<String> finalList = getFinalList(sourceList, destinationList);
-        finalList.forEach(System.out::println);
+//        HomePage homePage = new HomePage(webDriver);
+//        List<String> sourceList = homePage.getSelectOptionsSource();
+//        List<String> destinationList = homePage.getSelectOptionsDestination();
+//        List<String> finalList = getFinalList(sourceList, destinationList);
+//        finalList.forEach(System.out::println);
+        System.out.println("Only getLinks1");
+    }
+
+    @Test(groups = {"sanity2"})
+    public void getLinks2() {
+        System.out.println("Only getLinks2");
     }
 
     private List<String> getFinalList(List<String> sourceList, List<String> destinationList) {
@@ -32,11 +39,26 @@ public class GetLinksTest extends BaseTest {
     }
 
 
-    public void getList() {
-        List<WebElement> listElements = webDriver.findElements(By.xpath("//div[@class=\"navigation\"]/ul[1]/li"));
-        for (WebElement webElement : listElements) {
-            System.out.println(webElement.getText());
-        }
+
+
+    @BeforeGroups
+    public void setUp(){
+        System.out.println("setUp");
+    }
+
+    @AfterGroups
+    public void tearDown(){
+        System.out.println("tearDown");
+    }
+
+    @BeforeMethod
+    public void setUp1(){
+        System.out.println("setUp1");
+    }
+
+    @AfterMethod
+    public void tearDown1(){
+        System.out.println("tearDown1");
     }
 
 
