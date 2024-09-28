@@ -75,7 +75,7 @@ jobs:
             echo "Running tests in the ${{ github.event.inputs.environment }} environment."
             echo "Running test: ${{ github.event.inputs.custom_input }}"
             
-            mvn test -Denv=${{ github.event.inputs.environment }} -Dtest=${{ github.event.inputs.custom_input }}
+            mvn test -Denv=${{ github.event.inputs.environment }} -Dtests=${{ github.event.inputs.custom_input }}
 
       # Run TestNG Tests based on input
       - name: Run TestNG Tests
