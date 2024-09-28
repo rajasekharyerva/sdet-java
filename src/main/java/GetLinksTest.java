@@ -37,29 +37,4 @@ public class GetLinksTest extends  BaseTest{
         // Convert the Set back to a List
         return new ArrayList<>(uniqueElements);
     }
-
-
-
-
-//    @BeforeGroups
-//    public void setUp(){
-//        System.out.println("setUp");
-//    }
-//
-//    @AfterGroups
-//    public void tearDown(){
-//        System.out.println("tearDown");
-//    }
-//
-//    @BeforeMethod
-//    public void setUp1(){
-//        System.out.println("setUp1");
-//    }
-//
-//    @AfterMethod
-//    public void tearDown1(){
-//        System.out.println("tearDown1");
-//    }
-
-
 }

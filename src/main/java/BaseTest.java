@@ -24,7 +24,7 @@ public class BaseTest {
         webDriver.get(filePath);
     }
 
-    @BeforeGroups
+    @BeforeMethod(alwaysRun = true)
     public void setUp(){
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless"); // Run in headless mode
@@ -38,7 +38,7 @@ public class BaseTest {
         System.out.println("setUp");
     }
 
-    @AfterGroups
+    @AfterMethod(alwaysRun = true)
     public void tearDown(){
         System.out.println("tearDown");
         webDriver.quit();
