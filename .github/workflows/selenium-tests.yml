@@ -27,9 +27,9 @@ on:
           - e2e     # end-to-end tests
           - specific # specific test
       custom_input:
-        description: 'Enter <Class>#<Method>'
-        required: false  # Make this optional unless specific tests are being run
-        default: ''
+        description: 'Enter Class and Method name (e.g., GetLinksTest#getLinks)'
+        required: false
+        default: 'GetLinksTest#getLinks'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -69,6 +69,13 @@ jobs:
       - name: Run in development environment
         if: ${{ github.event.inputs.environment == 'dev' }}
         run: echo "Running in development environment!"
+
+      - name: Run specific TestNG method
+        run: |
+            echo "Running tests in the ${{ github.event.inputs.environment }} environment."
+            echo "Running test: ${{ github.event.inputs.class_and_method }}"
+            
+            mvn test -Denv=${{ github.event.inputs.environment }} -Dtest=${{ github.event.inputs.custom_input }}
 
       # Run TestNG Tests based on input
       - name: Run TestNG Tests
