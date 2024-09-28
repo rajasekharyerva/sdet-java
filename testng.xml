@@ -8,14 +8,12 @@
 <!--    </test>-->
 
     <test name="Smoke Tests">
-        <groups>
-            <run>
-                <include name="sanity"/>
-                <include name="sanity2"/>
-            </run>
-        </groups>
         <classes>
-            <class name="GetLinksTest"/>
+            <class name="GetLinksTest">
+                <methods>
+                    <include name="getLinks2"/>
+                </methods>
+            </class>
         </classes>
     </test>
 
