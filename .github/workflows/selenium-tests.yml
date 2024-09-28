@@ -85,7 +85,7 @@ jobs:
           
           # Command to run tests based on input
           if [ "${{ github.event.inputs.testType }}" = "sanity" ]; then
-            mvn test -Dtest=${{ github.event.inputs.custom_input }}
+            mvn test -Denv=${{ github.event.inputs.environment }} -Dgroups=sanity
           elif [ "${{ github.event.inputs.testType }}" = "e2e" ]; then
             mvn test -Denv=${{ github.event.inputs.environment }} -Dgroups=e2e
           else
