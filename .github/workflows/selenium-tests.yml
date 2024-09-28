@@ -29,6 +29,7 @@ on:
         default: 'unit'
         type: choice
         options:
+          - sanity # sanity tests
           - unit
           - integration
           - e2e # end-to-end tests
