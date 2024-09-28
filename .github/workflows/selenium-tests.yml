@@ -92,3 +92,9 @@ jobs:
             # mvn test -Dtests=${{ github.event.inputs.custom_input }}
             mvn test -Dtests=com.example.GetLinksTest#getLinks2
           fi
+      # Upload Surefire HTML Report (or TestNG Report)
+      - name: Upload TestNG Default Reports
+        uses: actions/upload-artifact@v3
+        with:
+          name: testng-output
+          path: test-output/index.html  # Path to TestNG reports
