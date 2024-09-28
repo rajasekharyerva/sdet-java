@@ -1,0 +1,2 @@
+docker-compose up -d
+docker exec -it mongodb_container mongo -u admin -p admin123

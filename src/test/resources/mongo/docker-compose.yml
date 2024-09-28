@@ -1,0 +1,19 @@
+version: '3.8'  # Specify the version of Docker Compose
+
+services:
+  mongodb:
+    image: mongo:latest  # Use the latest MongoDB image
+    container_name: mongodb_container  # Name for the MongoDB container
+    ports:
+      - "27017:27017"  # Map port 27017 on the host to port 27017 in the container
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin  # Set the root username
+      MONGO_INITDB_ROOT_PASSWORD: admin123  # Set the root password
+      MONGO_INITDB_DATABASE: my_database  # Optional: Pre-create a database
+    volumes:
+      - ./data:/data/db  # Mount a volume to persist the data
+      - ./init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js  # Initialization script
+
+volumes:
+  data:
+    driver: local
