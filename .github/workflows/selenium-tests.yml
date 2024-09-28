@@ -30,9 +30,12 @@ on:
         type: choice
         options:
           - sanity # sanity tests
-          - unit
-          - integration
           - e2e # end-to-end tests
+          - specific #specific
+      custom_input:
+        description: 'Enter <Class>#<Method>'
+        required: true
+        default: '<Class>#<Method>'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -78,6 +81,15 @@ jobs:
         run: echo "Running in development environment!"
 
       - name: Run TestNG Tests
-        if: ${{ github.event.inputs.testType == 'sanity' }}
-        run: mvn test -Dgroups="sanity"
-
+        run: |
+          echo "Running tests in the ${{ github.event.inputs.environment }} environment."
+          echo "Test type: ${{ github.event.inputs.test_type }}"
+          
+          # Command to run tests based on input
+          if [ "${{ github.event.inputs.test_type }}" == "sanity" ]; then
+            mvn test -Denv=${{ github.event.inputs.environment }} -Dgroups=sanity
+          elif [ "${{ github.event.inputs.test_type }}" == "e2e" ]; then
+            mvn test -Denv=${{ github.event.inputs.environment }} -Dgroups=e2e
+          elif [ "${{ github.event.inputs.test_type }}" == "specific" ]; then
+            mvn test -Denv=${{ github.event.inputs.environment }} -Dtest=${{github.event.inputs.custom_input}}
+          fi
