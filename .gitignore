@@ -3,3 +3,6 @@
 
 # Ignore temporary files
 target/
+
+# Ignore mongo data files
+src/test/resources/mongo/data/
