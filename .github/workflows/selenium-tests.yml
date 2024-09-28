@@ -74,7 +74,8 @@ jobs:
       - name: Run TestNG Tests
         run: |
           echo "Running tests in the ${{ github.event.inputs.environment }} environment."
-          echo "Test type: ${{ github.event.inputs.testType }}"
+          echo "Test type: ${{ github.event.inputs.testType }}" 
+          
           # Command to run tests based on input
           if [ "${{ github.event.inputs.testType }}" = "sanity" ]; then
             mvn test -Denv=${{ github.event.inputs.environment }} -Dgroups=sanity
