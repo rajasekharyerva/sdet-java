@@ -64,8 +64,8 @@ jobs:
       # - name: Build with Maven
       #   run: mvn clean package
 
-      - name: Run TestNG Tests
-        run: mvn test -DsuiteXmlFile=testng.xml  # Adjust the path if necessary
+#      - name: Run TestNG Tests
+#        run: mvn test -DsuiteXmlFile=testng.xml  # Adjust the path if necessary
 
       - name: Print selected environment
         run: |
@@ -76,10 +76,7 @@ jobs:
         if: ${{ github.event.inputs.environment == 'dev' }}
         run: echo "Running in development environment!"
 
-      - name: Run in staging environment
-        if: ${{ github.event.inputs.environment == 'staging' }}
-        run: echo "Running in staging environment!"
+      - name: Run TestNG Tests
+        if: ${{ github.event.inputs.testType == 'sanity' }}
+        run: mvn test -Dgroups="sanity"
 
-      - name: Run in production environment
-        if: ${{ github.event.inputs.environment == 'production' }}
-        run: echo "Running in production environment!"
