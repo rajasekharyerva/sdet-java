@@ -59,7 +59,8 @@ jobs:
         run: mvn test -DsuiteXmlFile=testng.xml  # Adjust the path if necessary
 
       - name: Print selected environment
-        run: echo "Selected environment: ${{ github.event.inputs.environment }}"
+        run: |
+          echo "Selected environment: ${{ github.event.inputs.environment }}"
 
       # Conditionally run steps based on the dropdown selection
       - name: Run in development environment
