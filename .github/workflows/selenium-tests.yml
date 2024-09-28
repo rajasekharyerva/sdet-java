@@ -82,5 +82,6 @@ jobs:
           elif [ "${{ github.event.inputs.testType }}" = "e2e" ]; then
             mvn test -Denv=${{ github.event.inputs.environment }} -Dgroups=e2e
           else
-            mvn test -Dtest=${{ github.event.inputs.custom_input }}
+            # mvn test -Dtest=${{ github.event.inputs.custom_input }}
+            mvn test -Dtest=GetLinksTest#getLinks
           fi
