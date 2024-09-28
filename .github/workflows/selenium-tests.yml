@@ -26,7 +26,7 @@ on:
       testType:
         description: 'Select the type of test to run'
         required: true
-        default: 'unit'
+        default: 'sanity'
         type: choice
         options:
           - sanity # sanity tests
