@@ -81,6 +81,4 @@ jobs:
             mvn test -Denv=${{ github.event.inputs.environment }} -Dgroups=sanity
           elif [ "${{ github.event.inputs.testType }}" = "e2e" ]; then
             mvn test -Denv=${{ github.event.inputs.environment }} -Dgroups=e2e
-          elif [ "${{ github.event.inputs.testType }}" = "specific" ]; then
-            mvn test -Denv=${{ github.event.inputs.environment }} -Dtest=${{ github.event.inputs.custom_input }}
           fi
