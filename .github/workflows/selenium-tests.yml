@@ -4,12 +4,6 @@ name: Run Selenium Tests
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
-#  push:
-#    branches: [ "main" ]
-#  pull_request:
-#    branches: [ "main" ]
-
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
     inputs:
@@ -29,12 +23,12 @@ on:
         default: 'sanity'
         type: choice
         options:
-          - sanity # sanity tests
-          - e2e # end-to-end tests
-          - specific #specific
+          - sanity  # sanity tests
+          - e2e     # end-to-end tests
+          - specific # specific test
       custom_input:
         description: 'Enter <Class>#<Method>'
-        required: true
+        required: false  # Make this optional unless specific tests are being run
         default: '<Class>#<Method>'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -46,38 +40,27 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      # Checks out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - uses: actions/cache@v2
+      # Cache Maven dependencies
+      - name: Cache Maven
+        uses: actions/cache@v2
         with:
           path: ~/.m2/repository
           key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
           restore-keys: |
             ${{ runner.os }}-maven-
 
+      # Set up JDK
       - name: Set up JDK
         uses: actions/setup-java@v2
         with:
           java-version: '22'  # Use the Java version your project requires
           distribution: 'adopt'
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
-
-      # - name: Build with Maven
-      #   run: mvn clean package
-#
-#      - name: Run TestNG Tests
-#        run: mvn test -DsuiteXmlFile=testng.xml  # Adjust the path if necessary
-
+      # Print selected environment
       - name: Print selected environment
         run: |
           echo "Selected environment: ${{ github.event.inputs.environment }}"
@@ -87,6 +70,7 @@ jobs:
         if: ${{ github.event.inputs.environment == 'dev' }}
         run: echo "Running in development environment!"
 
+      # Run TestNG Tests based on input
       - name: Run TestNG Tests
         run: |
           echo "Running tests in the ${{ github.event.inputs.environment }} environment."
@@ -98,5 +82,5 @@ jobs:
           elif [ "${{ github.event.inputs.testType }}" = "e2e" ]; then
             mvn test -Denv=${{ github.event.inputs.environment }} -Dgroups=e2e
           elif [ "${{ github.event.inputs.testType }}" = "specific" ]; then
-            mvn test -Denv=${{ github.event.inputs.environment }} -Dtest=${{github.event.inputs.custom_input}}
+            mvn test -Denv=${{ github.event.inputs.environment }} -Dtest=${{ github.event.inputs.custom_input }}
           fi
