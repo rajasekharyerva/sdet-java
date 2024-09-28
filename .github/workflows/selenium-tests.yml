@@ -73,7 +73,7 @@ jobs:
       - name: Run specific TestNG method
         run: |
             echo "Running tests in the ${{ github.event.inputs.environment }} environment."
-            echo "Running test: ${{ github.event.inputs.class_and_method }}"
+            echo "Running test: ${{ github.event.inputs.custom_input }}"
             
             mvn test -Denv=${{ github.event.inputs.environment }} -Dtest=${{ github.event.inputs.custom_input }}
 
