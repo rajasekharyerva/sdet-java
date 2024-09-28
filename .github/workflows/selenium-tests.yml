@@ -29,7 +29,7 @@ on:
       custom_input:
         description: 'Enter <Class>#<Method>'
         required: false  # Make this optional unless specific tests are being run
-        default: '<Class>#<Method>'
+        default: ''
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
