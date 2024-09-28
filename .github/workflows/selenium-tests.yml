@@ -76,11 +76,20 @@ jobs:
           echo "Running tests in the ${{ github.event.inputs.environment }} environment."
           echo "Test type: ${{ github.event.inputs.testType }}" 
           
+#          # Command to run tests based on input
+#          if [ "${{ github.event.inputs.testType }}" = "sanity" ]; then
+#            mvn test -Denv=${{ github.event.inputs.environment }} -Dgroups=sanity
+#          elif [ "${{ github.event.inputs.testType }}" = "e2e" ]; then
+#            mvn test -Denv=${{ github.event.inputs.environment }} -Dgroups=e2e
+#          else
+#            mvn test -Dtest=${{ github.event.inputs.custom_input }}
+#          fi
+
           # Command to run tests based on input
-          if [ "${{ github.event.inputs.testType }}" = "sanity" ]; then
-            mvn test -Denv=${{ github.event.inputs.environment }} -Dgroups=sanity
-          elif [ "${{ github.event.inputs.testType }}" = "e2e" ]; then
-            mvn test -Denv=${{ github.event.inputs.environment }} -Dgroups=e2e
-          else
-            mvn test -Dtest=${{ github.event.inputs.custom_input }}
-          fi
+           if [ "${{ github.event.inputs.testType }}" = "sanity" ]; then
+               mvn test -Dtest=${{ github.event.inputs.custom_input }}
+           elif [ "${{ github.event.inputs.testType }}" = "e2e" ]; then
+             mvn mvn test -Dtest=${{ github.event.inputs.custom_input }}
+           else
+             mvn test -Dtest=${{ github.event.inputs.custom_input }}
+           fi

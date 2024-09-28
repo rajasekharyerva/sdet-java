@@ -11,7 +11,7 @@
         <classes>
             <class name="GetLinksTest">
                 <methods>
-                    <include name="getLinks2"/>
+                    <include name="getLinks"/>
                 </methods>
             </class>
         </classes>
