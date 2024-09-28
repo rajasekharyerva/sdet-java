@@ -9,9 +9,9 @@
 
     <test name="Smoke Tests">
         <classes>
-            <class name="GetLinksTest">
+            <class name="com.example.GetLinksTest">
                 <methods>
-                    <include name="getLinks"/>
+                    <include name="getLinks2"/>
                 </methods>
             </class>
         </classes>

@@ -1,6 +1,6 @@
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.testng.annotations.*;
+package com.example;
+
+import org.testng.annotations.Test;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Set;
 
 
-public class GetLinksTest extends  BaseTest{
+public class GetLinksTest extends BaseTest {
 
 
     @Test(groups = {"sanity"})

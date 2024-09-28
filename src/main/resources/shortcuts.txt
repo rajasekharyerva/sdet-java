@@ -1,3 +1,4 @@
-Rename  -
-Remove unused imports   -
-Indent Lines    -   Cmd + Opt + L
+Rename                                  -
+Remove unused imports                   -
+Indent Lines                            -   Cmd + Opt + L
+Automatically Optimize Imports on Save  -
