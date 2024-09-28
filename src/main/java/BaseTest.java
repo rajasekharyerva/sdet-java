@@ -26,22 +26,22 @@ public class BaseTest {
 
     @BeforeGroups
     public void setUp(){
-//        ChromeOptions options = new ChromeOptions();
-//        options.addArguments("--headless"); // Run in headless mode
-//        options.addArguments("--no-sandbox"); // Bypass OS security model
-//        options.addArguments("--disable-dev-shm-usage"); // Overcome limited resource problems
-//        options.addArguments("--window-size=1920,1080"); // Set window size
-//        System.out.println("WebDriver Initialization");
-//        webDriver = new ChromeDriver(options);
-//        webDriver.manage().window().maximize();
-//        setURL();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless"); // Run in headless mode
+        options.addArguments("--no-sandbox"); // Bypass OS security model
+        options.addArguments("--disable-dev-shm-usage"); // Overcome limited resource problems
+        options.addArguments("--window-size=1920,1080"); // Set window size
+        System.out.println("WebDriver Initialization");
+        webDriver = new ChromeDriver(options);
+        webDriver.manage().window().maximize();
+        setURL();
         System.out.println("setUp");
     }
 
     @AfterGroups
     public void tearDown(){
         System.out.println("tearDown");
-//        webDriver.quit();
+        webDriver.quit();
     }
 
 

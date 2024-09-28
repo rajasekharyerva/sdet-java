@@ -8,16 +8,16 @@ import java.util.List;
 import java.util.Set;
 
 
-public class GetLinksTest {
+public class GetLinksTest extends  BaseTest{
 
 
     @Test(groups = {"sanity"})
     public void getLinks() {
-//        HomePage homePage = new HomePage(webDriver);
-//        List<String> sourceList = homePage.getSelectOptionsSource();
-//        List<String> destinationList = homePage.getSelectOptionsDestination();
-//        List<String> finalList = getFinalList(sourceList, destinationList);
-//        finalList.forEach(System.out::println);
+        HomePage homePage = new HomePage(webDriver);
+        List<String> sourceList = homePage.getSelectOptionsSource();
+        List<String> destinationList = homePage.getSelectOptionsDestination();
+        List<String> finalList = getFinalList(sourceList, destinationList);
+        finalList.forEach(System.out::println);
         System.out.println("Only getLinks1");
     }
 
@@ -41,25 +41,25 @@ public class GetLinksTest {
 
 
 
-    @BeforeGroups
-    public void setUp(){
-        System.out.println("setUp");
-    }
-
-    @AfterGroups
-    public void tearDown(){
-        System.out.println("tearDown");
-    }
-
-    @BeforeMethod
-    public void setUp1(){
-        System.out.println("setUp1");
-    }
-
-    @AfterMethod
-    public void tearDown1(){
-        System.out.println("tearDown1");
-    }
+//    @BeforeGroups
+//    public void setUp(){
+//        System.out.println("setUp");
+//    }
+//
+//    @AfterGroups
+//    public void tearDown(){
+//        System.out.println("tearDown");
+//    }
+//
+//    @BeforeMethod
+//    public void setUp1(){
+//        System.out.println("setUp1");
+//    }
+//
+//    @AfterMethod
+//    public void tearDown1(){
+//        System.out.println("tearDown1");
+//    }
 
 
 }
