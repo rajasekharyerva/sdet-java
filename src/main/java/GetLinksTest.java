@@ -21,7 +21,7 @@ public class GetLinksTest extends  BaseTest{
         System.out.println("Only getLinks1");
     }
 
-    @Test(groups = {"sanity2"})
+    @Test(groups = {"sanity2"}, testName = "getLinks2")
     public void getLinks2() {
         System.out.println("Only getLinks2");
     }
