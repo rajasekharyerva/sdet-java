@@ -1,0 +1,31 @@
+# Use a Maven image to build the project
+FROM maven:3.8.5-jdk-11 AS build
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the pom.xml and source code into the container
+COPY pom.xml .
+COPY src ./src
+
+# Download dependencies and build the project
+RUN mvn clean package -DskipTests
+
+# Use a separate image for running the tests
+FROM openjdk:11-jre-slim
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the compiled JAR from the build image
+COPY --from=build /app/target/sdet-repo.1.0-SNAPSHOT.jar ./sdet-repo.1.0-SNAPSHOT.jar
+
+# Install any required tools (curl to check the Grid status)
+RUN apt-get update && apt-get install -y curl
+
+# Wait for Selenium Grid to be ready (optional)
+COPY wait-for-grid.sh /wait-for-grid.sh
+RUN chmod +x /wait-for-grid.sh
+
+# Default command to run the tests
+CMD ["java", "-jar", "your-project.jar", "-DsuiteXmlFile=testng2.xml"]
