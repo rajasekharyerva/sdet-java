@@ -24,7 +24,7 @@ public class BaseTest {
         driver = DriverManager.getDriver();
         // Create an instance of ConfigReader
         ConfigReader configReader = new ConfigReader();
-        driver.get(configReader.getProperty("books_url"));
+        driver.get(configReader.getProperty("webtables_url"));
     }
 
     @AfterMethod(alwaysRun = true)

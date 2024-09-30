@@ -7,7 +7,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class BooksPage extends BasePage{
 
@@ -25,6 +28,9 @@ public class BooksPage extends BasePage{
 
     @FindBy(xpath = "//div[@class='rt-tbody']/div[@role='rowgroup']")
     private List<WebElement> rows;
+
+    @FindBy(xpath = "//div[contains(@class,'rt-tr')]/div[@role='columnheader']")
+    private List<WebElement> rowsHeaders;
 
     @FindBy(xpath = "//button[text()='Previous']")
     private WebElement previousButton;
@@ -55,18 +61,31 @@ public class BooksPage extends BasePage{
         pause(1000);
     }
 
-    public void displayResults() {
+    public List<String> getRowHeaders() {
+        List<String> columnNames = new ArrayList<>();
+        for(WebElement rowHeader: rowsHeaders) {
+            columnNames.add(rowHeader.getText());
+        }
+        return columnNames;
+    }
+
+    public List<Map<String, String>> getTableRowData() {
+        List<String> columnHeaders = getRowHeaders();
+        // List to store all row data
+        List<Map<String, String>> tableData = new ArrayList<>();
         for(WebElement rowWE: rows) {
-            List<WebElement> cols = rowWE.findElements(By.xpath(".//div[@class='rt-td']"));
+            Map<String, String> rowData = new HashMap<>();
+            List<WebElement> colDataWE = rowWE.findElements(By.xpath(".//div[@class='rt-td']"));
             if (rowWE.getText().trim().isEmpty()) {
                 // Skip this row if it has no text
                 continue;
             }
-            for(WebElement colWE: cols) {
-                System.out.print(colWE.getText()+"\t");
+            for(int i = 0; i < colDataWE.size(); i++) {
+                rowData.put(columnHeaders.get(i), colDataWE.get(i).getText());
             }
-            System.out.println("\n");
+            tableData.add(rowData);
         }
+        return tableData;
     }
 
     // Example method to get details from the table
