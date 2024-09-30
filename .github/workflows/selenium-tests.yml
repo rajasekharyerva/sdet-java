@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Run Selenium Tests
+name: Run Selenium/Gatling/Cucumber/API Tests
 
 # Controls when the workflow will run
 on:
@@ -16,7 +16,6 @@ on:
         options:
           - dev
           - qa
-          - production
       testType:
         description: 'Select the type of test to run'
         required: true
@@ -62,25 +61,8 @@ jobs:
           java-version: '22'  # Use the Java version your project requires
           distribution: 'adopt'
 
-      # Print selected environment
-      - name: Print selected environment
-        run: |
-          echo "Selected environment: ${{ github.event.inputs.environment }}"
-
-      # Conditionally run steps based on the dropdown selection
-      - name: Run in development environment
-        if: ${{ github.event.inputs.environment == 'dev' }}
-        run: echo "Running in development environment!"
-
-      - name: Run specific TestNG method
-        run: |
-            echo "Running tests in the ${{ github.event.inputs.environment }} environment."
-            echo "Running test: ${{ github.event.inputs.custom_input }}"
-            
-            mvn test -Denv=${{ github.event.inputs.environment }} -Dtests=${{ github.event.inputs.custom_input }}
-
-      # Run TestNG Tests based on input
-      - name: Run TestNG Tests
+      # Run Tests based on input
+      - name: Run Tests based on input
         run: |
           echo "Running tests in the ${{ github.event.inputs.environment }} environment."
           echo "Test type: ${{ github.event.inputs.testType }}" 
@@ -95,9 +77,9 @@ jobs:
           elif [ "${{ github.event.inputs.testType }}" = "perf" ]; then
             mvn gatling:test
           else
-            # mvn test -Dtest=${{ github.event.inputs.custom_input }}
-            mvn test -Dtest=com.example.GetLinksTest#getLinks2
+            mvn test -Dtest=${{ github.event.inputs.custom_input }}
           fi
+
       # Upload Surefire HTML Report (or TestNG Report)
       - name: Set report path based on test type
         id: set-path
@@ -111,5 +93,5 @@ jobs:
       - name: Upload Reports TestNG/Gatling
         uses: actions/upload-artifact@v3
         with:
-          name: testng-output
+          name: ${{ env.path }}-reports
           path: ${{ env.path }}  # Use the environment variable set in the previous step
