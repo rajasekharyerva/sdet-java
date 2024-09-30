@@ -2,13 +2,15 @@ package api;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
 public class DeleteAPITest {
-
-    @Test(groups = {"api"})
+    private static final Logger logger = LoggerFactory.getLogger(GetAPITest.class);
+    @Test(groups = {"api"}, testName = "TC6-Delete API TEST")
     public void deleteTest() {
         // Set the base URI for the API
         RestAssured.baseURI = "https://api.restful-api.dev";
@@ -24,6 +26,6 @@ public class DeleteAPITest {
                 .response();
 
         // Print response
-        System.out.println("Response: " + response.asString());
+        //logger.info("Response: {}", response.asString());
     }
 }

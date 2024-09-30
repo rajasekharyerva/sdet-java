@@ -2,6 +2,8 @@ package api;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
@@ -9,8 +11,8 @@ import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.notNullValue;
 
 public class GetAPITest {
-
-    @Test(groups = {"api"})
+    private static final Logger logger = LoggerFactory.getLogger(GetAPITest.class);
+    @Test(groups = {"api"}, testName = "TC4-Get API TEST")
     public void testGetAPI() {
         // Base URI for Rest Assured
         RestAssured.baseURI = "https://api.restful-api.dev";
@@ -29,7 +31,7 @@ public class GetAPITest {
                 .extract().response();
 
         // Print the response for debugging purposes
-        System.out.println("Response Body: " + response.asString());
+        logger.info("Response Body: {}", response.asString());
     }
 }
 

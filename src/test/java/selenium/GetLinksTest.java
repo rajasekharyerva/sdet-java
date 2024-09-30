@@ -1,5 +1,7 @@
-package com.example;
+package selenium;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
@@ -10,20 +12,28 @@ import java.util.Set;
 
 public class GetLinksTest extends BaseTest {
 
+    private static final Logger logger = LoggerFactory.getLogger(BaseTest.class);
 
-    @Test(groups = {"sanity"})
-    public void getLinks() {
+    @Test(groups = {"sanity"}, testName = "TC1-Merge 2 List")
+    public void getLinksTest() {
         HomePage homePage = new HomePage(webDriver);
         List<String> sourceList = homePage.getSelectOptionsSource();
         List<String> destinationList = homePage.getSelectOptionsDestination();
         List<String> finalList = getFinalList(sourceList, destinationList);
-        finalList.forEach(System.out::println);
-        System.out.println("Only getLinks1");
+        finalList.forEach(item -> logger.info("Item: {}", item));
     }
 
-    @Test(groups = {"sanity2"}, testName = "getLinks2")
-    public void getLinks2() {
+    @Test(groups = {"e2e"}, testName = "TC2-Sample E2E Test")
+    public void e2eTest() {
         System.out.println("Only getLinks2");
+    }
+
+    @Test(groups = {"tbd"}, testName = "TC3-TBD Tets")
+    public void dummyTest() {
+    }
+
+    @Test
+    public void specificTest() {
     }
 
     private List<String> getFinalList(List<String> sourceList, List<String> destinationList) {

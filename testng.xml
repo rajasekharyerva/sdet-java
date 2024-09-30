@@ -7,15 +7,15 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-    <test name="Smoke Tests">
-        <classes>
-            <class name="com.example.GetLinksTest">
-                <methods>
-                    <include name="getLinks23"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
+<!--    <test name="Smoke Tests">-->
+<!--        <classes>-->
+<!--            <class name="com.selenium.GetLinksTest">-->
+<!--                <methods>-->
+<!--                    <include name="getLinks23"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
 
 <!--    <test name="Integration Tests">-->
 <!--        <classes>-->

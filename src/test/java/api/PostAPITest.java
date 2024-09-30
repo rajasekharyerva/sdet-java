@@ -13,7 +13,7 @@ import pojo.Product;
 public class PostAPITest {
     private static final Logger log = LoggerFactory.getLogger(PostAPITest.class);
 
-    @Test(groups = {"api"})
+    @Test(groups = {"api"}, testName = "TC5-Post API TEST")
     public void postObject() {
         RestAssured.baseURI = "https://api.restful-api.dev";
 
@@ -41,7 +41,6 @@ public class PostAPITest {
         // Deserialize JSON response to POJO
         Product productPOJO = response.as(Product.class);
         log.info("Response Status Code: {}", response.getStatusCode());
-        System.out.println("djncm");
         Assert.assertEquals(productPOJO.getName(), "Apple iPhone 12 Pro Max");
 
     }

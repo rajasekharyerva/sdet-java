@@ -1,8 +1,0 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Selenium Tests" parallel="false">
-    <test name="Google Search Test">
-        <classes>
-            <class>com.example.TestSelenium</class>
-        </classes>
-    </test>
-</suite>
