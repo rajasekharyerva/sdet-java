@@ -13,7 +13,7 @@ public class DriverManager {
     public static WebDriver getDriver() {
         if (driver == null) {
             ChromeOptions options = new ChromeOptions();
-            //options.addArguments("--headless"); // Run in headless mode
+            options.addArguments("--headless"); // Run in headless mode
             options.addArguments("--no-sandbox"); // Bypass OS security model
             options.addArguments("--disable-dev-shm-usage"); // Overcome limited resource problems
             options.addArguments("--window-size=1920,1080"); // Set window size
