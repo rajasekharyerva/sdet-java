@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-public class FormPage {
+public class FormPage extends BasePage {
 
     WebDriver driver;
 
@@ -172,22 +172,13 @@ public class FormPage {
     public void clickSubmit() {
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", submitButton);
         submitButton.click();
-        pause(1000);
+        //pause(1000);
     }
 
     // Click the Close button
     public void clickClose()  {
         closeButton.click();
-        pause(1000);
-    }
-
-    // Generic method for a small pause
-    public void pause(int millis) {
-        try {
-            Thread.sleep(millis);  // Pause for 500ms
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();  // Reset interrupt status
-        }
+        //pause(1000);
     }
 
 }
