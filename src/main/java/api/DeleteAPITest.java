@@ -2,12 +2,14 @@ package api;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
 public class DeleteAPITest {
 
-    public static void main(String[] args) {
+    @Test(groups = {"api"})
+    public void deleteTest() {
         // Set the base URI for the API
         RestAssured.baseURI = "https://api.restful-api.dev";
 
