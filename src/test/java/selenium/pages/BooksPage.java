@@ -58,10 +58,14 @@ public class BooksPage extends BasePage{
     public void displayResults() {
         for(WebElement rowWE: rows) {
             List<WebElement> cols = rowWE.findElements(By.xpath(".//div[@class='rt-td']"));
-            for(WebElement colWE: cols) {
-                System.out.print(colWE.getText());
+            if (rowWE.getText().trim().isEmpty()) {
+                // Skip this row if it has no text
+                continue;
             }
-            System.out.println("/n");
+            for(WebElement colWE: cols) {
+                System.out.print(colWE.getText()+"\t");
+            }
+            System.out.println("\n");
         }
     }
 
