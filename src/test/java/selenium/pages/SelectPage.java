@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HomePage {
+public class SelectPage {
     WebDriver driver;
 
     // PageFactory locators (elements on the login page)
@@ -20,7 +20,7 @@ public class HomePage {
     WebElement destination;
 
     // Constructor to initialize elements with PageFactory
-    public HomePage(WebDriver driver) {
+    public SelectPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
@@ -43,9 +43,4 @@ public class HomePage {
         }
         return list;
     }
-
-
-
-    // Combined action (optional)
-
 }

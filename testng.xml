@@ -23,8 +23,7 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-<!--    <listeners>-->
-<!--        <listener class-name="org.testng.reporters.XMLReporter"/>-->
-<!--        <listener class-name="org.testng.reporters.JUnitReportReporter"/>-->
-<!--    </listeners>-->
+    <listeners>
+            <listener class-name="selenium.utilities.ScreenshotListener" />
+    </listeners>
 </suite>
