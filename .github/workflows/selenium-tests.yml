@@ -93,5 +93,5 @@ jobs:
       - name: Upload Reports TestNG/Gatling
         uses: actions/upload-artifact@v3
         with:
-          name: ${{ env.path }}-reports
+          name: ${{ github.event.inputs.testType }}-reports
           path: ${{ env.path }}  # Use the environment variable set in the previous step
