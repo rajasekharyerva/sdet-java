@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 
 public class DeleteAPITest {
-    private static final Logger logger = LoggerFactory.getLogger(GetAPITest.class);
+    private static final Logger logger = LoggerFactory.getLogger(DeleteAPITest.class);
     @Test(groups = {"api"}, testName = "TC6-Delete API TEST")
     public void deleteTest() {
         // Set the base URI for the API
