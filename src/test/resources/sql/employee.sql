@@ -4,6 +4,9 @@ mysql -h 127.0.0.1 -P 3306 -u user -p
 CREATE DATABASE <my_database>;
 SHOW DATABASES;
 exit;
+GRANT ALL PRIVILEGES ON *.* TO 'user'@'%' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+show privileges;
 use <my_database>
 select * from employee;
 docker-compose down

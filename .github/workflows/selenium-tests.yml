@@ -26,6 +26,7 @@ on:
           - sanity  # sanity tests
           - e2e     # end-to-end tests
           - specific # specific test
+          - api
       custom_input:
         description: 'Enter Class and Method name (e.g., GetLinksTest#getLinks)'
         required: false
