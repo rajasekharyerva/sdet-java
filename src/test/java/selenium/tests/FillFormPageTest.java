@@ -11,7 +11,7 @@ import selenium.utilities.Utils;
 public class FillFormPageTest extends BaseTest{
     private static final Logger logger = LoggerFactory.getLogger(FillFormPageTest.class);
 
-    @Test(description = "TC2-Fill Form")
+    @Test(description = "TC2-Fill Form", groups = "sanity")
     public void fillForm(){
         // Create FormPage, Faker instance
         FormPage formPage = new FormPage(driver);

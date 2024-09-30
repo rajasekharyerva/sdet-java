@@ -90,11 +90,13 @@ public class FormPage {
     // Enter First Name
     public void enterFirstName(String name) {
         firstnameTextBox.sendKeys(name);
+        pause(1000);
     }
 
     // Enter First Name
     public void enterLastName(String name) {
         lastNameTextBox.sendKeys(name);
+        pause(1000);
     }
 
     // Enter Email
@@ -115,11 +117,13 @@ public class FormPage {
                 genderOtherRadioButton.click();
                 break;
         }
+        pause(1000);
     }
 
     // Enter Mobile Number
     public void enterMobile(String mobile) {
         mobileTextBox.sendKeys(mobile);
+        pause(1000);
     }
 
     // Enter Date of Birth
