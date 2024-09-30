@@ -1,4 +1,4 @@
-package api;
+package api.tests;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -7,8 +7,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pojo.Data;
-import pojo.Product;
+import api.pojo.Data;
+import api.pojo.Product;
 
 public class PostAPITest {
     private static final Logger log = LoggerFactory.getLogger(PostAPITest.class);

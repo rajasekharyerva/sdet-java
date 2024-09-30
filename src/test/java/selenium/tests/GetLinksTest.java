@@ -1,8 +1,9 @@
-package selenium;
+package selenium.tests;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
+import selenium.pages.HomePage;
 
 import java.util.ArrayList;
 import java.util.HashSet;

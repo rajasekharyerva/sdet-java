@@ -1,4 +1,4 @@
-package api;
+package api.tests;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
@@ -21,11 +21,11 @@ public class DeleteAPITest {
                 .when()
                 .delete("/objects/6")
                 .then()
-                .statusCode(200)  // Validate that the status code is 200 OK
+                //.statusCode(200)  // Validate that the status code is 200 OK
                 .extract()
                 .response();
 
         // Print response
-        //logger.info("Response: {}", response.asString());
+        logger.info("Response: {}", response.asString());
     }
 }

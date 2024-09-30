@@ -1,4 +1,4 @@
-package selenium;
+package selenium.tests;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import utilities.ConfigReader;
+import selenium.utilities.ConfigReader;
 
 import java.io.File;
 

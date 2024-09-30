@@ -1,4 +1,4 @@
-package pojo;
+package api.pojo;
 
 public class Data {
     private String color;

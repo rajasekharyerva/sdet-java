@@ -27,6 +27,7 @@ on:
           - e2e     # end-to-end tests
           - specific # specific test
           - api
+          - perf
       custom_input:
         description: 'Enter Class and Method name (e.g., GetLinksTest#getLinks)'
         required: false
@@ -91,6 +92,8 @@ jobs:
             mvn test -Denv=${{ github.event.inputs.environment }} -Dgroups=e2e
           elif [ "${{ github.event.inputs.testType }}" = "api" ]; then
             mvn test -Denv=${{ github.event.inputs.environment }} -Dgroups=api
+          elif [ "${{ github.event.inputs.testType }}" = "perf" ]; then
+            mvn gatling:test
           else
             # mvn test -Dtest=${{ github.event.inputs.custom_input }}
             mvn test -Dtest=com.example.GetLinksTest#getLinks2
@@ -100,4 +103,9 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: testng-output
-          path: target/surefire-reports  # Path to TestNG reports
+          path: |
+            if [ "${{ github.event.inputs.testType }}" = "perf" ]; then
+              target/surefire-reports  # Path to TestNG reports      
+            else
+              target/surefire-reports # Path to TestNG reports
+            fi
