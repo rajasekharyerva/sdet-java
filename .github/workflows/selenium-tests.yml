@@ -107,5 +107,5 @@ jobs:
             if [ "${{ github.event.inputs.testType }}" = "perf" ]; then
               target/surefire-reports  # Path to TestNG reports      
             else
-              target/surefire-reports # Path to TestNG reports
+              target/gatling # Path to TestNG reports
             fi
