@@ -11,7 +11,7 @@
         <classes>
             <class name="com.example.GetLinksTest">
                 <methods>
-                    <include name="getLinks2"/>
+                    <include name="getLinks23"/>
                 </methods>
             </class>
         </classes>

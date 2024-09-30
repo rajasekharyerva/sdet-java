@@ -10,7 +10,7 @@ import static org.hamcrest.Matchers.notNullValue;
 
 public class GetAPITest {
 
-    @Test(groups = "api")
+    @Test(groups = {"api"})
     public void testGetAPI() {
         // Base URI for Rest Assured
         RestAssured.baseURI = "https://api.restful-api.dev";
