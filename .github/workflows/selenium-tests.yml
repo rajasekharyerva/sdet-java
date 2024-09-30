@@ -99,13 +99,17 @@ jobs:
             mvn test -Dtest=com.example.GetLinksTest#getLinks2
           fi
       # Upload Surefire HTML Report (or TestNG Report)
-      - name: Upload TestNG Default Reports
+      - name: Set report path based on test type
+        id: set-path
+        run: |
+          if [ "${{ github.event.inputs.testType }}" = "perf" ]; then
+            echo "path=target/gatling" >> $GITHUB_ENV
+          else
+            echo "path=target/surefire-reports" >> $GITHUB_ENV
+          fi
+
+      - name: Upload Reports TestNG/Gatling
         uses: actions/upload-artifact@v3
         with:
           name: testng-output
-          path: |
-            if [ "${{ github.event.inputs.testType }}" = "perf" ]; then
-              target/surefire-reports  # Path to TestNG reports      
-            else
-              target/gatling # Path to TestNG reports
-            fi
+          path: ${{ env.path }}  # Use the environment variable set in the previous step

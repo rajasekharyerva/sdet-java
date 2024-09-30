@@ -1,5 +1,7 @@
 Rename                                  -
-Remove unused imports/on the fly        -
 Indent Lines                            - Cmd + Opt + L
+Remove unused imports/on the fly        -
 Automatically Optimize Imports on Save  -
 Run                                     - Ctrl + Shft + R
+Move block code Right                   - Tab
+Move block code Left                    - Shift + Tab
