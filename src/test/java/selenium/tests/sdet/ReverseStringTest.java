@@ -1,4 +1,4 @@
-package selenium.tests;
+package selenium.tests.sdet;
 
 public class ReverseStringTest {
     public static void main(String args[]) {
