@@ -1,8 +1,8 @@
-package selenium.tests.sdet;
+package sdet;
 
 public class ReverseStringTest {
     public static void main(String args[]) {
-        String input = "interview";
+        String input = "Hello world";
         System.out.println(reverseStringConcat(input));
         System.out.println(reverseStringStringBuilder(input));
     }

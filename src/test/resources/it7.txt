@@ -1,0 +1,55 @@
+String comparison is a fundamental topic in Java that often appears in technical interviews across various companies. Many candidates struggle with this concept, leading to confusion about when to use .equals() versus ==. To clarify this important distinction, let’s break it down. 📚
+
+### 1. *String Initialization* ✍️
+
+Consider the following declarations:
+------------------------------------------
+String s1 = "Achala";
+String s2 = "Achala";
+
+- s1.equals(s2):
+This returns ✅ true.
+The .equals() method checks for value equality, meaning it verifies if the content of the strings is the same.
+- s1 == s2:
+This also returns ✅ true.
+In Java, string literals are interned, which means that s1 and s2 reference the same object in the string pool.
+
+### 2. *String Objects* 🏷️
+
+Now, let’s examine the creation of string objects:
+-----------------------------------------------------
+String s3 = new String("Achala");
+String s4 = new String("Achala");
+
+- s3.equals(s4):
+This returns ✅ true.
+Again, .equals() compares the content, and both strings are identical.
+- s3 == s4:
+This returns ❌ false.
+Even though s3 and s4 contain the same value, they are two separate objects located in different memory spaces.
+
+### 3. *Comparing Literals with Objects* 🔍
+
+Now let’s see how a string literal compares with an object:
+---------------------------------------------------------------
+- s1.equals(s3):
+This returns ✅ true.
+The contents are the same, so the comparison via .equals() holds.
+- s1 == s3:
+This returns ❌ false.
+Here, s1 points to a string literal in the string pool, while s3 is a distinct object created on the heap.
+
+### *Summary of Results* 📊
+
+| Comparison  | Result   |
+|---------------|---------- |
+| s1.equals(s2) | ✅ true |
+| s1 == s2     | ✅ true |
+| s3.equals(s4) | ✅ true |
+| s3 == s4      | ❌ false |
+| s1.equals(s3) | ✅ true |
+| s1 == s3      | ❌ false |
+
+### *Conclusion* 🎉
+
+Understanding the differences between .equals() and == is crucial not just for interviews, but for writing effective Java code. This topic frequently stumps candidates, yet a clear grasp of string comparison can set you apart.

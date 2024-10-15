@@ -1,4 +1,4 @@
-package selenium.tests.sdet;
+package sdet;
 
 import java.util.Arrays;
 import java.util.Scanner;

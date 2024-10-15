@@ -1,0 +1,48 @@
+1. What is Agile methodology?
+
+2. What are the Agile ceremonies?
+
+3. How would you test color, font, and text on a webpage before giving a demo to the client? What other things would you prepare?
+
+4. What is RTM (Requirements Traceability Matrix)?
+
+5. Where did you apply API testing in your project?
+
+6. What is integration testing, and how would you perform it in your previous project?
+
+7. What is the difference between the Waterfall model and Agile?
+
+8. What is PI and IP in Agile?
+
+9. How would you integrate your code to Jenkins and Git?
+
+10. How would you decide the time estimate for particular features or a sprint?
+
+11. SQL Query: There is an employee table where you need to select only the 3 highest-paying salary employees. How would you write the query?
+
+12. SQL Query: There are two tables with 3 common rows. How would you display all the common rows?
+
+13. What are patches and bug releases?
+
+14. What is the difference between a bug, a defect, and an error?
+
+15. Login Page Corner Scenarios: What corner scenarios would you test, aside from invalid login credentials or alphanumeric conditions?
+
+16. Tell me about the bug template and test case template.
+
+17. What is FRC, BRC, and SRC?
+
+18. Java Coding Challenge:
+Calculate the parking payment:
+0-15 mins: $0
+15 mins to 2 hrs: $5
+2-5 hrs: $10
+More than 5 hrs: Add $1 for each additional full hour.
+
+19. Java Coding Challenge: Given int sum = 10; and an array {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, find the pairs that add up to 10 (e.g., {1, 9}, {2, 8}, etc.).
+
+20. Java Coding Challenge: Given int a = 0; int b = a; b = a++;, what will be the output of System.out.println(a + “-“ + b);?
+
+21. Selenium Automation: How would you automate iframe switching if there are 4 frames (0, 1, 2, 3)? How would you switch to each frame and perform actions?
+
+22. Selenium Automation: Open Google, search for “ABC,” and interact with the auto-suggest dropdown. How would you capture the size and text of all the suggestions and click on the first one using Selenium and Java?

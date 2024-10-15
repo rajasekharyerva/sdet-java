@@ -1,0 +1,31 @@
+#Prophecy [Startup] recent #SDET #Interviewquestions
+Q1. Code to find Next Greater Element (NGE) for every element .
+ -Time complexity
+ -Optimized approach
+E.g. Input: arr[] = [ 4 , 5 , 2 , 25 ]
+Output: 4   –> 5
+ 5   –> 25
+ 2   –> 25
+ 25  –> -1
+Explanation: Except 25 every element has an element greater than them present on the right side
+Q2. Write test Cases of the code.
+Q3. Let us suppose this function is the API. How will you write code to test it, (API Automation)?
+Q4. How to do authentication?
+Q5. What are headers in API testing
+Q6. Authentication vs Authorization.
+Q7. Selenium code to test the login page
+Q8. Test Cases for the login page
+
+𝐑𝐨𝐮𝐧𝐝 2:
+Q1: Write a code to Implement tail -f command (tail -f command prints last few lines of one or more files)
+ Followup : Write test cases for this
+Explanation: Need to write a function that takes filepath and number of lines as a parameter , returning last n lines of the file(e.g. Log file )
+
+Q2: —-Write Test cases and Automation for given app—--------
+GoogleDocs with below functionalities
+- Create a doc file
+- Share it with any user (email) -> EDIT/READONLY/COMMENTONLY
+- When anyone edits the document you and others can see the changes
+Asked to write 2 things:
+Test areas - Test cases
+Automation strategy

@@ -9,3 +9,4 @@ Comment line/multiple                   - Cmd + /
 Uncomment line/multiple                 - Cmd + /
 Comment Block                           - Opt + Cmd + /
 Uncomment Block                         - Opt + Cmd + /
+Delete a line                           - Cmd + Delete

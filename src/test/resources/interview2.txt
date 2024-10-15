@@ -1,0 +1,40 @@
+1) Introduce yourself
+2) Explain the complete Scrum process followed in your Project
+3) How Estimations were given for a Story and How do you suggest Test Estimations?
+4) Give an example of Low priority & Low severity, Low Priority & High Severity (please don’t give examples commonly mentioned in blogs or YouTube videos). Give some unique examples.
+
+5) There is a date picker which has a start date and end date, and once you select both dates, now these 2 dates get displayed in another 2 web pages. Once you modify they get modified in these 2 webpages. Derive as many scenarios as possible for this case.
+
+6) What exactly is Smoke and Sanity Testing (Give some good examples from your project)
+
+7) In what cases you performed smoke, regression, Sanity, Retesting and End to End testing in your Project, explain in detail.
+
+8) How do you handle radio buttons
+9) What is implicit wait, have you implemented it in your project?
+10) Explain with examples where implicit and explicit waits can be used. Do you implement them together?
+11) Have you designed the Automation framework from scratch?
+12) Why you have implemented By Approach in your Page classes and why not Page Factory approach
+13) What happens when duplicate values are added in HashMap?
+14) Are you Ready to work from 1:30 PM to 11PM IST Timings?
+15) How do you make sure Abstraction is maximised in your Tests?
+16) Handling mail while working in Automation, explain with writing code
+17) How do you implement builder pattern using LomBok?
+18) Git Branching approach in detail
+19) How to keep API Tests idempotent?
+20) How Regression Suites are handled in your Automation Project?
+21) Is it possible to integrate API generated cookies directly with Selenium WebDriver tests? If yes how?
+22) Explain the Test Stack Implemented in your project
+
+Coding Problems:
+
+1) Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same
+
+Example:
+
+Input: nums = [0,0,1,1,1,2,2,3,3,4]
+Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
+Explanation: Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
+
+2) Find the largest, second largest, smallest and second smallest numbers in the given array.
+
+-x-x-

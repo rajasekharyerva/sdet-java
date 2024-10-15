@@ -1,0 +1,41 @@
+Understanding these concepts is crucial for effective exception handling in your projects. Let’s break it down!
+
+🔑 Key Differences-->
+throw:
+---------
+Used to explicitly throw an exception from a method or a block of code.
+Can only throw a single exception at a time.
+Example Usage:
+
+public void validateEmail(String email) {
+ if (!email.contains("@")) {
+ throw new IllegalArgumentException("Invalid email address!");
+ }
+}
+In this example, if the email does not contain an '@', an IllegalArgumentException is thrown.
+
+throws:
+---------
+Declares that a method can throw one or more exceptions.
+Used in method signatures to indicate potential exceptions that might occur.
+Example Usage:
+
+public void connectToDatabase() throws SQLException {
+ // Code to establish a connection
+ if (/* connection fails */) {
+ throw new SQLException("Failed to connect to the database.");
+ }
+}
+Here, the method connectToDatabase declares that it might throw a SQLException.
+📊 Real-time Examples: Verifying Cash Withdrawal
+-----------------------------------------------------------
+When withdrawing cash from an ATM, you could use:
+
+public void withdrawCash(double amount) throws InsufficientFundsException {
+ if (amount > balance) {
+ throw new InsufficientFundsException("Insufficient funds for this transaction.");
+ }
+ // Process withdrawal
+}
+This not only indicates that the method may fail but also clearly states why it might fail, enhancing clarity in exception handling.
+By understanding and effectively utilizing throw and throws, you can write more robust and maintainable Java applications! 💪

@@ -1,0 +1,86 @@
+Q1. public class Example {
+public static void main(String[] args) {
+static int a=20;
+int b= a + 10;
+System.out.println(b);
+}
+}
+Question: What will be the output of the following code snippet?
+ A) 20
+ B) 10
+ C) Compilation Error-C
+ D) Run time Error
+
+Q2. ArrayList<Integer> a = new ArrayList<>();
+a.add(1);
+a.add(2);
+a.add(3);
+a.add(4); // Corrected line
+a.removeAll(new ArrayList<>(Arrays.asList(1, 3, 4, 5)));
+System.out.println(a);
+Question: What will be the output of the following code snippet?
+A) Blank
+B) 2-B
+C) Runtime error
+D) Compile error
+
+Q3. What is the format for the API endpoint to fetch user data using an ID?
+A) GET /users/{username}
+B) GET /users/{id}-B
+C) POST /users/{id}
+D) GET /users?id={id}
+
+Q4: How can scenarios be grouped using tags in Cucumber?
+A) Using the @tag notation.-A
+B) Using the #tag notation.
+C) By specifying tags in the feature file comments.
+D) By writing tags in the step definitions.
+
+Q5. From the below htm code, find the xpath
+i) to select the 3rd <p> element in an HTML document?-//p[3]
+ii) to select the 3rd <p> inside its parent <div>?-//div/p[3]
+iii) for an input field with a dynamic ID?-//input[contains(@id,"dynamic")]
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <​meta charset="UTF-8">
+ <​meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Sample Document</title>
+</head>
+<body>
+ <div id="content">
+ <h1>Welcome to the Sample Document</h1>
+ <p>This is the first paragraph.</p>
+ <p>This is the second paragraph.</p>
+ <p>This is the third paragraph.</p>
+ <p>This is the fourth paragraph.</p>
+ <ul>
+ <li><input type="text" id="dynamic_input_123" /></li>
+ <li><input type="text" id="dynamic_input_456" /></li>
+ <li><input type="text" id="input_special" /></li>
+ </ul>
+ </div>
+</body>
+</html>
+
+Q6. Write a java program to reverse a String, and then print original string and reverse String.
+I/P: Hello world
+O/P: Hello world world Hello
+
+Q7. Write code in Selenium to accept a JavaScript alert and upload a file using an input field
+Alert alert = driver.switchTo().alert();
+alert.accept();
+
+String filePath = "/path/to/your/file.txt";
+uploadInput.sendKeys(filePath);
+
+Q8. Write a Java program for a String
+String str ="Automation Testing Software Engineer"
+O/P : "Testing Software Engineer". Don't use any default/inbuilt function.
+
+Q9. Write a Java program for an Integer array
+int[] a= {2,4,6,8,9,2,5}, Target to remove: 9
+O/P: {2,4,6,8,2,5}. Don't use any default/inbuilt function
+
+Happy Testing!

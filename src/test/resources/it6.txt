@@ -1,0 +1,66 @@
+1) How to use Basic authentication in automation?
+
+ Response resp = given()
+ .auth()
+ .basic("jap", "jap").when().get("https://lnkd.in/dTVmEXqg");
+
+2) How to use Pre-emptive authentication in automation?
+
+ Response resp1 = given()
+ .auth()
+ .preemptive().basic("jap", "jap").when().get("https://lnkd.in/dTVmEXqg");
+
+3) How to use digest authentication in automation?
+
+ Response resp2 = given()
+ .auth()
+ .digest("jap", "jap").when().get("https://lnkd.in/dTVmEXqg");
+
+4) How to use Oauth2 authentication in automation?
+
+ Response resp3 = given()
+ .auth()
+ .oauth2("").when().get("https://lnkd.in/dTVmEXqg");
+
+5) How to use Oauth authentication in automation?
+
+ Response resp4 = given()
+ .auth()
+ .oauth("consumerKey", "consumerSecret", "accessToken", "secretToken").when().get("https://lnkd.in/dTVmEXqg");
+
+6) How to use header for authorization(oauth2) in automation?
+
+ Response resp5 = given().header("Authorization","accessToken")
+ .when().get("https://lnkd.in/dTVmEXqg");
+
+ }
+7) What are the main differences between API and Web Service?
+ - All Web services are APIs but not all APIs are Web services.
+
+ - Web service uses three styles of use: SOAP, REST and XML-RPC for communication whereas API may be exposed in multiple ways.
+
+ - Web service needs a network to operate but APIs don’t need a network to operate.
+
+8) Explain what statelessness means in REST?
+
+Ans: Statelessness means that the client and server don’t store information about each other’s state. Since the server stores no information, it treats each client request as a new request.
+As a consequence, the following conditions would apply:
+The client request contains all information required for the server to process the request
+Client application is responsible for storing session state
+
+9) How to send a Nested JSON object as payload?
+Ans:
+Ex: {“hashedIn”: {
+“name”:”hashedIn”,
+“id”:”japneet″
+}}
+HashMap<String,Object> mainobj= new HashMap<String,Object>();
+HashMap<String,String> subobj= new HashMap<String,String>();
+subobj.put("name","Tester");
+subobj.put("id","japneet");
+mainobj.put("hashedIn",subobj);
+
+10) Which purpose does the OPTIONS method serve for the RESTful Web services?
+Ans: The OPTIONS Method lists down all the operations of a web service supports. It creates read-only requests to the server.
+
+-x-x-x-

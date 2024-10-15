@@ -1,4 +1,4 @@
-package selenium.tests.sdet;
+package sdet;
 
 public class SwapStringsTest {
     public static void main(String[] args){

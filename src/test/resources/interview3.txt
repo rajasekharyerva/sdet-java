@@ -1,0 +1,36 @@
+1. Reverse a String
+ - Practice reversing a string using loops or StringBuilder.
+
+2. Check for Palindrome
+ - Write code to check if a string reads the same forwards and backwards.
+
+3. Fibonacci Series
+ - Generate Fibonacci numbers up to a certain point using loops.
+
+4. Factorial of a Number
+ - Implement both iterative and recursive methods to find factorial.
+
+5. Prime Number Check
+ - Learn how to check if a number is prime using simple logic.
+
+6. Count Vowels and Consonants
+ - Write a program to count vowels and consonants in a string.
+
+7. Sort an Array
+ - Practice sorting arrays using built-in methods and manual techniques like bubble or selection sort.
+
+8. Find Largest Element in an Array
+ - Learn to iterate through arrays to find the largest number.
+
+9. Remove Duplicates from an Array
+ - Use sets or other methods to remove duplicates from arrays.
+
+10. Check for Anagram
+ - Test two strings to see if they're anagrams by sorting or using character counts.
+
+💡 Pro Tips:
+- Focus on writing clean, efficient, and readable code.
+- Use Stream API for modern, simplified solutions.
+- Master data structures like arrays, lists, and sets.
+- Understand basic algorithms like sorting, searching, and recursion.
+
