@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe Simulation Example</title>
+    <style>
+        .frame {
+            border: 1px solid #ccc;
+            width: 100%;
+            height: 200px;
+            margin-bottom: 20px;
+            display: none; /* Hide all frames by default */
+        }
+        .frame.active {
+            display: block; /* Show only the active frame */
+        }
+    </style>
+</head>
+<body>
+<h1>Main Page</h1>
+
+<div id="frame1" class="frame active">
+    <h2>Iframe 1</h2>
+    <button id="button1">Click Me!</button>
+    <p>This is content from iframe 1.</p>
+</div>
+
+<div id="frame2" class="frame">
+    <h2>Iframe 2</h2>
+    <p>This is content from iframe 2. It has no button.</p>
+</div>
+
+<div id="frame3" class="frame">
+    <h2>Iframe 3</h2>
+    <button id="button3">Click Here!</button>
+    <p>This is content from iframe 3.</p>
+</div>
+
+<div id="frame4" class="frame">
+    <h2>Iframe 4</h2>
+    <p>This is content from iframe 4. It has no button.</p>
+</div>
+
+<button onclick="switchFrame(1)">Show Frame 1</button>
+<button onclick="switchFrame(2)">Show Frame 2</button>
+<button onclick="switchFrame(3)">Show Frame 3</button>
+<button onclick="switchFrame(4)">Show Frame 4</button>
+
+<script>
+    function switchFrame(frameNumber) {
+        // Hide all frames
+        var frames = document.querySelectorAll('.frame');
+        frames.forEach(function(frame) {
+            frame.classList.remove('active');
+        });
+
+        // Show the selected frame
+        document.getElementById('frame' + frameNumber).classList.add('active');
+    }
+
+    // Event listeners for buttons in the frames
+    document.getElementById('button1').addEventListener('click', function() {
+        alert('Button in Frame 1 clicked!');
+    });
+
+    document.getElementById('button3').addEventListener('click', function() {
+        alert('Button in Frame 3 clicked!');
+    });
+</script>
+</body>
+</html>

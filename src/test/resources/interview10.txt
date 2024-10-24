@@ -1,0 +1,46 @@
+#Selenium :
+1. Introduce yourself.
+2. What projects have you handled and what were your responsibilities?
+3. Scope of automation testing in your previous projects.
+4. Type of automation framework you have worked on and explain (Framework structure and all its components).
+5. Explain POM (Page Object Model).
+6. How have you used Excel sheets for automation?
+7. Do you have any idea how we can integrate Jenkins in Selenium?
+8. How to open multiple browsers in TestNG?
+9. How to set test priority in TestNG?
+10. What is your work experience with Selenium Grid?
+11. Different types of locators and how we can write XPath.
+12. How to handle pop-ups?
+13. Which Java concepts for OOPS were used in your framework?
+
+API:
+1. Explain the API testing you’ve done in your previous projects and the tools you used for API testing.
+2. What are the different types of web service implementations other than SOAP?
+3. What is the difference between SOAP vs REST?
+4. In which option is REST response cached?
+5. What are the different types of methods present in REST?
+6. What are the different web service response codes?
+7. Do you know the usage for these response codes?
+8. Which tools are used for testing web services?
+
+Functional Testing:
+1. Do you have knowledge of any reporting tools like Cognos?
+2. Do you have any experience with security testing (e.g., SQL injection, encryption & decryption)?
+3. Which test management tools have you used?
+4. Explain the Agile process & the meetings involved.
+5. If a defect is rejected by DEV, what steps would you follow to prove your point that it is a defect?
+6. Which DB did you use? How comfortable are you with writing queries? If you need to check data across two tables, how would you do it?
+7. A transaction of $1 is not showing up in the target system – What priority & severity would you assign to the defect? If there is any workaround, will there be any change in priority & severity?
+8. Describe the project you worked on.
+9. Elaborate on the BFS (Banking, Financial Services) projects you have supported till now.
+10. What is the workflow of the project you worked on?
+11. What estimation techniques have you used?
+12. What team management activities have you performed?
+13. How do you approach capacity planning?
+14. When should you start test automation in a project?
+15. How do you monitor resources who are reporting to you?
+16. What environment management activities have you been involved in?
+17. Any challenges you faced during delivery?
+18. How would you start a security testing project from scratch?
+19. What are the key considerations when preparing a regression suite?
+20. How many team members have you handled?

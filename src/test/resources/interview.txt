@@ -3,7 +3,7 @@
 2. What are the Agile ceremonies?
 
 3. How would you test color, font, and text on a webpage before giving a demo to the client? What other things would you prepare?
-
+element.getCssValue("color");, element.getCssValue("font-family");, element.getCssValue("font-size");
 4. What is RTM (Requirements Traceability Matrix)?
 
 5. Where did you apply API testing in your project?
@@ -21,13 +21,36 @@
 11. SQL Query: There is an employee table where you need to select only the 3 highest-paying salary employees. How would you write the query?
 
 12. SQL Query: There are two tables with 3 common rows. How would you display all the common rows?
+select t1.*
+from tabel1 t1
+inner join table2 t2
+on t1.column1 = t2.column1
+and t1.column2 = t2.column2
+and t1.column3 = t2.column3
 
 13. What are patches and bug releases?
 
 14. What is the difference between a bug, a defect, and an error?
 
 15. Login Page Corner Scenarios: What corner scenarios would you test, aside from invalid login credentials or alphanumeric conditions?
-
+blank username/password
+whitespace
+case sensitivity
+special characters
+sql injections, xss attacks
+input length
+browser back, forward, session, sensitive data
+multiple failed logins
+session timeouts
+password masking, show password
+cross browser
+simultaneous login
+maintenance
+expired passwords
+autofilling
+language/locale handling
+invalid format
+social media login/permissions denied
 16. Tell me about the bug template and test case template.
 
 17. What is FRC, BRC, and SRC?
@@ -42,7 +65,8 @@ More than 5 hrs: Add $1 for each additional full hour.
 19. Java Coding Challenge: Given int sum = 10; and an array {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, find the pairs that add up to 10 (e.g., {1, 9}, {2, 8}, etc.).
 
 20. Java Coding Challenge: Given int a = 0; int b = a; b = a++;, what will be the output of System.out.println(a + “-“ + b);?
-
+SampleParking
 21. Selenium Automation: How would you automate iframe switching if there are 4 frames (0, 1, 2, 3)? How would you switch to each frame and perform actions?
-
+FrameSwitchTest
 22. Selenium Automation: Open Google, search for “ABC,” and interact with the auto-suggest dropdown. How would you capture the size and text of all the suggestions and click on the first one using Selenium and Java?
+GoogleABCTest

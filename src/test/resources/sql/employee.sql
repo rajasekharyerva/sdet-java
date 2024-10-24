@@ -82,6 +82,15 @@ inner join department_employee
 on employeeV2.emp_id=department_employee.emp_id
 where department_employee.dep_name='Human Resources';
 
+select t1.*
+from tabel1 t1
+inner join table2 t2
+on t1.column1 = t2.column1
+and t1.column2 = t2.column2
+and t1.column3 = t2.column3
+
+
+
 
 
 
