@@ -1,0 +1,23 @@
+Q1. Write Test Cases around  the game(Mostly negative)
+Gameplay -  Snakes and ladders
+Initial reg - player 1
+2 player 1 winner
+4 token each player
+1-6 dice value
+Q2. Write pseudo code logic
+Q3. Action Chain in selenium
+Q4. Common exceptions in selenium?
+Q5. Stale Element exception?
+Q6. Why it arises and how it can be handled.
+Q7. NoSuchsessionException
+Q8 .Waits in selenium
+Q9. How CI CD is done using jenkins
+Q10. Client error ,server error when it arises.
+Q11. Difference between API and micro services
+Q12. Architecture difference between selenium 3 and selenium 4
+Q13. Write program to reverse a string maintaining the index of spaces.
+ I/P - "I am a boy"
+ O/P - "y ob a maI"
+
+Q14. map vs filter function in python
+Q15. Rest API is stateless or statefull ?

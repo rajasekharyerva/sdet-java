@@ -1,0 +1,22 @@
+How you use Rest API in Rest Assured Framework
+What is idempotency in Request
+Difference between Post & Put?
+Write Code to find 3rd largest Element In an Array
+Count occurrences of letters using Map
+What is the mean of 403(forbidden) Status Code?
+What is the mean of 401(unauthorised) Status Code?
+How do you do Authentication in RestAssured Framework?
+Response response = RestAssured
+                .given()
+                .auth().basic("username", "password")
+How do you do Authorization in RestAssured Framework?
+Define the implementation of Hashmap.
+few questions based on String as mentioned down
+Write Code to convert String a=”i love programming” to a=”I Love Programming”
+if String a=”ABC”; & String b=new String(“ABC”);
+True or False
+is(a==b) =?
+(a.equals(b))=?
+c=”ABC”
+(a==c)?
+a.equals(c))=?
