@@ -18,6 +18,7 @@
 
 7. Sort an Array
  - Practice sorting arrays using built-in methods and manual techniques like bubble or selection sort.
+Arrays.sort(arr);
 
 8. Find Largest Element in an Array
  - Learn to iterate through arrays to find the largest number.
