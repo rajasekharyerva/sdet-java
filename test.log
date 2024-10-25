@@ -1,0 +1,10 @@
+INFO 2024-10-22 14:00:01 - Application started
+INFO 2024-10-22 14:01:15 - User login successful: user1
+WARN 2024-10-22 14:02:45 - Disk space running low
+ERROR 2024-10-22 14:03:20 - Failed to connect to database
+INFO 2024-10-22 14:04:50 - User logout: user1
+INFO 2024-10-22 14:05:05 - User login successful: user2
+INFO 2024-10-22 14:06:30 - File upload successful
+WARN 2024-10-22 14:07:45 - High memory usage detected
+INFO 2024-10-22 14:08:15 - Background job started
+ERROR 2024-10-22 14:09:00 - Timeout occurred during job execution
