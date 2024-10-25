@@ -33,16 +33,12 @@
  Response resp5 = given().header("Authorization","accessToken")
  .when().get("https://lnkd.in/dTVmEXqg");
 
- }
 7) What are the main differences between API and Web Service?
  - All Web services are APIs but not all APIs are Web services.
-
  - Web service uses three styles of use: SOAP, REST and XML-RPC for communication whereas API may be exposed in multiple ways.
-
  - Web service needs a network to operate but APIs don’t need a network to operate.
 
 8) Explain what statelessness means in REST?
-
 Ans: Statelessness means that the client and server don’t store information about each other’s state. Since the server stores no information, it treats each client request as a new request.
 As a consequence, the following conditions would apply:
 The client request contains all information required for the server to process the request
