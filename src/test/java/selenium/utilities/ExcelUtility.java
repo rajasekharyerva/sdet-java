@@ -41,7 +41,7 @@ public class ExcelUtility {
         }
 
         // Write the Output to a File
-        try (FileOutputStream fileOut = new FileOutputStream("data.xlsx")) {
+        try (FileOutputStream fileOut = new FileOutputStream("test_data/excel/data.xlsx")) {
             workbook.write(fileOut);
             System.out.println("Excel file written successfully.");
         } catch (IOException e) {
