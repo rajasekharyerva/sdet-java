@@ -24,7 +24,7 @@ public class ScreenshotListener implements ITestListener {
         takeScreenshot(testDescription);
     }
 
-    private void takeScreenshot(String testDescription) {
+    private void takeScreenshot(String testDescription)  {
         WebDriver driver = DriverManager.getDriver();
         File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         File destFile = new File("target/screenshots/" + testDescription + ".png");

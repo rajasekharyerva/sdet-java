@@ -1,7 +1,7 @@
 version: "3"
 services:
   selenium-hub:
-    image: selenium/hub:latest
+    image: selenium/hub
     container_name: selenium-hub
     ports:
       - "4444:4444"
@@ -9,22 +9,45 @@ services:
       - SE_OPENTELEMETRY_ENABLED=false
     platform: linux/amd64  # Emulating amd64 on arm64 system
 
-  chrome:
-    image: selenium/node-chrome:latest
+  chrome_1:
+    image: selenium/node-chrome
     depends_on:
       - selenium-hub
     environment:
       - HUB_HOST=selenium-hub
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+    ports:
+      - "5902:5900"  # VNC server port
+    volumes:
+      - /dev/shm:/dev/shm
+    platform: linux/amd64  # Emulating amd64 on arm64 system
+
+  chrome_2:
+    image: selenium/node-chrome
+    depends_on:
+      - selenium-hub
+    environment:
+      - HUB_HOST=selenium-hub
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+    ports:
+      - "5901:5900"  # VNC server port
     volumes:
       - /dev/shm:/dev/shm
     platform: linux/amd64  # Emulating amd64 on arm64 system
 
   firefox:
-    image: selenium/node-firefox:latest
+    image: selenium/node-firefox
     depends_on:
       - selenium-hub
     environment:
       - HUB_HOST=selenium-hub
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
     volumes:
       - /dev/shm:/dev/shm
     platform: linux/amd64  # Emulating amd64 on arm64 system
