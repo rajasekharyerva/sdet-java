@@ -36,7 +36,7 @@ B) Using the #tag notation.
 C) By specifying tags in the feature file comments.
 D) By writing tags in the step definitions.
 
-Q5. From the below htm code, find the xpath
+Q5. From the below html code, find the xpath
 i) to select the 3rd <p> element in an HTML document?-//p[3]
 ii) to select the 3rd <p> inside its parent <div>?-//div/p[3]
 iii) for an input field with a dynamic ID?-//input[contains(@id,"dynamic")]
