@@ -1,5 +1,6 @@
 package selenium.tests;
 
+import io.qameta.allure.Feature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
@@ -9,6 +10,7 @@ import selenium.pages.BooksPage;
 import java.util.List;
 import java.util.Map;
 
+@Feature("Books Search")
 public class BooksTest extends BaseTest {
     private static final Logger logger = LoggerFactory.getLogger(BooksTest.class);
 

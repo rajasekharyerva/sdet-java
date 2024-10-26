@@ -6,3 +6,6 @@ target/
 
 # Ignore mongo data files
 src/test/resources/mongo/data/
+
+# Ignore allure-results
+target/target/allure-results/

@@ -1,3 +1,5 @@
+
+
 # Docker commands
 | Command Name                       | Command                                            |
 |------------------------------------|----------------------------------------------------|
@@ -20,6 +22,10 @@
 | Grant Privileges | `GRANT ALL PRIVILEGES ON *.* TO 'user'@'%' WITH GRANT OPTION;`       |
 | Flush Privileges | `FLUSH PRIVILEGES;`                                                  |
 | Show Privileges  | `show privileges;`                                                   |
+
+### DBeaver
+[DBeaver download](https://dbeaver.io/download/)
+
 ### Create table
     CREATE TABLE employee (
     emp_no INT AUTO_INCREMENT PRIMARY KEY,

@@ -19,12 +19,16 @@ public class BaseTest {
 
     @BeforeMethod(alwaysRun = true)
     public void setUp(ITestResult result){
+        System.setProperty("allure.results.directory", "Aallure-results");
+        System.setProperty("browser", "Chrome");
+        //System.setProperty("os", "Windows 10");
+
         logger.info("Starting test: {}", result.getMethod().getDescription());
         // Get WebDriver instance from DriverManager
         driver = DriverManager.getDriver();
         // Create an instance of ConfigReader
         ConfigReader configReader = new ConfigReader();
-        driver.get(configReader.getProperty("webtables_url"));
+        driver.get(configReader.getProperty("web_url"));
     }
 
     @AfterMethod(alwaysRun = true)

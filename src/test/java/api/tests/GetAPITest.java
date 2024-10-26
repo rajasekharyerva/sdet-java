@@ -1,5 +1,6 @@
 package api.tests;
 
+import io.qameta.allure.Feature;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.slf4j.Logger;
@@ -10,6 +11,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.notNullValue;
 
+@Feature("Get API")
 public class GetAPITest {
     private static final Logger logger = LoggerFactory.getLogger(GetAPITest.class);
     @Test(groups = {"api"}, testName = "TC4-Get API TEST")

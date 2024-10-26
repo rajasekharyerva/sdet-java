@@ -15,3 +15,9 @@
 | Uncomment line/multiple                | `Cmd + /`         |
 | Comment Block                          | `Opt + Cmd + /`   |
 | Uncomment Block                        | `Opt + Cmd + /`   |
+
+## Plugins
+Cucumber for Java
+Docker
+Gherkin
+Allure Report

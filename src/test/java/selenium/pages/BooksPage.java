@@ -1,5 +1,6 @@
 package selenium.pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -45,6 +46,7 @@ public class BooksPage extends BasePage{
     }
 
     // Actions
+    @Step("Entering book name {text}")
     public void enterSearchText(String text) {
         searchText.clear();
         searchText.sendKeys(text);

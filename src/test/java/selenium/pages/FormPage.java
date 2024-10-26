@@ -1,12 +1,16 @@
 package selenium.pages;
 
+import io.qameta.allure.Step;
+import io.qameta.allure.testng.AllureTestNg;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Listeners;
 
+@Listeners({AllureTestNg.class})
 public class FormPage extends BasePage {
 
     WebDriver driver;
@@ -88,6 +92,7 @@ public class FormPage extends BasePage {
     // Methods to interact with fields
 
     // Enter First Name
+    @Step("Entering first name :{name}")
     public void enterFirstName(String name) {
         firstnameTextBox.sendKeys(name);
         pause(1000);

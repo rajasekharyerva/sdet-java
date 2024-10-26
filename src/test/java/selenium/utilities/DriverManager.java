@@ -1,6 +1,7 @@
 package selenium.utilities;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -16,31 +17,34 @@ public class DriverManager {
 
     public static WebDriver getDriver() {
         if (driver == null) {
-            /*ChromeOptions options = new ChromeOptions();
+            boolean hub = true;
+            ChromeOptions options = new ChromeOptions();
             //options.addArguments("--headless"); // Run in headless mode
             options.addArguments("--no-sandbox"); // Bypass OS security model
             options.addArguments("--disable-dev-shm-usage"); // Overcome limited resource problems
             options.addArguments("--window-size=1920,1080"); // Set window size
             driver = new ChromeDriver(options);
-            driver.manage().window().maximize();*/
+            driver.manage().window().maximize();
 
-            // Specify the hub URL
-            String hubUrl = "http://localhost:4444/wd/hub";
+            if(!hub){
+                // Specify the hub URL
+                String hubUrl = "http://localhost:4444/wd/hub";
 
-            // Define ChromeOptions to set Chrome-specific capabilities
-            ChromeOptions chromeOptions = new ChromeOptions();
-            chromeOptions.addArguments("--start-maximized");
-            chromeOptions.addArguments("--headless"); // Example: Running in headless mode
+                // Define ChromeOptions to set Chrome-specific capabilities
+                ChromeOptions chromeOptions = new ChromeOptions();
+                chromeOptions.addArguments("--start-maximized");
+                chromeOptions.addArguments("--headless"); // Example: Running in headless mode
 
-            // Set up DesiredCapabilities and merge with ChromeOptions
-            DesiredCapabilities capabilities = new DesiredCapabilities();
-            capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
-            // Initialize the RemoteWebDriver
-            try {
-                driver = new RemoteWebDriver(new URL(hubUrl), capabilities);
-            } catch (MalformedURLException e) {
-                System.out.println("MalformedURLException");
-                //throw new RuntimeException(e);
+                // Set up DesiredCapabilities and merge with ChromeOptions
+                DesiredCapabilities capabilities = new DesiredCapabilities();
+                capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
+                // Initialize the RemoteWebDriver
+                try {
+                    driver = new RemoteWebDriver(new URL(hubUrl), capabilities);
+                } catch (MalformedURLException e) {
+                    System.out.println("MalformedURLException");
+                    //throw new RuntimeException(e);
+                }
             }
         }
         return driver;
