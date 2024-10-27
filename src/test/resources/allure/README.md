@@ -1,5 +1,6 @@
 # Allure Report
 [Allure Doc](https://allurereport.org/)
+[Allure TestNG doc](https://allurereport.org/docs/testng/)
 ##  Commands
 | Command Name       | Command                              |
 |--------------------|--------------------------------------|
@@ -8,23 +9,45 @@
 | Install - Mac      | brew install allure                  |
 | Version            | `allure --version`                   |
 
+### Specifying Allure Results location
+    mvn test -Dallure.results.directory=target/allure-resultsmvn -Dtest=SampleTest#fillForm
 
-mvn test -Dallure.results.directory=target/allure-resultsmvn -Dtest=SampleTest#fillForm
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.5.1</version>
+                <configuration>
+                    <systemPropertyVariables>
+                        <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
+                    </systemPropertyVariables>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
+## @Step Alternate Function usage
+    io.qameta.allure.Allure.step("Entering last name", () -> methodName();
 
-<build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>3.5.1</version>
-            <configuration>
-                <systemPropertyVariables>
-                    <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
-                </systemPropertyVariables>
-            </configuration>
-        </plugin>
-    </plugins>
-</build>
+## AspectJ
+    Allure leverages AspectJ for the functionality of @Step and @Attachment annotations.
 
-io.qameta.allure.Allure.step("Entering last name", () -> methodName();
+    <!-- Add the following options to your maven-surefire-plugin -->
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.1.2</version>
+        <configuration>
+            <argLine>
+                -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+            </argLine>
+        </configuration>
+        <dependencies>
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>${aspectj.version}</version>
+            </dependency>
+        </dependencies>
+    </plugin>
