@@ -88,11 +88,24 @@
             <artifactId>gatling-http</artifactId>
             <version>${gatling.version}</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>5.0.9</version>
+        </dependency>
+
+
         <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
             <version>2.29.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-java-commons</artifactId>
+            <version>2.29.0</version> <!-- Match the allure-testng version -->
         </dependency>
 
         <!--        <dependency>-->
@@ -169,36 +182,36 @@
                     <includes>
                         <include>**/*Test.class</include>
                     </includes>
-                    <properties>
+                    <!--<properties>
                         <property>
                             <name>listener</name>
                             <value>io.qameta.allure.testng.AllureTestNg</value>
                         </property>
-                    </properties>
-                    <systemPropertyVariables>
-                        <allure.results.directory>${project.build.directory}/allure-resultspom</allure.results.directory>
-                    </systemPropertyVariables>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>io.gatling</groupId>
-                <artifactId>gatling-maven-plugin</artifactId>
-                <version>${gatling.maven.version}</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>test</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+                    </properties>-->
+              <systemPropertyVariables>
+                 <allure.results.directory>${project.build.directory}/allure-resultspom</allure.results.directory>
+             </systemPropertyVariables>
+         </configuration>
+     </plugin>
+     <plugin>
+         <groupId>io.gatling</groupId>
+         <artifactId>gatling-maven-plugin</artifactId>
+         <version>${gatling.maven.version}</version>
+         <executions>
+             <execution>
+                 <goals>
+                     <goal>test</goal>
+                 </goals>
+             </execution>
+         </executions>
+     </plugin>
 
-        </plugins>
-    </build>
+ </plugins>
+</build>
 
-    <reporting>
-        <plugins>
-            <!-- Maven Surefire Report Plugin -->
+<reporting>
+ <plugins>
+     <!-- Maven Surefire Report Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-report-plugin</artifactId>

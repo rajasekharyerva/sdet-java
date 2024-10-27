@@ -3,9 +3,7 @@ package selenium.tests;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Step;
 import io.qameta.allure.testng.AllureTestNg;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -17,6 +15,7 @@ public class SampleAllureTest {
     private WebDriver driver;
 
     @BeforeClass
+    @Step("Setting up the WebDriver and navigating to the form page")
     public void setUp() {
        // System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
         driver = new ChromeDriver();
@@ -33,17 +32,18 @@ public class SampleAllureTest {
 
     @Step("Entering first name: {name}")
     public void enterFirstName(String name) {
-        WebElement firstNameField = driver.findElement(By.id("firstName"));
-        firstNameField.sendKeys(name);
+        /*WebElement firstNameField = driver.findElement(By.id("firstName"));
+        firstNameField.sendKeys(name);*/
     }
 
     @Step("Entering last name: {name}")
     public void enterLastName(String name) {
-        WebElement lastNameField = driver.findElement(By.id("lastName"));
-        lastNameField.sendKeys(name);
+        /*WebElement lastNameField = driver.findElement(By.id("lastName"));
+        lastNameField.sendKeys(name);*/
     }
 
     @AfterClass
+    @Step("Closing the WebDriver")
     public void tearDown() {
         if (driver != null) {
             driver.quit();

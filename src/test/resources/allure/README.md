@@ -13,14 +13,6 @@ mvn test -Dallure.results.directory=target/allure-resultsmvn -Dtest=SampleTest#f
 <build>
     <plugins>
         <plugin>
-            <groupId>io.qameta.allure</groupId>
-            <artifactId>allure-maven</artifactId>
-            <version>2.14.0</version>
-            <configuration>
-                <resultsDirectory>${project.build.directory}/allure-resultsass</resultsDirectory>
-            </configuration>
-        </plugin>
-        <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
             <version>3.5.1</version>
@@ -32,3 +24,5 @@ mvn test -Dallure.results.directory=target/allure-resultsmvn -Dtest=SampleTest#f
         </plugin>
     </plugins>
 </build>
+
+io.qameta.allure.Allure.step("Entering last name", () -> methodName();

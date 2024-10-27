@@ -16,5 +16,7 @@ sdet-repo description
 ## sql
 ## Allure Report
     allure serve <allure-results-path>
+## Extent Report
+[Extent Report](https://www.extentreports.com/docs/versions/5/java/spark-reporter.html)
 ## MVN REPOSITORY
 [MVN Repository](https://mvnrepository.com/)
