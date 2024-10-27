@@ -1,0 +1,11 @@
+Reporting Plugin
+mvn help:describe -Dplugin=org.apache.maven.plugins:maven-surefire-report-plugin -Ddetail
+
+Build
+
+Dependencies
+
+Selenium
+API
+Gatling
+XML

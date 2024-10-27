@@ -13,7 +13,13 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <selenium-java.version>4.25.0</selenium-java.version>
-        <testng.version>7.7.0</testng.version>
+        <testng.version>7.10.2</testng.version>
+        <rest-assured.version>5.5.0</rest-assured.version>
+        <jackson-databind.version>2.18.0</jackson-databind.version>
+        <slf4j-api.version>2.0.16</slf4j-api.version>
+        <logback-classic.version>1.5.8</logback-classic.version>
+        <logback-core.version>1.5.8</logback-core.version>
+        <cucumber-java.version>7.19.0</cucumber-java.version>
         <gatling.version>3.12.0</gatling.version>
         <gatling.maven.version>4.10.0</gatling.maven.version>
         <scala.version>2.13.9</scala.version>
@@ -57,10 +63,11 @@
             <artifactId>logback-classic</artifactId>
             <version>1.5.8</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-core -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
-            <version>1.5.8</version> <!-- Use the latest version -->
+            <version>1.5.8</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
         <dependency>
@@ -74,25 +81,48 @@
             <artifactId>cucumber-testng</artifactId>
             <version>7.19.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.gatling/gatling-test-framework -->
         <dependency>
             <groupId>io.gatling</groupId>
             <artifactId>gatling-test-framework</artifactId>
             <version>${gatling.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjweaver</artifactId>
-            <version>${aspectj.version}</version>
-        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.gatling/gatling-core -->
         <dependency>
             <groupId>io.gatling</groupId>
             <artifactId>gatling-core</artifactId>
-            <version>${gatling.version}</version> <!-- Adjust to the latest version -->
+            <version>${gatling.version}</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.gatling/gatling-http -->
         <dependency>
             <groupId>io.gatling</groupId>
             <artifactId>gatling-http</artifactId>
             <version>${gatling.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.gatling.highcharts/gatling-charts-highcharts -->
+        <dependency>
+            <groupId>io.gatling.highcharts</groupId>
+            <artifactId>gatling-charts-highcharts</artifactId>
+            <version>${gatling.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.scala-lang/scala-library -->
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>${scala.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.gatling/gatling-charts -->
+        <!--<dependency>
+            <groupId>io.gatling</groupId>
+            <artifactId>gatling-charts</artifactId>
+            <version>${gatling.version}</version>
+            <scope>test</scope>
+        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectj.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
         <dependency>
@@ -100,37 +130,17 @@
             <artifactId>extentreports</artifactId>
             <version>5.0.9</version>
         </dependency>
-
-
         <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
             <version>2.29.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-java-commons -->
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-java-commons</artifactId>
             <version>2.29.0</version> <!-- Match the allure-testng version -->
-        </dependency>
-
-        <!--        <dependency>-->
-<!--            <groupId>io.gatling</groupId>-->
-<!--            <artifactId>gatling-charts</artifactId> &lt;!&ndash; Add this dependency &ndash;&gt;-->
-<!--            <version>${gatling.version}</version>-->
-<!--            <scope>test</scope>-->
-<!--        </dependency>-->
-        <!-- https://mvnrepository.com/artifact/io.gatling.highcharts/gatling-charts-highcharts -->
-        <dependency>
-            <groupId>io.gatling.highcharts</groupId>
-            <artifactId>gatling-charts-highcharts</artifactId>
-            <version>${gatling.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.scala-lang</groupId>
-            <artifactId>scala-library</artifactId>
-            <version>${scala.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
         <dependency>
@@ -144,11 +154,13 @@
             <artifactId>commons-io</artifactId>
             <version>2.17.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
-            <version>5.3.0</version> <!-- Check for the latest version -->
+            <version>5.3.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
@@ -160,31 +172,18 @@
             <artifactId>mysql-connector-j</artifactId>
             <version>9.0.0</version>
         </dependency>
-
-
-
     </dependencies>
 
     <build>
         <plugins>
             <plugin>
-                <groupId>io.qameta.allure</groupId>
-                <artifactId>allure-maven</artifactId>
-                <version>2.14.0</version>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M5</version>
                 <configuration>
-                    <reportVersion>2.14.0</reportVersion>
-                    <resultsDirectory>target/allure-results</resultsDirectory>
-                    <outputDirectory>${project.build.directory}/allure-reort</outputDirectory>
-                </configuration>
-         </plugin>
-         <plugin>
-             <groupId>org.apache.maven.plugins</groupId>
-             <artifactId>maven-surefire-plugin</artifactId>
-             <version>3.0.0-M5</version> <!-- Use the version you need -->
-                <configuration>
-<!--                    <suiteXmlFiles>-->
-<!--                        <suiteXmlFile>testng.xml</suiteXmlFile> &lt;!&ndash; Path to your testng.xml &ndash;&gt;-->
-<!--                    </suiteXmlFiles>-->
+                    <!--<suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>-->
                     <includes>
                         <include>**/*Test.class</include>
                     </includes>
@@ -197,34 +196,53 @@
                             <value>io.qameta.allure.testng.AllureTestNg</value>
                         </property>
                     </properties>-->
-              <systemPropertyVariables>
-                 <allure.results.directory>${project.build.directory}/allure-resultspom</allure.results.directory>
-             </systemPropertyVariables>
-         </configuration>
-     </plugin>
-     <plugin>
-         <groupId>io.gatling</groupId>
-         <artifactId>gatling-maven-plugin</artifactId>
-         <version>${gatling.maven.version}</version>
-         <executions>
-             <execution>
-                 <goals>
-                     <goal>test</goal>
-                 </goals>
-             </execution>
-         </executions>
-     </plugin>
+                    <systemPropertyVariables>
+                        <allure.results.directory>${project.build.directory}/allure-resultspom
+                        </allure.results.directory>
+                    </systemPropertyVariables>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>io.gatling</groupId>
+                <artifactId>gatling-maven-plugin</artifactId>
+                <version>${gatling.maven.version}</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>test</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.14.0</version>
+                <configuration>
+                    <reportVersion>2.14.0</reportVersion>
+                    <resultsDirectory>target/allure-maven-results</resultsDirectory>
+                    <outputDirectory>${project.build.directory}/allure-maven-report</outputDirectory>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
- </plugins>
-</build>
-
-<reporting>
- <plugins>
-     <!-- Maven Surefire Report Plugin -->
+    <reporting>
+        <plugins>
+            <!-- Maven Surefire Report Plugin -->
+            <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-report-plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-report-plugin</artifactId>
-                <version>3.0.0-M5</version>
+                <version>3.5.1</version>
+                <reportSets>
+                <reportSet>
+                    <reports>
+                        <report>report-only</report> <!-- Generates report only without running tests -->
+                        <report>report</report> <!-- Generates report after tests are run -->
+                    </reports>
+                </reportSet>
+                </reportSets>
             </plugin>
         </plugins>
     </reporting>
