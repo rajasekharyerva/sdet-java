@@ -5,6 +5,8 @@
 |--------------------|--------------------------------------|
 | Server View Report | `allure serve <allure-reports-path>` |
 | Exit               | Ctrl + C                             |
+| Install - Mac      | brew install allure                  |
+| Version            | `allure --version`                   |
 
 
 mvn test -Dallure.results.directory=target/allure-resultsmvn -Dtest=SampleTest#fillForm
