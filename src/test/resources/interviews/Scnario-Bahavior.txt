@@ -1,0 +1,25 @@
+Scenario-Based Questions ::
+
+🔍 Scenario 1: Describe a situation where you had to perform root cause analysis for a critical production issue. How did you identify the underlying cause and prevent similar issues in the future?
+
+🔎 Scenario 2: How do you determine if a post-production defect was missed by the QA team or caused by the development team?
+
+🤖 Scenario 3: Suppose there are 100 manual test cases. How would you determine which ones to automate?
+
+🐞 Scenario 4: How would you handle a situation where a critical bug is found at the end of a sprint?
+
+⚙️ Scenario 5: Describe how you would design an automated testing strategy for a new feature.
+
+Behavioral-Based Questions::
+
+⏱️ Question 1: Tell me about a time when you had to work under pressure to meet a tight deadline. How did you prioritize your testing tasks?
+
+🔍 Question 2: Describe a situation where you found a critical bug that others had missed. How did you identify it, and what steps did you take to ensure it was resolved?
+
+💬 Question 3: How do you ensure effective communication and collaboration between QA, development, and other cross-functional teams?
+
+🔄 Question 4: In an application currently in production, one module of code is being modified. Is it necessary to retest the whole application, or is it enough to just test the functionality associated with that module?
+
+📈 Question 5: How do you prioritize your tasks in a fast-paced Agile environment?
+
+🔧 Question 6: Give an example of a time when you improved the testing process in your team.
