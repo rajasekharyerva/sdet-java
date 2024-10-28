@@ -51,3 +51,8 @@
             </dependency>
         </dependencies>
     </plugin>
+
+## Allure Test Name Alternative
+    Allure.getLifecycle().updateTestCase(result -> {
+            result.setName("TC6-Delete API TEST");
+    });
