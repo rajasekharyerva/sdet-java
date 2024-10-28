@@ -4,6 +4,7 @@
 # Ignore allure
 .allure/
 allure/
+allure-report/
 
 # Ignore temporary files
 target/
