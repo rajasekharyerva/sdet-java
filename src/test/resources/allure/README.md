@@ -4,10 +4,11 @@
 ##  Commands
 | Command Name       | Command                              |
 |--------------------|--------------------------------------|
-| Server View Report | `allure serve <allure-reports-path>` |
-| Exit               | Ctrl + C                             |
-| Install - Mac      | brew install allure                  |
+| Install - Mac      | `brew install allure`                |
 | Version            | `allure --version`                   |
+| Server View Report | `allure serve <allure-reports-path>` |
+| Exit               | `Ctrl + C`                           |
+
 
 ### Specifying Allure Results location
     mvn test -Dallure.results.directory=target/allure-resultsmvn -Dtest=SampleTest#fillForm
@@ -43,13 +44,6 @@
                 -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
             </argLine>
         </configuration>
-        <dependencies>
-            <dependency>
-                <groupId>org.aspectj</groupId>
-                <artifactId>aspectjweaver</artifactId>
-                <version>${aspectj.version}</version>
-            </dependency>
-        </dependencies>
     </plugin>
 
 ## Allure Test Name Alternative
