@@ -14,6 +14,7 @@ import static org.hamcrest.Matchers.notNullValue;
 @Feature("Get API")
 public class GetAPITest {
     private static final Logger logger = LoggerFactory.getLogger(GetAPITest.class);
+
     @Test(groups = {"api"}, testName = "TC4-Get API TEST")
     public void testGetAPI() {
         // Base URI for Rest Assured
