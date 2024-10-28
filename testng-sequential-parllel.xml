@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sample Test Suite" parallel="false">
+        <test name="Sequential Tests">
+            <classes>
+                <class name="selenium.tests.SequentialParallelTest">
+                    <methods>
+                        <include name="test1"/>
+                        <include name="test2"/>
+                    </methods>
+                </class>
+            </classes>
+        </test>
+
+        <test name="Parallel Tests" parallel="methods" thread-count="2">
+            <classes>
+                <class name="selenium.tests.SequentialParallelTest">
+                    <methods>
+                        <include name="test3"/>
+                        <include name="test4"/>
+                    </methods>
+                </class>
+            </classes>
+        </test>
+</suite>

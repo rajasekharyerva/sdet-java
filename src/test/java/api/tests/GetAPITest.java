@@ -11,7 +11,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.notNullValue;
 
-@Feature("Get API")
+@Feature("Get API Feature")
 public class GetAPITest {
     private static final Logger logger = LoggerFactory.getLogger(GetAPITest.class);
 

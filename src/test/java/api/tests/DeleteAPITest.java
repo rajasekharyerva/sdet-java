@@ -1,5 +1,6 @@
 package api.tests;
 
+import io.qameta.allure.Feature;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.slf4j.Logger;
@@ -8,9 +9,11 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
+@Feature("Delete API Feature")
 public class DeleteAPITest {
     private static final Logger logger = LoggerFactory.getLogger(DeleteAPITest.class);
-    @Test(groups = {"api"}, testName = "TC6-Delete API TEST")
+
+    @Test(testName = "TC6-Delete API TEST", groups = {"api"})
     public void deleteTest() {
         // Set the base URI for the API
         RestAssured.baseURI = "https://api.restful-api.dev";

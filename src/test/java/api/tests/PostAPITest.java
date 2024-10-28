@@ -1,5 +1,6 @@
 package api.tests;
 
+import io.qameta.allure.Feature;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -10,6 +11,7 @@ import org.testng.annotations.Test;
 import api.pojo.Data;
 import api.pojo.Product;
 
+@Feature("Post API Feature")
 public class PostAPITest {
     private static final Logger log = LoggerFactory.getLogger(PostAPITest.class);
 
