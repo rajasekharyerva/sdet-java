@@ -1,0 +1,18 @@
+1. What are the differences between Selenium WebDriver and Selenium Grid? When would you use each?
+Answer: Selenium WebDriver is used for automating individual browser actions and is primarily for single-machine testing. It interacts directly with the browser to execute tests. Selenium Grid, on the other hand, is used for parallel testing across multiple machines and browsers, allowing tests to run concurrently. Use WebDriver for local tests and Grid when you need cross-platform or multi-browser testing.
+2. How do you handle dynamic elements in Selenium?
+Answer: Handling dynamic elements often involves using dynamic locators like XPath with functions (e.g., contains() or starts-with()). You can also implement explicit waits with WebDriverWait to ensure that elements are interactable before performing actions, which helps manage elements that appear or change state asynchronously.
+3. What are the various types of waits in Selenium, and when should each be used?
+Answer: Selenium provides:
+Implicit Wait: Sets a default wait time for locating elements globally, though it's not as flexible.
+Explicit Wait: Waits for a specific condition to occur before continuing, which is more targeted and reliable.
+Fluent Wait: A type of explicit wait that repeatedly checks for a condition and allows ignoring certain exceptions. Use implicit wait for simple, consistent delays and explicit/fluent waits for specific elements that may take extra time to load.
+4. How do you use the Page Object Model (POM) and why is it important?
+Answer: Page Object Model (POM) is a design pattern where each webpage is represented as a class with locators and methods for interactions. It promotes code reusability and separates test logic from the structure, making test maintenance easier. For instance, when a page changes, only the corresponding page class needs updating rather than all test scripts.
+5. What are some common challenges with Selenium in real-world applications, and how do you solve them?
+Answer: Common challenges include:
+Handling Pop-ups: Addressed using WebDriver’s alert interface.
+Dynamic Content: Managed with explicit waits and stable locators.
+Captcha/2FA: Bypassing isn’t feasible; generally handled with test accounts or stubs/mocks.
+Browser Compatibility Issues: Regularly test with Selenium Grid for cross-browser validation.
+Understanding these challenges helps ensure a robust and adaptable test suite.

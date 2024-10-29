@@ -15,5 +15,7 @@ public class CapitalizeEachWord {
 
         System.out.println(sb.toString().trim());
     }
+
+
 }
 

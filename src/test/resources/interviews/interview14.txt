@@ -1,0 +1,13 @@
+Q1. Code to find the second largest element in a given list
+e.g. numbers = [10, 20, 4, 45, 99]
+ output: 45
+
+Q2. Write a code to check balanced parentheses and write its test cases
+e.g. input : “[()]{}{[()()]()}”
+ output: True
+ input: “[(])”
+ output: False
+
+Q3. How to do testing in headless mode in selenium ?
+Q4. How will you test the broken links on a web page?
+Q5. Selenium code to test the number of notifications from linkedin account

@@ -1,0 +1,40 @@
+1. Manual testing vs. automation testing
+
+
+2. What is API?
+
+
+3. Full form of API
+
+
+4. SDLC (Software Development Life Cycle)
+
+
+5. OOPs concepts in Java
+
+
+6. Annotation in Java
+
+
+7. Different Java classes and interfaces
+
+
+8. Types of collections in Java
+
+
+9. Java data types
+
+
+10. Types of XPath and explanation
+
+
+11. Selectors in Selenium
+
+
+12. What is the tool of automation testing?
+
+
+13. Situational-based question: If I give some tasks and do not provide information about the task, what do you do?
+
+
+14. Situational-based question: If I give you a task and you didn't submit it by the deadline, what do you do?

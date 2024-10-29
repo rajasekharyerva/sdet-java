@@ -1,0 +1,13 @@
+1. Small introduction about yourself
+2. What are the waits we are using in our scripts?
+3. How to get the value using Selenium and pass the value?
+4. How to get the specific value details from the table in the web application?
+5. Difference between findElement and findElements
+6. How to click the button using Selenium (explanation)?
+7. What are the functions you have written in our scripts?
+8. How will you start the scripting from scratch and which language you will use?
+9. How will you validate window handling when you are navigating to other pages?
+10. How will you get the specific data from the database using Selenium?
+11. How are the types of variables we are using?
+12. How will you get the 6-digit account number from the paragraph?
+13. How will you change the string to integer?

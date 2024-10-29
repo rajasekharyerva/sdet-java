@@ -1,0 +1,31 @@
+Round # 1 :-
+Write the Selenium Code at framework level to implement below scenario :
+* Navigate to an e-commerce site.
+* Search for a product (e.g., "laptop").
+* Add the product to the cart.
+* Proceed to checkout.
+* Fill in dummy billing details.
+* Complete the order and validate the order confirmation.
+
+Round # 2 :-
+1) What is Singleton Design Pattern?
+2) How do you use Factory Design Pattern ?
+3) How do you handle exceptions ?
+4) Can you explain the concept of the Page Factory ?
+5) How do you manage test data in your Selenium framework?
+6) How do you execute parallel tests using Selenium Grid or TestNG?
+7) How do you generate reports in a Selenium framework? Which reporting tools have you used?
+8) How do you handle synchronization issues in Selenium?
+9) How do you handle dynamic web elements in Selenium?
+10) How would you deal with browser compatibility issues?
+11) How do you handle file uploads and downloads in Selenium?
+12) How do you integrate your Selenium tests with Jenkins for continuous integration?
+13) How do you trigger Selenium tests automatically after a build in Jenkins?
+14) How do you schedule test execution using Jenkins?
+15) What is Selenium Grid, and how does it help in parallel execution?
+16) How can you test APIs using Selenium?
+17) How do you handle SSL certificate issues in Selenium WebDriver?
+18) What are analytical functions in SQL ?
+19) What does 409 error code indicate in API Testing?
+20) What are Hooks in Cucumber?
+21) Why TestNG came into existence?
