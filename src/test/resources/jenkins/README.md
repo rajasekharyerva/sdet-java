@@ -1,9 +1,12 @@
 # Jenkins
-| Command Name   | Command                                             |
-|----------------|-----------------------------------------------------|
-| Jenkins Docker | `docker pull jenkins/jenkins:lts-jdk17`             |
-|                | `docker logs -f jenkins`                            |
-|                | `username=rajasekharreddyerva docker-compose up -d` |
+| Command Name                   | Command                                             |
+|--------------------------------|-----------------------------------------------------|
+| Jenkins Docker                 | `docker pull jenkins/jenkins:lts-jdk17`             |
+|                                | `docker logs -f jenkins`                            |
+|                                | `username=rajasekharreddyerva docker-compose up -d` |
+| Restart                        | `docker restart <jenkins_container_name>`           |
+| Install the latest LTS version | `brew install jenkins-lts`                          |
+ | Start the Jenkins service      | `brew services start jenkins-lts`                   |
 
 ## Plugins
     Maven Integration
@@ -23,7 +26,14 @@
     apt-get update
     apt-get install -y maven
 
-
+## macOS Installers for Jenkins LTS
+| Command Name                    | Command                             |
+|---------------------------------|-------------------------------------|
+| Install the latest LTS version: | `brew install jenkins-lts`          |
+| Start the Jenkins service:      | `brew services start jenkins-lts`   |
+| Restart the Jenkins service:    | `brew services restart jenkins-lts` |
+| Update the Jenkins version:     | `brew upgrade jenkins-lts`          |
+| Stop the Jenkins service        | `brew services stop jenkins-lts`    |
 
 ## Triggers
     H/5 * * * * - Every 5 minutes
@@ -40,3 +50,9 @@
     - Build
     - Post Build
     - Run
+
+
+
+## Show hidden folders in mac cmd
+    cp -R /path/to/source/folder/ /path/to/destination/
+
