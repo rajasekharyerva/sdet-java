@@ -10,6 +10,10 @@
     Allure or HTML Publisher Plugin
     Git
 
+## Tool Configuration
+    Java
+    Maven
+
 
 ## Triggers
     H/5 * * * * - Every 5 minutes
