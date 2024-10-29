@@ -14,6 +14,16 @@
     Java
     Maven
 
+## Install plugins/tools
+    remove plugins - cd /var/jenkins_home/plugins
+    rm -f maven-plugin.hpi maven-plugin.jpi
+
+
+    Update package list
+    apt-get update
+    apt-get install -y maven
+
+
 
 ## Triggers
     H/5 * * * * - Every 5 minutes
