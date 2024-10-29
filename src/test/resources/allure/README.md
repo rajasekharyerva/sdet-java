@@ -2,12 +2,14 @@
 [Allure Doc](https://allurereport.org/)
 [Allure TestNG doc](https://allurereport.org/docs/testng/)
 ##  Commands
-| Command Name       | Command                              |
-|--------------------|--------------------------------------|
-| Install - Mac      | `brew install allure`                |
-| Version            | `allure --version`                   |
-| Server View Report | `allure serve <allure-reports-path>` |
-| Exit               | `Ctrl + C`                           |
+| Command Name       | Command                                         |
+|--------------------|-------------------------------------------------|
+| Install - Mac      | `brew install allure`                           |
+| Version            | `allure --version`                              |
+| Server View Report | `allure serve <allure-reports-path>`            |
+| Generate Report    | `allure generate <allure-reports-path>`         |
+| Generate Report    | `allure generate --clean <allure-reports-path>` |
+| Exit               | `Ctrl + C`                                      |
 
 
 ### Specifying Allure Results location

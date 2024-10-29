@@ -15,9 +15,10 @@ import static io.restassured.RestAssured.given;
 public class DeleteAPITest {
     private static final Logger logger = LoggerFactory.getLogger(DeleteAPITest.class);
 
-    @Test(testName = "TC6-Delete API testName", description = "TC6-Delete API description")
-    @Description("This is test description")
-    @Story("It's story-123")
+    //@Test(testName = "TC6-Delete API testName")
+    @Test(description = "TC6-Delete API")
+    @Description("Calls delete api endpoint")
+    @Story("Story-123")
     public void deleteTest() {
         // Set the base URI for the API
         RestAssured.baseURI = "https://api.restful-api.dev";

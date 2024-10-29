@@ -15,7 +15,7 @@ import api.pojo.Product;
 public class PostAPITest {
     private static final Logger log = LoggerFactory.getLogger(PostAPITest.class);
 
-    @Test(groups = {"api"}, testName = "TC5-Post API TEST")
+    @Test(groups = {"api"}, description = "TC5-Post API TEST")
     public void postObject() {
         RestAssured.baseURI = "https://api.restful-api.dev";
 

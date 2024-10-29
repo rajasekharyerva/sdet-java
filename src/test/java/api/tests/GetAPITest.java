@@ -15,7 +15,7 @@ import static org.hamcrest.Matchers.notNullValue;
 public class GetAPITest {
     private static final Logger logger = LoggerFactory.getLogger(GetAPITest.class);
 
-    @Test(groups = {"api"}, testName = "TC4-Get API TEST")
+    @Test(groups = {"api"}, description = "TC4-Get API TEST")
     public void testGetAPI() {
         // Base URI for Rest Assured
         RestAssured.baseURI = "https://api.restful-api.dev";
