@@ -1,8 +1,44 @@
 # TestNG
+### Annotations / Order
+    @BeforeSuite
+    @BeforeClass
+    @BeforeMethod
+    @Test
+    @DataProvider
+    @AfterMethod
+    @AfterClass
+    @AfterSuite
+### Depends on
+    @Test(dependsOnMethods = {"testMethodA"})
+    @Test(dependsOnGroups = {"group1"})
+
 ### parallel
     methods, tests, classes, instances
 ### thread-count
     thread-count=4
+### Priority
+    @Test(priority=1)
+    default 0(same priority - order in code)
+    lowest priority executes first(-1,0,1)
+### Group
+    @Test(groups = {"regression"})
+    public void testA(){}
+
+    @Test(groups = {"regression"})
+    public void testB(){}
+
+    <suite name="Sample Suite" verbose="1" parallel="false" thread-count="2">    
+        <test name="RegressionTests">
+            <groups>
+                <run>
+                    <include name="regression"/>
+                </run>
+            </groups>
+            <classes>
+                <class name="com.example.tests.MyTestClass"/>
+            </classes>
+            </test>
+    </suite>
 ## Parameters
 ### XML Configuration
     <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
