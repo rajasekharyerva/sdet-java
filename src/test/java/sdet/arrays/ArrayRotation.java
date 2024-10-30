@@ -1,4 +1,4 @@
-package sdet;
+package sdet.arrays;
 
 public class ArrayRotation {
     // Method to rotate the array by k positions to the right

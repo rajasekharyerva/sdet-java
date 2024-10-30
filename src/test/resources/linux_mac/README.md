@@ -31,3 +31,11 @@
 
 ## Copy folders in mac
     cp -R </path/to/source/folder/> </path/to/destination/>
+### Clear console
+    clear
+    Cmd+K
+    Ctrl+L
+
+### Install Homebrew
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    brew update

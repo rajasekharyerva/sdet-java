@@ -1,0 +1,18 @@
+{
+  "tc1": {
+    "username": "testuser1",
+    "password": "password123"
+  },
+  "tc2": {
+    "lastName": "Doe",
+    "city": "New York"
+  },
+  "tc3": {
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "username": "janesmith",
+    "password": "securepass",
+    "city": "Los Angeles",
+    "dob": "1990-01-01"
+  }
+}

@@ -1,0 +1,25 @@
+Check if Node.js is Installed
+node -v
+Install Node.js
+brew install node
+
+Initialize a New Node Project
+mkdir cypress-demo
+cd cypress-demo
+npm init -y
+
+Install Cypress:
+npm install cypress --save-dev
+
+Open Cypress:
+npx cypress open
+
+Create a New Test File
+Go to the cypress/e2e directory.
+Create a new file named login.spec.js.
+
+
+
+describe(): Groups related tests together. Here, it describes "Login Functionality."
+beforeEach(): Runs before each test to open the login page.
+

@@ -22,7 +22,7 @@ public class EvenOddSeries {
                 System.out.print(currentEven + " ");
                 evenCount++;
             }
-            System.out.println(currentEven);
+            //System.out.println(currentEven);
             currentEven++;
         }
 
@@ -36,7 +36,7 @@ public class EvenOddSeries {
                 System.out.print(currentOdd + " ");
                 oddCount++;
             }
-            System.out.println(currentOdd);
+            //System.out.println(currentOdd);
             currentOdd++;
         }
 

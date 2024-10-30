@@ -1,4 +1,4 @@
-package sdet;
+package sdet.strings;
 
 public class CapitalizeEachWord {
     public static void main(String[] args) {

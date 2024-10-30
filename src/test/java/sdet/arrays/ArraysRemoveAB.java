@@ -1,4 +1,4 @@
-package sdet;
+package sdet.arrays;
 
 import java.util.ArrayList;
 import java.util.Arrays;
