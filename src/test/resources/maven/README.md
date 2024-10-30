@@ -9,7 +9,6 @@
 | Gatling              | `mvn gatling:test`                       |
 
 # Dependencies
-    Dependencies
     Selenium
     API
     Gatling

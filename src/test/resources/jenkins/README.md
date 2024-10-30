@@ -6,7 +6,7 @@
 |                                | `username=rajasekharreddyerva docker-compose up -d` |
 | Restart                        | `docker restart <jenkins_container_name>`           |
 | Install the latest LTS version | `brew install jenkins-lts`                          |
- | Start the Jenkins service      | `brew services start jenkins-lts`                   |
+| Start the Jenkins service      | `brew services start jenkins-lts`                   |
 
 ## Plugins
     Maven Integration
@@ -37,11 +37,15 @@
 
 ## Triggers
     H/5 * * * * - Every 5 minutes
-    - Minutes
-    - Hours
-    - Day
-    - Week
-    - Month
+    - Minutes(0-59)
+    - Hours(0-23)
+    - Day of Month(1-31)
+    - Month(1-12)
+    - Month(0-7)
+    *: Any value (every possible value in that field).
+    /: Step values (e.g., */15 for every 15 minutes).
+    ,: Multiple values (e.g., 1,15,30 for minute field).
+    -: Range of values (e.g., 9-17 for hours from 9 AM to 5 PM)
 
 ## Jenkins Job
     - Free Style/Pipeline
@@ -50,9 +54,7 @@
     - Build
     - Post Build
     - Run
+     
 
 
-
-## Show hidden folders in mac cmd
-    cp -R /path/to/source/folder/ /path/to/destination/
 

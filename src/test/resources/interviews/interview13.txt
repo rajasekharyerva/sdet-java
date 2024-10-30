@@ -12,4 +12,4 @@
 12)How do you use the Assert class in TestNG for validating test cases?
 13)What is the @Listener annotation in TestNG?
 14)How do you generate reports in TestNG?
-15) In TestNG, how do you skip tests based on specific conditions?
+15)In TestNG, how do you skip tests based on specific conditions?

@@ -1,6 +1,8 @@
 # TestNG
 ### parallel
-    methods, tests
+    methods, tests, classes, instances
+### thread-count
+    thread-count=4
 ## Parameters
 ### XML Configuration
     <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
@@ -26,7 +28,7 @@
 
     public class TestClass {
     
-        @DataProvider(name = "loginData")
+        @DataProvider(name = "loginData", parallel = true)
         public Object[][] loginDataProvider() {
             return new Object[][] {
                 {"testuser1", "testpass1"},
