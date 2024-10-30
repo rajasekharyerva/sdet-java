@@ -1,0 +1,257 @@
+{
+	"info": {
+		"_postman_id": "416fc9b2-b254-473f-b4e3-7b8d032ee541",
+		"name": "FirstCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5099338"
+	},
+	"item": [
+		{
+			"name": "GetObjects",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.restful-api.dev/objects",
+					"protocol": "https",
+					"host": [
+						"api",
+						"restful-api",
+						"dev"
+					],
+					"path": [
+						"objects"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "GetObjects",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.restful-api.dev/objects",
+							"protocol": "https",
+							"host": [
+								"api",
+								"restful-api",
+								"dev"
+							],
+							"path": [
+								"objects"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 30 Oct 2024 07:20:03 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "cf-cache-status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=s%2FHfI1zxwpOuGPE%2Fi4Fd0I84EfAPoj1Iy14SpVJMiaHJzHZ7dtfIYpe18OvWSG3b9QkCZzACg%2BlNHMd6fav2nqNL0XOnO2uNORZUq8XlI5VkYZMcbuxcdbhCKr268UivS2p4Psoj\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "8da9a3fccd0811a5-MRS"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						},
+						{
+							"key": "server-timing",
+							"value": "cfL4;desc=\"?proto=TCP&rtt=157570&sent=144&recv=140&lost=0&retrans=0&sent_bytes=9413&recv_bytes=2401&delivery_rate=38378&cwnd=200&unsent_bytes=0&cid=573c03d562856e76&ts=136685&x=0\""
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"1\",\n        \"name\": \"Google Pixel 6 Pro\",\n        \"data\": {\n            \"color\": \"Cloudy White\",\n            \"capacity\": \"128 GB\"\n        }\n    },\n    {\n        \"id\": \"2\",\n        \"name\": \"Apple iPhone 12 Mini, 256GB, Blue\",\n        \"data\": null\n    },\n    {\n        \"id\": \"3\",\n        \"name\": \"Apple iPhone 12 Pro Max\",\n        \"data\": {\n            \"color\": \"Cloudy White\",\n            \"capacity GB\": 512\n        }\n    },\n    {\n        \"id\": \"4\",\n        \"name\": \"Apple iPhone 11, 64GB\",\n        \"data\": {\n            \"price\": 389.99,\n            \"color\": \"Purple\"\n        }\n    },\n    {\n        \"id\": \"5\",\n        \"name\": \"Samsung Galaxy Z Fold2\",\n        \"data\": {\n            \"price\": 689.99,\n            \"color\": \"Brown\"\n        }\n    },\n    {\n        \"id\": \"6\",\n        \"name\": \"Apple AirPods\",\n        \"data\": {\n            \"generation\": \"3rd\",\n            \"price\": 120\n        }\n    },\n    {\n        \"id\": \"7\",\n        \"name\": \"Apple MacBook Pro 16\",\n        \"data\": {\n            \"year\": 2019,\n            \"price\": 1849.99,\n            \"CPU model\": \"Intel Core i9\",\n            \"Hard disk size\": \"1 TB\"\n        }\n    },\n    {\n        \"id\": \"8\",\n        \"name\": \"Apple Watch Series 8\",\n        \"data\": {\n            \"Strap Colour\": \"Elderberry\",\n            \"Case Size\": \"41mm\"\n        }\n    },\n    {\n        \"id\": \"9\",\n        \"name\": \"Beats Studio3 Wireless\",\n        \"data\": {\n            \"Color\": \"Red\",\n            \"Description\": \"High-performance wireless noise cancelling headphones\"\n        }\n    },\n    {\n        \"id\": \"10\",\n        \"name\": \"Apple iPad Mini 5th Gen\",\n        \"data\": {\n            \"Capacity\": \"64 GB\",\n            \"Screen size\": 7.9\n        }\n    },\n    {\n        \"id\": \"11\",\n        \"name\": \"Apple iPad Mini 5th Gen\",\n        \"data\": {\n            \"Capacity\": \"254 GB\",\n            \"Screen size\": 7.9\n        }\n    },\n    {\n        \"id\": \"12\",\n        \"name\": \"Apple iPad Air\",\n        \"data\": {\n            \"Generation\": \"4th\",\n            \"Price\": \"419.99\",\n            \"Capacity\": \"64 GB\"\n        }\n    },\n    {\n        \"id\": \"13\",\n        \"name\": \"Apple iPad Air\",\n        \"data\": {\n            \"Generation\": \"4th\",\n            \"Price\": \"519.99\",\n            \"Capacity\": \"256 GB\"\n        }\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "FormData",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Example form data response",
+							"// Assume this response is received: \"name=John+Doe&email=john.doe%40example.com&age=30\"",
+							"var res = \"name=John+Doe&email=john.doe%40example.com&age=30\";",
+							"",
+							"// Test to validate form data",
+							"pm.test(\"Response contains valid form data\", function () {",
+							"    // Get the response text",
+							"    var responseBody = res;//pm.response.text();",
+							"",
+							"    // Split the response text into key-value pairs",
+							"    var formData = {};",
+							"    responseBody.split('&').forEach(function(part) {",
+							"        var item = part.split('=');",
+							"        formData[decodeURIComponent(item[0])] = decodeURIComponent(item[1] || '').replace(/\\+/g, ' ');",
+							"    });",
+							"",
+							"    // Now you can validate the form data",
+							"    pm.expect(formData.name).to.eql(\"John Doe\");",
+							"    pm.expect(formData.email).to.eql(\"john.doe@example.com\");",
+							"    pm.expect(formData.age).to.eql(\"30\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.restful-api.dev/objects",
+					"protocol": "https",
+					"host": [
+						"api",
+						"restful-api",
+						"dev"
+					],
+					"path": [
+						"objects"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BasicAuth",
+			"request": {
+				"auth": {
+					"type": "basic"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.restful-api.dev/objects",
+					"protocol": "https",
+					"host": [
+						"api",
+						"restful-api",
+						"dev"
+					],
+					"path": [
+						"objects"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EnvornmentVars",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"console.log(pm.environment.get(\"username\"))"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"{{}}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.restful-api.dev/objects",
+					"protocol": "https",
+					"host": [
+						"api",
+						"restful-api",
+						"dev"
+					],
+					"path": [
+						"objects"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
