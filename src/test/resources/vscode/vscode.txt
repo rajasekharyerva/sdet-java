@@ -1,0 +1,2 @@
+Cmd+Shft+P
+Move Panel Right

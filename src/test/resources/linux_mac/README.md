@@ -31,10 +31,15 @@
 
 ## Copy folders in mac
     cp -R </path/to/source/folder/> </path/to/destination/>
+    mv e2e tests-examples playwright.config.js playwright-demo/
+    Ctrl+C to quit
+
 ### Clear console
     clear
     Cmd+K
     Ctrl+L
+### current directory path
+    pwd
 
 ### Install Homebrew
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"

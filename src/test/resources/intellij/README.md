@@ -25,3 +25,6 @@ Cucumber for Java
 Docker
 Gherkin
 Allure Report
+
+## Setup JDK in IntelliJ
+    /opt/homebrew/Cellar/openjdk@17/<version>/libexec/openjdk.jdk/Contents/Home
