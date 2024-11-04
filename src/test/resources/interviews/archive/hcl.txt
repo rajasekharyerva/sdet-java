@@ -1,0 +1,7 @@
+🌟 Why Use static in Java?
+In Java, static makes variables, methods, or inner classes belong to the class itself rather than any specific instance.
+This can be especially valuable in test-driven environments common to SDET roles. Here’s how it’s useful:
+Static Variables – Shared across all instances. Great for things like counters or shared resources across test classes. 🧮
+Static Methods – Call these without needing an object! Ideal for utility methods, like reusable test data generators. 🔄
+Static Blocks – Perfect for one-time setups like initializing constants or configuration details. ⚙️
+Static Inner Classes – Can be used without an outer class instance, making them perfect for helper classes in test frameworks. 📂

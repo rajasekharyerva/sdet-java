@@ -19,7 +19,7 @@
 | Start of the Line                      | `Cmd + Left arrow`  |
 | Move to next word                      | `Opt + Right arrow` |
 | Move to previous word                  | `Opt + Left arrow`  |
-
+| Find in Files                          | `Cmd+Shft+F`        |
 ## Plugins
 Cucumber for Java
 Docker

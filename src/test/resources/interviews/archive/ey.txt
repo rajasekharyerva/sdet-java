@@ -1,0 +1,14 @@
+1. WJP for Given Strings are anagram or not
+ str1="tomato", str2 = "matoto"
+2. WJP to Remove duplicates from given string
+ str1 ="automation", o/p: "automin"
+3. What is the strategy to start failure analysis from Day1 itself in current release.
+4. How can you calculate ROI for automation
+5. How can you assign the work when you have Senior and Junior(1-2 yrs) team members.
+6. as a Lead QA, what is your checklist for code review.
+7. How to perform cross browser testing
+8. How can you execute failed test cases without manual intervention. Here, we can use Retry Mechanism
+ Followed question: How to execute all failed test cases at once after initial execution.
+9. Difference between Remote Driver and WebDriver
+10. Architecture for Selenium3 and Selenium4
+11. Topmost interface in Selenium
