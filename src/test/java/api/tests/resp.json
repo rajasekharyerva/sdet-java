@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "projects": [
+    {
+      "projectName": "Project Alpha",
+      "deadline": "2024-12-01"
+    },
+    {
+      "projectName": "Project Beta",
+      "deadline": "2025-01-15"
+    }
+  ]
+}
