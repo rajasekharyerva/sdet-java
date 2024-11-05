@@ -1,4 +1,4 @@
-package sdet;
+package sdet.numbers;
 
 public class LargestAndSmallest {
     public static void findLargestAndSmallest(int[] nums) {

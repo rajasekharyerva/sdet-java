@@ -1,4 +1,4 @@
-package sdet;
+package sdet.strings;
 
 public class ReverseStringTest {
     public static void main(String args[]) {

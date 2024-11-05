@@ -1,4 +1,4 @@
-package sdet;
+package sdet.strings;
 
 public class BreakPalindrome {
     public static String breakPalindrome(String palindrome) {

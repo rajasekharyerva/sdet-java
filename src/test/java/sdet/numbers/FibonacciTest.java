@@ -1,4 +1,4 @@
-package sdet;
+package sdet.numbers;
 
 import java.util.Arrays;
 import java.util.Scanner;

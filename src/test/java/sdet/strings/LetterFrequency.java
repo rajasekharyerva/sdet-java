@@ -1,4 +1,4 @@
-package sdet;
+package sdet.strings;
 
 import java.util.HashMap;
 import java.util.Map;
