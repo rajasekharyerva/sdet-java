@@ -1,0 +1,18 @@
+1. Creational Patterns
+Purpose: Deal with object creation mechanisms, making systems independent of how objects are created, composed, and represented.
+Examples:
+Singleton: Ensures a class has only one instance and provides a global point of access.
+Factory Method: Defines an interface for creating an object, but lets subclasses decide the class to instantiate.
+Builder: Constructs complex objects step-by-step, allowing customization of each step.
+2. Structural Patterns
+Purpose: Deal with object composition, creating relationships between objects to form larger structures.
+Examples:
+Adapter: Allows incompatible interfaces to work together.
+Decorator: Adds behavior to objects dynamically without altering their class.
+Composite: Composes objects into tree-like structures to represent part-whole hierarchies.
+3. Behavioral Patterns
+Purpose: Focus on communication and responsibilities between objects.
+Examples:
+Observer: Notifies multiple objects when a state change occurs.
+Strategy: Defines a family of algorithms, encapsulates them, and makes them interchangeable.
+Command: Encapsulates a request as an object, allowing parameterization of clients.

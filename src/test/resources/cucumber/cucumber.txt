@@ -1,0 +1,9 @@
+Summary
+Advantages	Disadvantages
+Improves collaboration	Time-consuming initial setup
+Focuses on business goals	Complexity in managing scenarios
+Enhances test coverage	Overhead for simple applications
+Readable and reusable test cases	Requires team buy-in
+Early bug detection	Difficulty with complex scenarios
+Supports automated acceptance tests	Potential for duplication and redundancy
+Learning curve

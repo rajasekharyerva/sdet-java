@@ -1,0 +1,48 @@
+Testing Techniques
+Black-Box Testing
+
+Definition: Focuses on input and output without knowledge of the internal code.
+Techniques:
+Equivalence Partitioning: Divides inputs into valid and invalid partitions.
+Boundary Value Analysis (BVA): Tests edge cases like maximum, minimum, and just-out-of-bounds values.
+Decision Table Testing: Tests multiple conditions and their expected outcomes.
+State Transition Testing: Tests how the application behaves in different states.
+White-Box Testing
+
+Definition: Involves examining the internal structure of the code.
+Techniques:
+Statement Coverage: Ensures every line of code is executed.
+Branch Coverage: Ensures every branch (e.g., if and else statements) is executed.
+Path Coverage: Tests all possible paths in the program.
+Loop Testing: Specifically tests loops for different cases (0 iterations, 1 iteration, multiple iterations).
+Gray-Box Testing
+
+Definition: Combines black-box and white-box testing techniques.
+Application: Useful for end-to-end testing and testing data flow across the application.
+Example: Testing a shopping cart system with knowledge of how the database stores cart items.
+Manual Testing
+
+Definition: Testing without automation tools, simulating real user interactions.
+Use Case: Especially useful for usability, exploratory, and ad-hoc testing.
+Automated Testing
+
+Definition: Uses scripts and tools to perform tests automatically.
+Use Case: Best for regression, load, and performance testing due to speed and efficiency.
+Tools: Selenium, TestNG, JUnit, Appium.
+Non-Functional Testing Techniques
+
+Load Testing: Measures performance under expected user load.
+Stress Testing: Tests the system’s behavior under extreme load conditions.
+Scalability Testing: Ensures the application can scale up as needed.
+Usability Testing: Tests user-friendliness.
+Reliability Testing: Ensures the application performs consistently over time.
+Ad-hoc Testing
+
+Definition: Informal testing without a plan, often done to catch unforeseen bugs.
+Objective: Quickly identify and fix issues based on intuition and experience.
+Example: Testing parts of a new feature by randomly navigating through the UI.
+End-to-End Testing
+
+Definition: Tests the complete application flow from start to finish.
+Objective: Validate entire workflows and integrations.
+Example: For an e-commerce site, testing the entire process of searching for a product, adding it to the cart, checking out, and receiving an order confirmation.
