@@ -24,7 +24,7 @@ public class BreakPalindrome {
     }
 
     public static void main(String[] args) {
-        String palindrome = "bab";
+        String palindrome = "xyx";
         String result = breakPalindrome(palindrome);
         System.out.println("Result: " + result); // Expected output: "aaccba"
     }

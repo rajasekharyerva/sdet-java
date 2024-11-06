@@ -1,6 +1,6 @@
 package sdet.strings;
 
-public class BreakPalindrome2 {
+public class BreakPalindrome2Builder {
     public static String breakPalindrome(String palindrome) {
         // If the length of the palindrome is 1, it's impossible to break it
         if (palindrome.length() == 1) {
