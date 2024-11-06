@@ -1,0 +1,25 @@
+## Testing Pyramid
+
+The **Testing Pyramid** is a concept that promotes a balanced approach to testing with three main levels:
+
+1. **Unit Tests** (Base of the Pyramid)
+   - Focus on testing individual functions or methods in isolation.
+   - Fast, numerous, and ensure core logic works as expected.
+   - Example tools: JUnit, Mocha, Jasmine.
+
+2. **Integration Tests** (Middle of the Pyramid)
+   - Test interactions between different components or external services.
+   - Slower than unit tests but essential for verifying the integration of modules.
+   - Example tools: Postman, RestAssured.
+
+3. **End-to-End Tests** (Top of the Pyramid)
+   - Simulate real user scenarios, testing the entire application flow.
+   - Slowest tests, covering critical user paths.
+   - Example tools: Selenium, Cypress.
+
+### Benefits
+- **Efficiency**: More unit tests lead to faster feedback and lower cost.
+- **Early Bug Detection**: Catch issues at the unit test level.
+- **Maintainable**: Avoid over-relying on end-to-end tests, keeping them minimal and effective.
+
+By following the pyramid structure, teams can ensure high-quality software with balanced and efficient test coverage.
