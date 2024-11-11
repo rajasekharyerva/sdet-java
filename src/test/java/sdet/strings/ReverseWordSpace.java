@@ -2,7 +2,7 @@ package sdet.strings;
 
 import java.util.ArrayList;
 
-public class ReverseStringWithSpaces {
+public class ReverseWordSpace {
     public static String reverseStringWithSpaces(String str) {
         // Create a list to store non-space characters
         ArrayList<Character> chars = new ArrayList<>();

@@ -1,8 +1,8 @@
 package sdet.strings;
 
-public class ReverseWordsTest {
+public class ReverseWordCharactersTest {
     public static void main(String args[]){
-        String input = "Hello world";
+        String input = "I am a boy";
 
         // Split the string into words
         String[] words = input.split(" ");

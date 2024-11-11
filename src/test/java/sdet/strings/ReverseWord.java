@@ -1,12 +1,11 @@
 package sdet.strings;
 
-public class ReverseStringTest {
+public class ReverseWord {
     public static void main(String args[]) {
-        String input = "Hello world";
+        String input = "I am a boy";
         String output="";
         /*System.out.println(reverseStringConcat(input));
         System.out.println(reverseStringStringBuilder(input));*/
-
 
         StringBuilder sb = new StringBuilder();
         for(int i=input.length()-1; i>=0;i--) {
