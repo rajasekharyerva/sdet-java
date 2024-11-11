@@ -1,10 +1,11 @@
 package sdet.oops;
 
-public abstract class AbstractB {
+public abstract class Animal {
     // Abstract method (implicitly public and abstract)
     void performAction() {
-
     }
+
+    abstract void sound();
 
     // Default method (with implementation, optional for implementing classes to override)
     void defaultMethod() {

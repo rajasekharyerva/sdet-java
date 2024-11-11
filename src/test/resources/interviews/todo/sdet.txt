@@ -1,0 +1,28 @@
+𝗝𝗮𝘃𝗮 & 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻 𝗧𝗲𝘀𝘁𝗶𝗻𝗴
+-Write a Java program to validate email addresses. Explain how u would handle edge cases and ensure it works across multiple domains
+-Describe how you would implement a retry mechanism in Selenium for unstable tests.
+-Write a function to handle dynamic drop downs in Selenium, where options change based on user input. Explain how you would use to make it scalable.
+
+𝗧𝗲𝘀𝘁 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻 𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸𝘀
+-How would you design a scalable test automation framework from scratch for a microservices-based application? Include your choice of tools and explain why.
+-Describe how you would organize page objects, test data, and utilities in a framework
+-What is a "flaky test," and how would you identify and reduce flakiness in automated test suites? List tools and strategies you'd use.
+
+𝗔𝗣𝗜 & 𝗣𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲 𝗧𝗲𝘀𝘁𝗶𝗻𝗴
+-Write a sample test script in Java to validate a REST API’s status code, response time, and content-type headers. How would you parameterize it for multiple endpoints?
+-How would you test an API that relies on complex, time-sensitive data? Explain your approach to managing test data and assertions.
+-Describe your approach to performance testing. Which tools would you use, and how would you identify bottlenecks within the system?
+
+𝗖𝗼𝗻𝘁𝗶𝗻𝘂𝗼𝘂𝘀 𝗜𝗻𝘁𝗲𝗴𝗿𝗮𝘁𝗶𝗼𝗻 / 𝗗𝗲𝗽𝗹𝗼𝘆𝗺𝗲𝗻𝘁 (𝗖𝗜/𝗖𝗗)
+-Describe your approach to integrating automated tests into a CI/CD pipeline. How would you prioritize test execution to speed up the feedback cycle?
+-How would you handle failed tests in a CI/CD environment? What strategies would you use to prevent blocking the deployment pipeline?
+-Explain your process for implementing parallel test execution in a CI/CD pipeline.
+
+𝗗𝗲𝗯𝘂𝗴𝗴𝗶𝗻𝗴 & 𝗥𝗼𝗼𝘁 𝗖𝗮𝘂𝘀𝗲 𝗔𝗻𝗮𝗹𝘆𝘀𝗶s
+-When a test fails due to a NoSuchElementException in Selenium, how would you troubleshoot it? Explain how you would ensure it doesn’t occur in future runs.
+- Describe a situation where you had to troubleshoot a complex test failure. How did you identify the root cause, and what tools were most helpful?
+
+𝗦𝗗𝗘𝗧 𝗗𝗲𝘀𝗶𝗴𝗻 & 𝗔𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗲
+-Explain your approach to data masking and data sharing.
+-When automating tests for a mobile application, what design considerations would you make to handle different OS versions, screen sizes, and device capabilities?
+-Describe your approach to integrating synthetic monitoring within automated test suites.

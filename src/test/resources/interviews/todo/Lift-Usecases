@@ -1,0 +1,98 @@
+When writing test scenarios for a Lift (Elevator), it's essential to focus on various aspects, including UI (User Interface), Security, Performance, and Accessibility. Below are test scenarios categorized for each of these areas:
+
+1. UI Testing Scenarios:
+These scenarios ensure the Lift’s user interface (buttons, displays, and responsiveness) is functional and intuitive for users.
+Button Functionality: Test whether all floor buttons inside the lift (and the call buttons outside) are functional.
+Scenario: Pressing a floor button (e.g., 3rd floor) lights up the button, and the lift travels to that floor.
+
+Screen Display: Verify that the current floor is correctly displayed on the lift's display panel.
+Scenario: Ensure that when the lift is on the 3rd floor, the screen correctly shows "3."
+
+Button Labeling: Check whether the floor buttons are clearly labeled with the correct floor numbers.
+Scenario: Verify that each button corresponds to the correct floor, and labels are legible.
+
+Emergency Button: Ensure that the emergency button is clearly marked and functional.
+Scenario: Pressing the emergency button should show a message indicating the emergency mode is activated.
+
+Door Operation Button: Ensure that the open and close door buttons function correctly.
+Scenario: Pressing the door open button should open the lift door, and pressing the door close button should close it.
+
+Button Response Time: Test the responsiveness of buttons. Pressing a button should show immediate visual feedback (e.g., button light) and trigger the expected lift action.
+
+Floor Indicator Update: Ensure that the floor indicator updates in real-time during travel.
+Scenario: The lift’s floor indicator should change instantly when moving between floors.
+
+Lift Capacity Display: If the lift has a weight or capacity display, ensure it is visible and accurate.
+Scenario: Display should show the current weight and indicate overload if it exceeds the weight limit.
+
+2. Security Testing Scenarios:
+These scenarios ensure the lift system is secure from unauthorized access and tampering.
+
+Unauthorized Access: Verify that only authorized personnel (with access cards or PIN codes) can access restricted floors.
+Scenario: Employees should not be able to access restricted floors without a valid security badge or PIN.
+
+Security Features for Emergency Mode: Check that the emergency button does not disable security features and only activates in emergencies.
+Scenario: Pressing the emergency button should not allow access to floors without proper authentication.
+
+Malfunctioning Security Devices: Test if the lift security features (e.g., doors, sensors) fail securely.
+Scenario: If a door sensor is malfunctioning, it should trigger an alarm and prevent door closure.
+
+Alarm Functionality: Test that the lift’s alarm system works when triggered by a security breach or malfunction.
+Scenario: Pressing the alarm button should trigger a sound and notify relevant authorities.
+
+Logging and Monitoring: Ensure the lift logs access attempts, alarm triggers, and any unauthorized actions.
+Scenario: Verify that a log is maintained for every entry, exit, and alarm activation.
+
+3. Performance Testing Scenarios:
+These scenarios ensure that the lift performs well under various conditions, such as high traffic, heavy load, and continuous operation.
+
+Lift Response Time: Test the time taken from pressing a button to the lift starting its movement.
+Scenario: Measure the time between pressing a floor button and the lift beginning to move. This should be within acceptable limits (e.g., 3-5 seconds).
+
+Lift Speed: Verify that the lift reaches the target floor within the expected time.
+Scenario: For a 10-floor lift, measure if the time to travel from the ground floor to the 10th floor is within the specified limit.
+
+Overload Condition: Check the lift's response when it is overloaded with passengers.
+Scenario: When the lift is overloaded, the display should show a "weight limit exceeded" message, and the lift should not start moving.
+
+Multiple Requests Handling: Test how the lift handles multiple requests from different floors.
+Scenario: Simultaneously press the buttons on multiple floors, and verify the lift correctly processes the requests (e.g., stops at each floor in order).
+
+Peak Load Handling: Simulate high traffic conditions (many users in the building) and test if the lift operates smoothly.
+Scenario: Monitor performance during rush hours and ensure the lift can handle high traffic without delays or failure.
+
+Power Failure Handling: Verify that the lift safely handles power interruptions or failures.
+Scenario: When the lift experiences power failure, it should stop at the nearest floor and open the doors.
+
+4. Accessibility Testing Scenarios:
+These scenarios ensure the lift is usable for people with disabilities or other accessibility needs.
+
+Audio Instructions: Test if audio instructions or announcements are available for visually impaired users.
+Scenario: When the lift reaches a floor, it should announce the floor number via audio.
+
+Visual Indicators: Check if the lift provides adequate visual indicators (e.g., flashing lights or displays) for people with hearing impairments.
+Scenario: A visual signal should accompany any audible alert, such as when the doors are about to close.
+
+Door Accessibility: Ensure that the doors are easy to open for wheelchair users or those with mobility impairments.
+Scenario: Test if the doors have a delay mechanism for wheelchair accessibility, giving users extra time to enter or exit.
+
+Button Height and Usability: Test whether the lift buttons are positioned within reach for all users, including those in wheelchairs.
+Scenario: Buttons should be positioned at accessible heights (for instance, between 32-48 inches from the ground).
+
+Emergency Features for Disabled Users: Ensure emergency features are accessible to all users, including those with physical disabilities.
+Scenario: Ensure emergency buttons are within reach and functional for users with mobility impairments.
+
+Braille for Visually Impaired: Check if buttons, floor indicators, and emergency information are in Braille.
+Scenario: Verify that floor buttons have Braille labeling for visually impaired users.
+
+Voice Command Integration: If the lift supports voice commands, ensure it works correctly for users with disabilities.
+Scenario: Voice commands should allow users to select a floor or open/close the doors without physical interaction.
+
+Conclusion:
+These test scenarios cover essential aspects for UI, Security, Performance, and Accessibility testing of a Lift (Elevator). They aim to ensure that the lift is user-friendly, secure, efficient, and accessible to a wide range of users, including those with disabilities, while meeting performance and security standards.
+
+
+
+
+
+
