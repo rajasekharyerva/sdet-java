@@ -1,72 +1,72 @@
 Testing Types
-Unit Testing
 
+Unit Testing
 Definition: Tests individual units or components of the software, usually done by developers.
 Objective: Ensure each unit works as expected in isolation.
 Tools: JUnit, NUnit, PyTest.
 Example: Testing a function that calculates the area of a rectangle, ensuring it returns the correct value for given inputs.
-Integration Testing
 
+Integration Testing
 Definition: Tests the interaction between multiple units or components.
 Objective: Detect interface issues between integrated units.
 Approaches: Top-down, bottom-up, sandwich, and big bang.
 Tools: JUnit, TestNG, Postman (for API integration).
 Example: Testing how a payment processing system works with a shopping cart module.
-System Testing
 
+System Testing
 Definition: Tests the entire system as a whole.
 Objective: Ensure the complete system meets requirements.
 Types: Functional, non-functional, security, and usability testing.
 Tools: Selenium, LoadRunner.
 Example: Testing a web application to check if all functions, like login, search, and checkout, work together seamlessly.
-Acceptance Testing
 
+Acceptance Testing
 Definition: Conducted to determine if the system meets the business requirements.
 Objective: Ensure the system is acceptable for delivery.
 Types: User Acceptance Testing (UAT), Operational Acceptance Testing (OAT).
 Example: End-users test a new feature on an e-commerce site to ensure it works as expected before launch.
-Regression Testing
 
+Regression Testing
 Definition: Tests the system after code changes to ensure new changes haven’t negatively affected existing functionality.
 Objective: Ensure that new updates do not introduce bugs.
 Tools: Selenium, JUnit, TestNG.
 Example: After adding a new search feature, testers ensure the login, checkout, and other existing functionalities still work.
-Smoke Testing
 
+Smoke Testing
 Definition: Quick tests on core functionality to see if the build is stable enough for further testing.
 Objective: Validate basic stability.
 Tools: Automated scripts, Selenium.
 Example: Verifying login and navigation on a website to confirm it’s stable for more in-depth testing.
-Sanity Testing
 
+Sanity Testing
 Definition: Focuses on specific functionality to confirm it’s working after minor changes.
 Objective: Validate that changes or fixes work as expected.
 Example: After a bug fix in the login module, testers ensure only that functionality is working as expected.
-Performance Testing
 
+Performance Testing
 Definition: Tests the system’s performance under load.
 Types: Load testing, stress testing, scalability testing, endurance testing.
 Tools: JMeter, LoadRunner, Gatling.
 Example: Simulating 1000 users on a website to see how it responds.
-Security Testing
 
+Security Testing
 Definition: Identifies vulnerabilities and ensures the system is secure.
 Types: Penetration testing, vulnerability scanning, authentication testing.
 Tools: OWASP ZAP, Burp Suite.
 Example: Attempting SQL injection attacks to ensure the database is protected.
-Usability Testing
 
+Usability Testing
 Definition: Assesses how user-friendly and intuitive the software is.
 Objective: Ensure a positive user experience.
 Example: Observing users interact with a website to determine if it’s easy to navigate.
-Compatibility Testing
 
+Compatibility Testing
 Definition: Ensures the application works across different environments, devices, and OS.
 Objective: Guarantee compatibility across systems.
 Tools: BrowserStack, Sauce Labs.
 Example: Testing a web app on Chrome, Safari, Firefox, and Edge.
-Exploratory Testing
 
+Exploratory Testing
 Definition: Testers explore the application without predefined test cases, leveraging their experience.
 Objective: Identify unexpected issues.
 Example: Navigating through an app without a test script to see if it behaves as expected.
