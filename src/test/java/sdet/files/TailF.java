@@ -1,4 +1,4 @@
-package sdet;
+package sdet.files;
 
 import java.io.*;
 import java.util.*;

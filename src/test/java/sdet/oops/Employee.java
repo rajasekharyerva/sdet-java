@@ -1,4 +1,4 @@
-package sdet;
+package sdet.oops;
 
 public class Employee {
     private String name;

@@ -1,4 +1,4 @@
-package sdet;
+package sdet.arrays;
 
 public class MoveNegatives {
 

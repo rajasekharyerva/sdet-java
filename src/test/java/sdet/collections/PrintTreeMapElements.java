@@ -1,4 +1,4 @@
-package sdet;
+package sdet.collections;
 
 import java.util.Map;
 import java.util.TreeMap;
