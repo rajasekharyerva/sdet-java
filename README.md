@@ -1,5 +1,5 @@
-# sdet-repo
-sdet-repo description
+# sdet-java
+sdet-java solutions
 ## selenium
 ## docker
     To setup selenium grid with nodes - chrome(2)  and firefox
