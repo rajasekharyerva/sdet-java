@@ -1,12 +1,12 @@
 # Jenkins
-| Command Name                   | Command                                             |
-|--------------------------------|-----------------------------------------------------|
-| Jenkins Docker                 | `docker pull jenkins/jenkins:lts-jdk17`             |
-|                                | `docker logs -f jenkins`                            |
-|                                | `username=rajasekharreddyerva docker-compose up -d` |
-| Restart                        | `docker restart <jenkins_container_name>`           |
-| Install the latest LTS version | `brew install jenkins-lts`                          |
-| Start the Jenkins service      | `brew services start jenkins-lts`                   |
+| Command Name                   | Command                                              |
+|--------------------------------|------------------------------------------------------|
+| Jenkins Docker                 | `docker pull jenkins/jenkins:lts-jdk17`              |
+|                                | `docker logs -f jenkins`                             |
+|                                | `username=rajasekharreddyyerva docker-compose up -d` |
+| Restart                        | `docker restart <jenkins_container_name>`            |
+| Install the latest LTS version | `brew install jenkins-lts`                           |
+| Start the Jenkins service      | `brew services start jenkins-lts`                    |
 
 ## Plugins
     Maven Integration

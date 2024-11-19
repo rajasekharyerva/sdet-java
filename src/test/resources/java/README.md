@@ -81,6 +81,17 @@ Polymorphism allows objects to be treated as instances of their parent class rat
 This enables a single function or method to work in different ways depending on the actual object that invokes it. 
 Polymorphism comes in two forms: compile-time (method overloading) and runtime (method overriding)
 
+JAVA_TOOL_OPTIONS=-Xms512m -Xmx2g
+Java Compiler (javac)	Converts .java files to .class files (bytecode).
+Class Loader	Loads .class files into memory during runtime.
+JVM	Executes bytecode (using an interpreter or JIT compiler) and manages the program lifecycle.
+JIT Compiler	Part of JVM, optimizes and converts bytecode to native machine code for better performance.
 
+Heap Memory
+Stack Memory
+Metaspace (Since Java 8)
+Program Counter (PC) Register
+Native Method Stack
+Code Cache
 
 
