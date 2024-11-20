@@ -1,4 +1,4 @@
-package streams;
+package sdet.java.java8.streams;
 
 import java.util.Arrays;
 import java.util.List;
