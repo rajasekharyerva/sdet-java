@@ -28,4 +28,10 @@
     Ancestor (/..): Selects all ancestors (parent, grandparent, etc.) of the current node
     Following Sibling (following-sibling::): Selects siblings after the current node
     Preceding Sibling (preceding-sibling::): Selects siblings before the current node
-    
+### Handling SSL Certificates in Chrome (ChromeDriver)
+    //Create ChromeOptions object
+    ChromeOptions options = new ChromeOptions();
+
+    // Add argument to ignore SSL certificate errors
+    options.addArguments("--ignore-certificate-errors");
+

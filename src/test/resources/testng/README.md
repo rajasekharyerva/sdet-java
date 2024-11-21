@@ -80,3 +80,7 @@
         }
     }
 
+### Run using command line
+    mvn test -Dgroups=smoke
+    mvn test -Dtest=com.example.smoke.**
+    mvn test -Dtest=ClassName#methodName

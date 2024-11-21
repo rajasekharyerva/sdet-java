@@ -1,0 +1,18 @@
+1) Reverse the number input-12 output must be 21. And Explain the logic
+2) Explain the framework of your project.
+3) Did you use Interface in your project? Explain which Interface you used.
+4) How to take screenshots in Selenium?
+5) How to handle alert popups?
+6) how to select the checkbox?
+7) Which Webdriver is faster?
+8) How to handle certification in Selenium?
+9) How to find all the links on the page?
+10) Diff between driver. close() and driver.quit();
+11) Write the login page feature file with multiple users using scenario outline.
+12) What is RestAPI?
+13) What are the types of requests in API?
+14) Different status Codes in API?
+15)write a query to get the count of the students from the table?
+16)What is Agile?
+17)What is Sprint? How many days of sprints you were having in your project.
+18) What is Regression testing?How do you prepare the test cases for the Regression testing?

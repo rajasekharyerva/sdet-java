@@ -20,6 +20,8 @@
 | Move to next word                      | `Opt + Right arrow` |
 | Move to previous word                  | `Opt + Left arrow`  |
 | Find in Files                          | `Cmd+Shft+F`        |
+| Find File by Name                      | `Cmd+Shft+O`        |
+| Search Everywhere                      | `Shft` twice        |
 ## Plugins
 Cucumber for Java
 Docker

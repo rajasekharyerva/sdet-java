@@ -41,7 +41,7 @@ Stream API
 **Java 11 (Released 2018)**
 Local Variable Type Inference (var)
 New String Methods
-HTTP Client API:
+HTTP Client API
 **Java 17 (Released 2021)**
 Sealed Classes
 Pattern Matching for instanceof
@@ -86,12 +86,12 @@ Java Compiler (javac)	Converts .java files to .class files (bytecode).
 Class Loader	Loads .class files into memory during runtime.
 JVM	Executes bytecode (using an interpreter or JIT compiler) and manages the program lifecycle.
 JIT Compiler	Part of JVM, optimizes and converts bytecode to native machine code for better performance.
-
-Heap Memory
-Stack Memory
-Metaspace (Since Java 8)
-Program Counter (PC) Register
-Native Method Stack
+JRE is a software package that provides everything necessary to run Java applications, including the JVM, but it doesn’t include tools for development.
+Heap Memory- Stores method-specific values
+Stack Memory-Stores objects and class instances
+Metaspace (Since Java 8)-Stores class metadata (information about loaded classes)
+Program Counter (PC) Register-Tracks the address of the current instruction being executed in a thread
+Native Method Stack-Stores information related to native method calls
 Code Cache
 
 
