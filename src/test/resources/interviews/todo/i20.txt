@@ -1,0 +1,14 @@
+1) Is it possible to integrate API generated cookies directly with Selenium WebDriver tests? If yes how?
+2) How do you make sure 3rd party APIs like payment gateways are integrated for Test Automation Framework?
+3) Do you prefer to automate it using UI or API and Why?
+4) Why did Amazon moved back to Monolithic architecture? Can you justify?
+5) When should use LomBok for POJO classes instead of Builder Pattern?
+6) How do you manage a CI/CD pipeline when high-priority scenarios fail during execution?
+7) Write the code snippet for passing values 1 and 2 to the parameters val1 and val2 through the XML file.
+8) If you are using Selenium WebDriver, How do you create a Test Automation Framework for a page having 700 unique webelements?
+9) How to keep API Tests idempotent?
+10) What happens when you write "new ChromeDriver();"?
+11) Wrote a SQL Query using 3 Inner Joins (Data was given by the interviewer)
+12) Explain the use and implementation of Response & Request Spec in RestAssured? Also tell me why we need to create a Abstraction layer?
+13) How can you resolve, Element Click Intercepted Exception?
+14) What are different ways to manage Dynamic WebElements?
