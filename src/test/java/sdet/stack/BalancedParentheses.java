@@ -1,4 +1,4 @@
-package sdet;
+package sdet.stack;
 
 import java.util.Stack;
 
