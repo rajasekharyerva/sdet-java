@@ -3,7 +3,7 @@ package sdet.arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ElementFrequency {
+public class ElementFrequencyInArray {
     public static void main(String[] args) {
         int[] arr = {1, 2, 2, 3, 3, 3, 4, 4, 4, 4}; // Sample input array
         findFrequency(arr);

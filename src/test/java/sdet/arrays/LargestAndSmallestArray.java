@@ -1,6 +1,6 @@
-package sdet.numbers;
+package sdet.arrays;
 
-public class LargestAndSmallest {
+public class LargestAndSmallestArray {
     public static void findLargestAndSmallest(int[] nums) {
         // Check for an empty array or an array with less than 2 elements
         if (nums.length == 0) {

@@ -1,6 +1,6 @@
-package sdet.collections;
+package sdet.arrays;
 
-public class FindSecondLargestList {
+public class FindSecondLargestArray {
     public static void main(String[] args) {
         int[] numbers = {1, 2, 2, 4, 4};
         if(numbers.length<2) {

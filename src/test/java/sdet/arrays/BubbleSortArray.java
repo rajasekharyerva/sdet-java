@@ -1,6 +1,6 @@
-package sdet.java;
+package sdet.arrays;
 
-public class BubbleSort {
+public class BubbleSortArray {
     public static void main(String[] args) {
         int[] arr = {5, 2, 9, 1, 5, 6};
 
