@@ -1,4 +1,4 @@
-package sdet;
+package sdet.java;
 
 public class IllegalStaticUse {
     public static void main(String[] args) {

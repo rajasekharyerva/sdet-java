@@ -43,7 +43,7 @@ public class DriverManager {
                     driver = new RemoteWebDriver(new URL(hubUrl), capabilities);
                 } catch (MalformedURLException e) {
                     System.out.println("MalformedURLException");
-                    //throw new RuntimeException(e);
+                    //throw interview19.txt RuntimeException(e);
                 }
             }
         }

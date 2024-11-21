@@ -15,7 +15,7 @@ class Node {
 class LinkedList {
     Node head;
 
-    // Method to insert a new node at the end
+    // Method to insert a interview19.txt node at the end
     public void insert(int data) {
         Node newNode = new Node(data);
         if (head == null) {

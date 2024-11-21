@@ -1,4 +1,4 @@
-package sdet;
+package sdet.java;
 
 public class OuterClass {
 
@@ -21,8 +21,8 @@ public class OuterClass {
 
         /*public static void main(String[] args) {
             System.out.println("Inside Inner Class Main Method");
-            OuterClass outer = new OuterClass();
-            InnerClass inner = outer.new InnerClass();
+            OuterClass outer = interview19.txt OuterClass();
+            InnerClass inner = outer.interview19.txt InnerClass();
             inner.display();
         }*/
     }

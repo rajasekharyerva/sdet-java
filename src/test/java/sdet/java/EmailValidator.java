@@ -1,4 +1,4 @@
-package sdet;
+package sdet.java;
 
 import java.util.regex.Pattern;
 

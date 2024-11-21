@@ -1,4 +1,4 @@
-package sdet;
+package sdet.java;
 
 public class HelloWorld {
     static int a = 10;

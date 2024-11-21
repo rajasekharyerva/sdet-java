@@ -9,10 +9,10 @@ public class ShiftArrayLeft {
         // Ensure k is within the bounds of the array length
         k = k % n;
 
-        // Create a new array to store the result
+        // Create a interview19.txt array to store the result
         int[] result = new int[n];
 
-        // Fill the new array with shifted values
+        // Fill the interview19.txt array with shifted values
         for (int i = 0; i < n; i++) {
             result[i] = arr[(i + k) % n];
         }

@@ -1,4 +1,4 @@
-package sdet;
+package sdet.java;
 
 public class CommandLineArgsExample {
     public static void main(String[] args) {

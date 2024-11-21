@@ -23,10 +23,10 @@ public class IncrementArray {
                 arr[i] = 0; // Set current digit to 0 if it was 9
             }
         }
-        // If all digits were 9, we need a new array
+        // If all digits were 9, we need a interview19.txt array
         int[] newArr = new int[n + 1];
         newArr[0] = 1; // Set the first digit to 1, rest are already 0
-        return newArr; // Return the new array with one additional digit
+        return newArr; // Return the interview19.txt array with one additional digit
 
     }
 }
