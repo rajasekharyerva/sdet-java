@@ -1,0 +1,41 @@
+Q 1 - What are un-reproducible bugs?
+Ans: The following kind of bugs can be categorised as un-reproducible bugs:
+Defects that surface due to issues of low memory.
+↳ Errors or bugs that arise due to addresses pointing to memory locations that do not exist.
+↳ Race conditions are error scenarios that occur when the time of execution of one event impacts another event executing in a sequence.
+
+Q 2 - What is a critical bug?
+Ans: A critical bug is a bug that impacts a major functionality of the given application.
+This means affecting a large area of the functionality or breaking any functionality and there is no other method to overcome this problem.
+The application cannot be delivered to the end user unless the critical bug is fixed.
+
+Q 3 - How will you determine when to stop testing?
+Ans: It can be hard to know when to stop testing.
+Many modern software applications are so complicated and run in such a relaxed environment that thorough testing is impossible.
+The following are some regular criteria to consider when considering when to end testing:
+↳ Deadlines are very important (release deadlines, testing deadlines, etc.)
+↳ Completed test cases with a certain percentage of passing
+↳ When the test budget runs out
+↳ When the coverage of code, functionality, or requirements arrives at a certain point, it is said to be complete
+↳ When the bug rate drops below a specific threshold
+↳ When the beta or alpha testing stage is over
+
+Q 4 - What are the best software quality practices as per your work experience?
+Ans: These are some best practices I usually follow to deliver a high-quality product and effectively perform my QA roles and responsibilities in software testing
+↳ Review the requirements in depth before you start with the development
+↳ Write comprehensive test cases as required
+↳ Perform session-based testing, then risk-based testing
+↳ Set the priority for bugs based on usage
+↳ Run a regression cycle
+↳ Perform sanity tests on pre-prod
+↳ Focus on QA test reports
+
+Q 5 - Describe the defect cycle steps
+Ans: As a candidate, you should have knowledge of the bug cycle, which typically follows these steps:
+↳ Defect discovery: A defect is discovered during testing or by a customer.
+↳ Defect reporting: The tester reports the defect along with a detailed description and steps to reproduce it.
+↳ Defect prioritisation: The defect is prioritised based on its severity and impact on the product.
+↳ Defect assignment: The defect is assigned to a developer to investigate and fix.
+↳ Defect fixing: The developer fixes the defect and verifies the fix.
+↳ Defect Validation: The tester validates that the defect has been fixed and closes.
+↳ Defect closure: The defect is closed after being fixed and validated.
