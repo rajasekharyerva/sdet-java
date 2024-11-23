@@ -1,0 +1,41 @@
+1.Explain the automation framework
+2.What unit testing framework are you using
+3.What is difference in JUnit and TestNg
+4.How can you rerun failed test cases
+5.What CI/CD tool have you used
+6.Do you know how to create a parametrized pipeline job
+7.We need to save username of students, input username and print valid if it contains alphanumeric and invalid if it contains any special charcters or spaces or duplicate username. WAP in java or python to handle it
+8.WAP to count occurrences of characters in a string
+9.WAP to find the highest number from the array w/o using inbuilt method 10.WAP to reverse the string without using inbuilt method
+11.What is difference between string and string buffer
+12.What is difference between private, public and protected access modifiers 13.Collections framework heirarchy interfaces and their classes
+14.What is difference between hashtable and hashset
+15.What is difference between comparable and comparator
+16.Explain the exception heirarchy
+17.WAP to create a custom exception
+18.What is an interface and an abstract class?
+19.Why abstract class is allowed to have a constructor
+20.Difference between final, finally and finalize?
+21.Explain polymorphism
+22.WAP to override a function
+23.Do you know about Java 8
+24.What is java streams and lambda expression
+25.What is git rebase and get merge
+26.When to use git rebase
+27.What is functional interface
+28.What is difference in status code 401 and 403
+29.What is difference in oAuth 1.0 and oAuth2.0
+30.WAP using RestAssured library and include assertions that you would use in a get or post call
+31.What is the content type in oAuth2.0
+32.Write a SQL query using join (two tables were given and their column names)
+33.WAP to handle multiple windows in selenium
+34.WAP to capture screenshots in selenium
+35.How do you handle synchronisation in automation scripts
+36.Write the syntax for fluent wait
+37.WAP to read/write data from excel file
+38.What are the different stages of an Automation test
+39.What are different types of testing
+40.What is difference between priority and severity
+41.What are fields required to log a bug/defect
+42.What is a test plan, what are the things included in it
+43.Explain briefly different phases of SDLC

@@ -36,7 +36,8 @@
 | Stop the Jenkins service        | `brew services stop jenkins-lts`    |
 
 ## Triggers
-    H/5 * * * * - Every 5 minutes
+[CRON](https://crontab.cronhub.io/)
+```    H/5 * * * * - Every 5 minutes
     - Minutes(0-59)
     - Hours(0-23)
     - Day of Month(1-31)
@@ -46,7 +47,7 @@
     /: Step values (e.g., */15 for every 15 minutes).
     ,: Multiple values (e.g., 1,15,30 for minute field).
     -: Range of values (e.g., 9-17 for hours from 9 AM to 5 PM)
-
+```
 ## Jenkins Job
     - Free Style/Pipeline
     - SCM
