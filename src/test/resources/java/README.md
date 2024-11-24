@@ -50,18 +50,18 @@ Enhanced Switch Statements
 Removal of Further Deprecated APIs
 
 ### Access Modifiers
-public
-Visibility: Accessible from any other class, regardless of the package.
-Usage: Can be applied to classes, methods, fields, and constructors.
-private
-Visibility: Accessible within the same package and by subclasses, even if they are in different packages.
-Usage: Can be applied to methods, fields, and constructors (not applicable to top-level classes)
-protected
-Visibility: Accessible only within the same class.
-Usage: Can be applied to methods, fields, and constructors (not applicable to top-level classes)
-default
-Visibility: Accessible only within the same package (no keyword needed).
-Usage: Can be applied to classes, methods, fields, and constructors.
+    public
+    Visibility: Accessible from any other class, regardless of the package.
+    Usage: Can be applied to classes, methods, fields, and constructors.
+    protected
+    Visibility: Accessible within the same package and by subclasses, even if they are in different packages.
+    Usage: Can be applied to methods, fields, and constructors (not applicable to top-level classes)
+    private
+    Visibility: Accessible only within the same class.
+    Usage: Can be applied to methods, fields, and constructors (not applicable to top-level classes)
+    default
+    Visibility: Accessible only within the same package (no keyword needed).
+    Usage: Can be applied to classes, methods, fields, and constructors.
 
 ## OOPS
 ### Abstract
