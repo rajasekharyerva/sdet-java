@@ -9,6 +9,7 @@ public class ReverseWord {
         System.out.println(reverseStringStringBuilderAppend(input));
         System.out.println(reverseStringCharArray(input));
         System.out.println(sbReverse.reverse());
+        System.out.println(reverseString(input));
     }
 
     private static StringBuilder reverseStringStringBuilderAppend(String input) {
@@ -38,5 +39,27 @@ public class ReverseWord {
         }
 
         return reversedStr;
+    }
+
+    // Method to reverse the string
+    public static String reverseString(String str) {
+        char[] charArray = str.toCharArray();  // Convert string to char array
+        int start = 0;
+        int end = charArray.length - 1;
+
+        // Swap characters from start and end until they meet in the middle
+        while (start < end) {
+            // Swap characters
+            char temp = charArray[start];
+            charArray[start] = charArray[end];
+            charArray[end] = temp;
+
+            // Move the pointers towards the center
+            start++;
+            end--;
+        }
+
+        // Convert the char array back to string
+        return new String(charArray);
     }
 }

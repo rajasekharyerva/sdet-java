@@ -52,6 +52,11 @@ mvn clean install -DskipTests
     </profile>
 </profiles>
 
+<configuration>
+    <rerunFailingTestsCount>2</rerunFailingTestsCount>
+</configuration>
+
+
 mvn clean install -Pskip-tests
 ```
 

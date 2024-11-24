@@ -84,3 +84,6 @@
     mvn test -Dgroups=smoke
     mvn test -Dtest=com.example.smoke.**
     mvn test -Dtest=ClassName#methodName
+
+### Re-run failed test using testng.xml
+    <rerunFailedTests count="3" />
