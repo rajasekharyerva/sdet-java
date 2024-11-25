@@ -1,0 +1,7 @@
+1) What all technical skills have you used in the automation framework
+2) How do you handle synchronization in your scripts
+3) What is method overloading in java
+4) Why do we use interface in java
+5) WAP to shift all the zeroes to front or rear of an array w/o using for loop or any inbuilt function
+ i/p: {1,4,14,0,8,9,0,5,0,6} , o/p: {0,0,0,1,4,14,8,9,5,6} and {1,4,14,8,9,5,6,0,0,0}
+6) What all status codes have you encountered while testing the APIs, also explain them briefly.
