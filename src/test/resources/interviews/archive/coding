@@ -1,4 +1,5 @@
-1. Given an unsorted array of integers, find the third largest number in the array. If the array has less than three distinct numbers, return the largest number.
+1. Given an unsorted array of integers, find the third largest number in the array.
+If the array has less than three distinct numbers, return the largest number.
 Example:
 Input:
 arr = [2, 4, 1, 5, 3, 6]
@@ -6,6 +7,7 @@ Output:
 4
 Explanation:
 The sorted array in descending order is [6, 5, 4, 3, 2, 1]. The third largest number is 4.
+
 2. Given an array of strings, group the strings that are anagrams of each other.
 Example:
 Input:
@@ -14,6 +16,7 @@ Output:
 [["eat", "tea", "ate"], ["tan", "nat"], ["bat"]]
 Explanation:
 The groups of anagrams are ["eat", "tea", "ate"], ["tan", "nat"], and ["bat"].
+
 3. Given an array of integers, find the largest number that does not have any duplicates in the array.
 Example:
 Input:
