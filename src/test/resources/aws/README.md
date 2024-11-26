@@ -33,6 +33,9 @@
         Connect to the instance using SSH:
             ssh -i <key-pair-name>.pem ec2-user@<public-ip>
             curl http://localhost:8082
+            brew install telnet
+            telnet 52.66.252.212 8082
+
     Install Dependencies on EC2: SSH into the EC2 instance and install Java and Maven:
         sudo yum update -y
         sudo yum install java-17-amazon-corretto -y
@@ -44,6 +47,7 @@
         java -jar target/<employee-service>-0.0.1-SNAPSHOT.jar
         pwd
         ls -a
+        tail -f /var/log/cloud-init-output.log
         sudo cat /var/log/cloud-init-output.log
         scp -i aws-keypair.pem ec2-user@35.154.201.212:/var/log/cloud-init-output.log /Users/rajasekharreddyyerva/logs/
         sudo cat /var/log/cloud-init.log

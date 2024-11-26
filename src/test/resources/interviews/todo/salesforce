@@ -1,0 +1,17 @@
+1. Given an array of integers including positive and negative numbers, find all the subarrays whose sum equals zero.
+Example:
+Input:
+arr = [4, -3, 2, 1, 6, -4, -2, 3, 5]
+Output:
+[[4, -3, -1], [2, 1, -4, 1], [6, -4, -2], [-3, 2, 1, 0], [-4, 3, 1], [4, -4], [-3, 2, 1, -4, 3, 5]]
+2. Given an unsorted array of integers, find the kth largest element in the array. The kth largest element is the element that would be in the kth position if the array were sorted in descending order.
+Example:
+Input:
+arr = [3, 2, 1, 5, 6, 4]
+k = 2
+Output:
+5
+Explanation:
+If the array is sorted in descending order, it becomes [6, 5, 4, 3, 2, 1]. The 2nd largest element is 5.
+
+Test cases and dry runs are crucial. Always start by considering edge cases and boundary cases, or else you risk losing points, getting #anxious, and having to refactor if the #interviewer spots a bug. Make it a habit to do a dry run in every interview—it will definitely earn you #extra points.

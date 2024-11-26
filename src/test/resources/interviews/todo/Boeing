@@ -1,0 +1,46 @@
+R1- Technical Interview
+
+3 person joined ( 2 QA’s , 1 Architect) 1 hour
+
+Questions:
+
+1. How do you test a new feature in backend automation?
+
+2. Explain client-server architecture in REST Assured.
+
+3. What is method chaining in REST Assured?
+
+4. Why do we use REST Assured for backend automation instead of Postman?
+
+5. Explain OOP concepts in test automation frameworks. Which ones have you used?
+
+6. What are HashMap and Hash table?
+
+7. What are function overloading and overriding?
+
+8. What is a static class in Java?
+
+1. What is a static initializer?
+2. What are serialization and deserialization?
+3. How is a variable stored in memory in data structures and algorithms (DSA)?
+4. What are the types of data structures in DSA?
+5. How does a stack work? Can you provide pseudocode for it?
+6. What challenges do you face during test automation?
+7. What is the singleton pattern, and how do you use it in your test automation framework?
+8. Explain the structure of your test automation framework.
+9. Given a set of numbers, find a pair that adds up to a specific target. For example, given [1, 2, 3, 9] and a target of 10, identify that 1 and 9 add up to 10.
+10. Explain about iframe and uses of robot classes in selenium
+11. Explain about dynamic locator strategies and give syntax for axes x-path
+12. How do you efficiently used CI/CD pipelines and what is the outcome of it?
+13. what would be your test strategy if a new product feature comes to you tomorrow , how do you prepare a test automation estimation for and test cases ?
+14. What is microservice architecture and explain the payload and its traces ?
+
+R2- Techno Managerial ( 1 Program Manager) 45 mins
+
+Questions about projects, experience and test automation basic questions.
+
+Leadership principles and some scenario based testing questions.
+
+Discussed about architecture, tech stack used in my previous project and skills i have.
+
+QA Methodologies

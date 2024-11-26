@@ -1,0 +1,95 @@
+Only one TestNG guide for SDETs
+
+Let's jump right in understanding all important annotations & configurations of TestNG
+
+1. @Test: Marks a method as a test method
+2. @BeforeSuite: Marks a method to run before any test suite
+3. @AfterSuite: Marks a method to run after all tests in a suite have run
+4. BeforeTest: Marks a method to run before any test method belonging to the classes inside the <test> tag in XML
+5. @AfterTest: Marks a method to run after all test methods belonging to the classes inside the <test> tag in XML
+6. @BeforeClass: Marks a method to run before the first test method in the current class is invoked
+7. @AfterClass: Marks a method to run after all the test methods in the current class have been run
+8. @BeforeMethod: Marks a method to run before each test method
+9. @AfterMethod: Marks a method to run after each test method
+10. @Parameters: Marks a method or a class as a parameter provider for test methods
+Ex:
+@Parameters({ "browser", "platform" })
+@BeforeMethod
+public void setUp(String browser, String platform) {
+// Setup logic using parameters
+}
+11. @Listeners: Marks a listener class to listen to events during test execution, Mostly used for WebDriverEvent Listeners, TestNG Listeners
+12. @Factory: Marks a method to generate instances of test class dynamically
+13. TestNG XML for Parameters:
+
+<suite name="ParameterizedSuite"> <test name="ParameterizedTest"> <parameter name="browser" value="chrome"/>  <classes>
+<class name="TestNGExample"/> </classes> </test> </suite>
+
+1. Parallel Test Execution:
+
+<suite name="ParallelSuite" parallel="tests" thread-count="2">
+<test name="Test1"> <classes> <class name="TestClass1"/> </classes> </test>
+<test name="Test2"> <classes> <class name="TestClass2"/> </classes> </test> </suite>
+
+1. invocationCount specifies the number of times a test method should be invoked
+2. threadPoolSize controls how many threads TestNG will use to execute the invocations of a test method
+Ex: @Test(threadPoolSize = 3, invocationCount = 6)
+public void testMethod() {
+// Test logic
+}
+3. Dependency Testing: Define dependencies between test methods
+Ex:
+@Test(dependsOnMethods = "firstMethod")
+public void secondMethod() {
+// Test logic
+}
+4. Grouping: Group tests to execute specific sets of tests
+Ex:
+@Test(groups = "smoke")
+public void smokeTest() {
+// Smoke test logic
+}
+5. Test Priority: Set priority for test methods, works in alphabetical order or smallest number.
+
+SDET - Interview Question:
+Create an XPath to select all mobile phones on the Flipkart website that are priced under 10000.
+
+Visit Flipkart.
+Enter "mobile" in the search bar.
+Click the Search button.
+
+Solution:
+//div[@class="Nx9bqj _4b5DiR" and number(translate(text(),",₹","")) < 10000]
+
+
+1. What is TestNG?
+Be ready to explain what TestNG is and its key features. Describe how it facilitates test execution, reporting, and test configuration.
+
+🔹 2. TestNG Annotations:
+Understand the different annotations provided by TestNG, such as @Test, @BeforeSuite, @BeforeClass, @BeforeMethod, @AfterMethod, etc. Be prepared to explain when and how to use them in test scripts.
+
+🔹 3. TestNG Data Providers:
+TestNG offers data providers to feed test data dynamically. Familiarize yourself with how to use data providers and handle test data from external sources like Excel or databases.
+
+🔹 4. TestNG Assertions:
+Be ready to discuss different assertion methods provided by TestNG, such as assertEquals, assertTrue, assertFalse, etc. Understand how to use them effectively in test scripts for result verification.
+
+🔹 5. TestNG Test Suites:
+Explain how to create and execute test suites using TestNG. Understand how to group tests, define dependencies, and prioritize test cases within a test suite.
+
+🔹 6. TestNG Listeners:
+TestNG allows the use of listeners for customizing test execution. Familiarize yourself with different listeners provided by TestNG, such as ITestListener, ISuiteListener, IInvokedMethodListener, etc. Be prepared to explain when and how to use listeners.
+
+🔹 7. TestNG Reporting:
+Understand TestNG s built-in reporting capabilities and how to generate meaningful test reports. Explain the different report formats available and how to customize reports for better readability.
+
+🔹 8. TestNG Parallel Execution:
+Be ready to discuss how TestNG supports parallel test execution, including methods for parallelizing tests at the suite, class, or method level. Explain the benefits and challenges of parallel test execution.
+
+🔹 9. TestNG Data-driven Testing:
+TestNG supports data-driven testing using various approaches such as
+DataProviders, Excel files, CSV files, etc. Understand how to implement data-
+driven tests and explain the advantages of this approach.
+
+🔹 10. TestNG Dependencies:
+Be prepared to discuss how TestNG handles test dependencies, allowing tests to be executed in a specific order based on their dependencies. Understand how to define dependencies using annotations or XML configuration.

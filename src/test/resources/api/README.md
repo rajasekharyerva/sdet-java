@@ -1,4 +1,7 @@
 # API Methods
+### 𝗥𝗘𝗦𝗧 𝗔𝘀𝘀𝘂𝗿𝗲𝗱 𝗧𝗲𝘀𝘁 𝗖𝗼𝗱𝗲 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗼𝗿
+[𝗥𝗘𝗦𝗧 𝗔𝘀𝘀𝘂𝗿𝗲𝗱 𝗧𝗲𝘀𝘁 𝗖𝗼𝗱𝗲 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗼𝗿](https://rest-assured-code-generator.vercel.app/)
+
 **Defining a Request Specification:**  
 You can create a request specification that includes common elements such as base URI, headers, authentication, or query parameters.
 

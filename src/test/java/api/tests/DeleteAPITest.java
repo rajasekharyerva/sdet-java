@@ -17,7 +17,7 @@ public class DeleteAPITest {
 
     //@Test(testName = "TC6-Delete API testName")
     @Test(description = "TC6-Delete API")
-    @Description("Calls delete api endpoint")
+    @Description("Calls delete api-rest-assured endpoint")
     @Story("Story-123")
     public void deleteTest() {
         // Set the base URI for the API

@@ -1,0 +1,63 @@
+Experience - 10 years
+
+R1- Tech round ( 1 hr 15 mins)
+
+1. Explain Micro service architecture and the journey of users during login
+2. what is synchronous and asynchronous communication
+3. How does asynchronous communication work in real time and how does a client wait for a request
+4. If you are trying to test a rest API what are the various points you take as an endpoint
+5. Explain about different API methods GET PUT POST
+6. Difference between PATCH and PUT
+7. When do u prefer put and when patch?
+8. Where does CI comes and where does CD comes
+9. Consider you are testing a feature, when you consider whether its automate able or Non automate able
+10. how do you maintain resilience while creating test automation frameworks
+11. Have you faced any resilience in UI and API automation?
+12. what is HTTP and HTTPS?
+13. how does HTTPS work and explain its architecture?
+14. what is CA(Certificate Authority)?
+15. what is diff between public and private certificates?
+16. what is rate limiting in API’s?
+17. what is IP Whitelisting?
+
+R2- Coding + Tech (1 hr)
+
+1. if there are 500 test cases, when i trigger all the test cases only 300 got pass i want only the failed ones, how do you do it?
+2. how do you handle the above scenario if you are running in jenkins?
+3. There's a use case where the business team puts a lot of data in staging for automation testing. We might miss some foreign key dependencies or insertions, and we need to use authentication. For example, consider a classified website with many ads in the search bar. Posting ads on such websites involves various categories, each with different payloads. Foreign keys may change. How do you minimize these changes in your test automation framework?
+4. Post call is working for all categories , how i would run all the 1000 different test data as part of the modification whether its is success or fail
+5. If there is a fail in 10th row how it would handle the 11th row and how reporting looks like and how logs in the extent report in logs for these test cases
+6. when we parameterize 1000 test cases how it is going to run all of them and show only the failed ones in the extent report?
+7. how do you achieve data driven testing?
+8. Coding - Given a linked List, the task is to reverse every k node(where k is an input to the function) in the linked List. if the number of nodes is not a multiple of k then left-out-nodes in the end, should be considered as a group and must be reversedInput
+
+LinkedList: 1→2→2→4→5→6→7→8 , k=4. output : 4→2→2→1→8→7→6→5
+
+(Leet code Hard Problem)
+
+what is time and space complexity of the above program
+
+9.what are the components of test automation frameworks and explain the folder structure?
+
+R3- Coding + Tech (1hr)
+
+1. Give me three reasons to handle flaky test cases in test automation framework
+2. what are the root causes for flaky test cases and how to fix it?
+3. What is final, finalize and finally ?
+4. What if i write system.exit(0) in the try block ,what will happen?
+
+Find First non repeating character in a string in program in java O(N^2) time complexity.
+
+Example String : “Teetotaler”
+
+R4-Tech+Managerial (HM round) - 45 mins
+
+1. Technical details about my project and architecture of it ( how it works , explain me e2e with tech stack and architecture of it)
+2. what are the security guidelines that i know?
+3. what are the banking and insurance products that i worked for and how it works and what is the roles and responsibilities?
+4. who are the customers of your products?
+5. what are the modules that challenged you to automate in your product?
+6. what are the various types of testing you done as QA/SDET?
+7. Have you done any localization testing?
+8. what is your strength and weakness?
+

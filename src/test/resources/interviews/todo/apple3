@@ -1,0 +1,50 @@
+Round 1:
+
+1. Tell me about yourself
+2. More about e-commerce domain
+3. Scenarios to test music player application
+4. Non-functional test cases for Pencil
+5. Http and Https protocols?
+6. What is the 500,400 status codes?
+7. What is Cache and Cookies in web application?
+8. How to review and back track if the 100th build gets failed?
+9. Test scenarios for PDP page
+10. Explain your framework
+11. What will be the test data for testing music player application?
+12. What tech stack used in your organisation?
+13. What do you do in performance testing? Which tool you have used and how the load is decided for testing?
+14. What is SDLC?
+15. WAP to find the third largest number in the given array?
+
+Round 2:
+TestNG question:
+@Test
+test1(){ String text="sdds"; }
+
+@Test(dependsOnMethod="test1",priority=1)
+test2(){
+//Second test method }
+
+1. What's the execution order? Will there be any runtime or compile errors thrown?
+2. How to get dynamic data from test1 method and pass it to test2 method as test data?
+
+Java: Int amount = 596 Denominations:
+output:
+1 note of 500
+1 note of 50
+2 note of 20
+1 note of 5
+1 note of 1
+
+Git command :
+Master : commits - 58 57 56 branch-develop: 55
+
+- Local git merge
+1. How to merge latest commits from master to branch-develop in local IDE using git command
+2. Can we update the commit message after committing and before pushing the changes?
+
+Connection 2:
+Round 1:
+
+1. Panagram programming question
+2. Multiple Questions related to Testing

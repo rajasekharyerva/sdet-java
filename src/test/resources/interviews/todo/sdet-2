@@ -1,0 +1,41 @@
+𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧: Given a linked list, write a program to swap every two adjacent nodes and return the modified linked list. You must solve this problem without modifying the values in the list's nodes, only the nodes themselves may be changed.
+
+𝐄𝐱𝐚𝐦𝐩𝐥𝐞:
+Original list: 1 -> 2 -> 3 -> 4
+After swapping: 2 -> 1 -> 4 -> 3
+
+𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧: You are given two APIs: one that provides real-time stock prices and another that provides historical stock prices. Develop a system that validates the incoming real-time prices against historical data to detect anomalies or significant deviations.
+
+Write a program to fetch data from both APIs, process and compare the prices, and identify outliers. Implement a mechanism to flag or log the anomalies in real time.
+
+𝐇𝐢𝐧𝐭:
+-> Use statistical methods like z-score or standard deviation to determine significant deviations.
+-> Consider edge cases such as missing data or API failures.
+-> Use multi-threading or asynchronous calls to handle real-time data efficiently.
+
+Selenium
+
+What projects have you handled and what were your responsibilities?
+3. Scope of automation testing in your previous projects.
+4. Type of automation framework you have worked on and explain (Framework structure and all its components).
+5. Explain POM (Page Object Model).
+6. How have you used Excel sheets for automation?
+7. Do you have any idea how we can integrate Jenkins in Selenium?
+8. How to open multiple browsers in TestNG?
+9. How to set test priority in TestNG?
+10. What is your work experience with Selenium Grid?
+11. Different types of locators and how we can write XPath.
+12. How to handle pop-ups?
+13. Which Java concepts for OOPS were used in your framework?
+14. How to connect to a DB for validation?
+
+API
+
+Explain the API testing you’ve done in your previous projects and the tools you used for API testing.
+16. What are the different types of web service implementations other than SOAP?
+17. What is the difference between SOAP vs REST?
+18. In which option is REST response cached?
+19. What are the different types of methods present in REST?
+20. What are the different web service response codes?
+21. Do you know the usage for these response codes?
+22. Which tools are used for testing web services?

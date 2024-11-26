@@ -1,0 +1,28 @@
+1. Explain a keyword-driven framework.
+2. Which databases have you worked with?
+3. How do you connect to an Oracle database via test automation? Share a code example.
+4. How do you connect to a Postgres database via test automation? Provide a code snippet.
+5. Can you name an instance from your framework where you utilized polymorphism?
+6. Define abstraction.
+7. What are the key differences between abstract classes and interfaces? How have you used both in your framework?
+8. How do you fetch data from nested JSON using Rest Assured?
+9. How do you validate APIs? What challenges have you faced in API automation?
+10. What does "static" mean in Java?
+11. Which dependencies did you add while setting up the API automation framework?
+12. What is the role of the Hamcrest dependency?
+13. Write a Java program to check if a number is an Armstrong number (e.g., 153).
+14. Write a Java program to reverse each word in a sentence. Example: “I am a Software Tester” -> “I ma a erawtfoS retseT”.
+15. Have you worked with Linux commands? Which ones?
+16. What is the Linux command for copying a file from one folder to another?
+17. Write a Java code to read data from an Excel file.
+18. Explain git rebase and when you would use it.
+19. How do you resolve conflicts using the command line?
+20. When do you use a try-catch block?
+21. What’s the difference between `final` and `finally`?
+22. How do you use file input/output streams in Java?
+23. How did you configure Docker in your project?
+24. How did you set up a Jenkins pipeline?
+25. Have you used Selenium Grid in your projects?
+26. How did you achieve cross-browser testing in your framework?
+27. How many API tests have you run so far?
+28. What is the purpose of a data provider in testing?

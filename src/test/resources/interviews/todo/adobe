@@ -1,0 +1,35 @@
+Adobe QA Interview Questions for #QA role
+Brief about yourself and your experience.
+Challenges faced in Automation.
+Explain webdriver architecture.
+What are the protocols used between the client and server?
+What is the application server?
+How do you test the server connection?
+Why is CSS used?
+Explain different types of HTML tags and explain each one of them.
+Some questions on HTML coding.
+What is the difference between SEVERITY and PRIORITY?
+Give some examples of low severity and high priority of your project.
+How many locators are there? What are they?
+Why is the framework needed?
+How can you refresh your Browser?
+Which design pattern was used in your Framework
+explains how to create a file in build.xml
+Describe your framework.
+Difference between  Selenium RC and  selenium web driver
+Explain the architecture of your project
+Draw your framework
+Write code for fetching the data from the excel sheet
+Write a code for the palindrome number.
+Explain about Jenkins
+Explain your control version tool
+How to handle dropdown
+How to handle window ID
+How to handle with google search text box
+How to handle alerts and window pop-ups?
+How will you get the frame ID?
+How to handle dynamic web tables?
+Why are we using the following siblings in XPath?
+Create a page factory for the login page
+How will you group and add classes from different packages?
+Write a program to reverse a LinkedList.

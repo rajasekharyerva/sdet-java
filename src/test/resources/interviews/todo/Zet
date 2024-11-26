@@ -1,0 +1,13 @@
+How do you ensure that automated tests run seamlessly across different environments in a CI/CD pipeline?
+
+Can you discuss a scenario where you chose one programming language over another for a test automation project? What were the factors influencing your decision?
+
+How do you handle test dependencies and test execution order in TestNG or JUnit?
+
+Describe a scenario where you automated regression tests for a complex application. How did you prioritize test cases for regression?
+
+What techniques do you use to optimize resource utilization, such as memory and CPU usage, during test execution?
+
+Describe your approach to documenting automation framework architecture and guidelines for team members. How do you ensure documentation remains up-to-date?
+
+Discuss your strategies for effectively communicating test results and findings to stakeholders with varying levels of technical expertise.

@@ -1,0 +1,37 @@
+Technical 1
+
+1. Common question( Intro+ project + framework architecture)
+2. Data selection in Calendar, Excel iteration then send values to text box.
+3. What are Idempotent methods? How is it relevant in RESTful web
+services domain?
+4. Based on what factors, you can decide which type of web services you
+need to use — SOAP or REST?
+5. What is Payload in terms of RESTful web services?
+6. importance of API documentation in API automation testing?
+7. Have you integrated automation testing into CI/CD pipelines before?
+8. Explain PSVM, SYSOUT?
+9. Jenkins and GIT
+10. Basic selenium question and SQL?
+
+✅ Technical 2
+
+1. Common question(Intro)
+2. Java(Collection Questions only)
+3. Java Programming (Sort array in reverse order)
+4. How do you handle maintenance and updates of automated test scripts?
+5. Does finally {} block always run?
+6. Automate one page (Login-Add to cart Assert-logout-Reporting).
+
+✅ Managerial Round
+
+1. In manual testing, it takes 10 minutes, whereas in automation, it takes
+10 minutes to check functionality, so what would be your preference? and
+Why?
+2. how comfortable are you with programming languages other than Java
+Selenium?
+3. How do we identify what can be automated?
+4. Can you discuss a challenging automation project you’ve worked on and
+how you overcame obstacles?
+5. How do you stay updated with the latest trends and best practices in
+automation testing?
+6. Normal discussion about previous work? What do you like the most?

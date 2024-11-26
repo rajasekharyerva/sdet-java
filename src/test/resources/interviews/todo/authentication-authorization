@@ -1,0 +1,21 @@
+𝐀𝐮𝐭𝐡𝐞𝐧𝐭𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐯𝐬. 𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐳𝐚𝐭𝐢𝐨𝐧:
+𝐀𝐮𝐭𝐡𝐞𝐧𝐭𝐢𝐜𝐚𝐭𝐢𝐨𝐧:
+
+1. 𝐖𝐡𝐚𝐭 𝐢𝐭 𝐢𝐬: Authentication is verifying a user's or system's identity. It answers the question, "Who are you?"
+2. 𝐇𝐨𝐰 𝐢𝐭 𝐰𝐨𝐫𝐤𝐬: This is typically done through usernames and passwords, biometric data (like fingerprints), or security tokens. For example, when you log in to your email, you enter your username and password to prove that you are the rightful owner of that account.
+3. 𝐑𝐞𝐚𝐥-𝐖𝐨𝐫𝐥𝐝 𝐄𝐱𝐚𝐦𝐩𝐥𝐞: When you swipe your ID card to enter your office building, the system checks if your card (and therefore, you) is valid. This is authentication.
+
+𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐳𝐚𝐭𝐢𝐨𝐧:
+
+1. 𝐖𝐡𝐚𝐭 𝐢𝐭 𝐢𝐬: Authorization is the process of determining what an authenticated user is allowed to do. It answers the question, "What can you do?"
+2. 𝐇𝐨𝐰 𝐢𝐭 𝐰𝐨𝐫𝐤𝐬: Once your identity is authenticated, the system checks if you have the necessary permissions to access certain resources or perform certain actions. For example, after logging in to your email, you might be authorized to read your inbox but not to change server settings.
+3. 𝐑𝐞𝐚𝐥-𝐖𝐨𝐫𝐥𝐝 𝐄𝐱𝐚𝐦𝐩𝐥𝐞: After swiping your ID card to enter your office (authentication), you might only have access to certain floors of the building. The access control system ensures that only authorized personnel can enter restricted areas. This is authorization.
+
+𝐊𝐞𝐲 𝐃𝐢𝐟𝐟𝐞𝐫𝐞𝐧𝐜𝐞𝐬:
+
+1. 𝐎𝐫𝐝𝐞𝐫 𝐨𝐟 𝐎𝐩𝐞𝐫𝐚𝐭𝐢𝐨𝐧𝐬: Authentication always comes before authorization. You must first prove your identity before the system can check what you’re allowed to do.
+2. 𝐏𝐮𝐫𝐩𝐨𝐬𝐞: Authentication confirms identity; authorization grants or denies permissions based on that identity.
+
+𝐀𝐧𝐚𝐥𝐨𝐠𝐲:
+𝐀𝐮𝐭𝐡𝐞𝐧𝐭𝐢𝐜𝐚𝐭𝐢𝐨𝐧: Showing your ID to a security guard at the entrance of a concert.
+𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐳𝐚𝐭𝐢𝐨𝐧: The security guard checks your ticket to see if you’re allowed into the VIP section.

@@ -1,0 +1,13 @@
+1. What is Rest Assured?
+2. How do you set up Rest Assured in a Java project? - Walk through the steps to include Rest Assured in a Maven-based Java project.
+3. How do you perform a GET request using Rest Assured? - Provide an example code snippet demonstrating how to send a GET request and validate the response.
+4. What is the significance of status codes in API responses? - Explain the importance of status codes (e.g., 200, 404, 500) in API responses and how you can validate them using Rest Assured.
+5. How do you pass query parameters in a Rest Assured request? - Show how to include query parameters in a request URL using Rest Assured.
+6. Explain how to validate JSON responses using Rest Assured. - Provide an example of validating specific elements, attributes, or values in a JSON response.
+7. How do you handle authentication in Rest Assured? - Describe different authentication methods (basic, token, etc.) and demonstrate how to implement them using Rest Assured.
+8. What is serialization and deserialization in Rest Assured? - Explain the concepts of converting Java objects to JSON (serialization) and JSON to Java objects (deserialization) in Rest Assured.
+9. How do you perform POST and PUT requests using Rest Assured? - Show how to send data in the request body for creating or updating resources using POST and PUT requests.
+10. What is ResponseSpecBuilder in Rest Assured? - Discuss the purpose of ResponseSpecBuilder and how it can be used to define common validation expectations for responses.
+11. How can you extract data from a response using Rest Assured? - Provide examples of extracting values from the response body and storing them for further use.
+12. How do you handle dynamic values in API responses? - Discuss strategies for handling dynamic data (timestamps, unique IDs) in assertions when validating responses.
+13. What are the benefits of using Rest Assured for API testing? - Highlight the advantages of using Rest Assured over other methods for API automation.

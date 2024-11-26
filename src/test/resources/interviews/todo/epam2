@@ -1,0 +1,27 @@
+1. How to handle cookies in selenium?
+2. Can we create static class? What is static keyword?
+3. what is clean code?
+4. Path and query parameter what are these and which is optional?
+5. Java 8 streams?
+6. Background keyword, Scenario Outline, Scenario, Data Table?
+7. Where do you run your test cases?
+8. Which version of selenium you have used
+9. Window A,B,C,D, How to switch to C and close it?
+10. How to handle dropdown?(By select class and alternate is by using findElements?
+11. Write a code using HashMap
+Brian – 21
+Lee – 22
+Cathe – 45
+Using key and value and find the javerage?
+12. Multiple catch block
+Try{}
+Catch(exception e){
+Syso(A);
+Catch(Arithmetic exception)
+Syso(B);
+13. The logic of parent and child exception
+14. When to use abstract class and when to use interface
+15. Why can’t we create the framework with all static methods?
+16. Int arr 1,2,3,4,5,7,8,9, Skip 3 and all elements after 3 and then skip 7 and then give some
+17. Implement hashmap in the interface and use it in the main
+18. Remove redundancy for a string.
