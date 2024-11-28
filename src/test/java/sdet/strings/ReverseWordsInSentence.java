@@ -1,6 +1,6 @@
 package sdet.strings;
 
-public class ReverseWordCharactersTest {
+public class ReverseWordsInSentence {
     public static void main(String args[]){
         String input = "I am a boy";
 
