@@ -1,34 +1,20 @@
-How do you handle a stale element in Selenium?
-
+1. How do you handle a stale element in Selenium?
 - > Use a try-catch block to catch StaleElementReferenceException and re-locate the element.
 
 2. Why might Selenium’s hover or click not work on an element, and how do you resolve it?
-
 - >Possible reasons: dynamic content or overlays. Solutions: use JavaScriptExecutor or scroll the element into view.
 
-3. How do you reverse a string without reversing special characters?
-
-- >Traverse from both ends, swapping only alphabetic characters while skipping special characters.
-
-4. How do you find k closest values to a target in a Binary Search Tree (BST)?
-
-- >Use in-order traversal and a min-heap or sliding window for efficiency.
-
-5. What’s the best way to sort an array of 0s, 1s, and 2s?
-
-- >Apply the Dutch National Flag algorithm for linear-time sorting.
-
 6. What are the SOLID principles in software design?
-
 - >Key OOP principles for better code: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion.
 
 7. How do you find the minimum deletions to make letter frequencies unique in a string?
-
 - >Count letter frequencies and adjust them to ensure uniqueness with minimal deletions.
 
 8. What are essential credit card test cases for validations?
-
 - >Check number length, format, and type-specific rules.
+
+3. How do you reverse a string without reversing special characters?
+- >Traverse from both ends, swapping only alphabetic characters while skipping special characters.
 
 What challenges might a team face when transitioning from a traditional release model to a Continuous Deployment pipeline, and how would you address them?
 
@@ -41,3 +27,11 @@ What challenges might a team face when transitioning from a traditional release 
 7. How do you implement a robust monitoring system in a Jenkins or Circle CI pipeline to automatically halt deployments if predefined metrics (e.g., error rates, response times) exceed acceptable thresholds?
 8. How would you design a CD pipeline for a microservices architecture to ensure that interdependencies between services are handled properly during deployment?
 9. How would you use container orchestration tools (like Kubernetes) in conjunction with Jenkins or Circle CI to achieve zero-downtime deployments for a high-traffic web service?
+
+4. How do you find k closest values to a target in a Binary Search Tree (BST)?
+- >Use in-order traversal and a min-heap or sliding window for efficiency.
+
+5. What’s the best way to sort an array of 0s, 1s, and 2s?
+- >Apply the Dutch National Flag algorithm for linear-time sorting.
+
+

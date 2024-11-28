@@ -1,6 +1,7 @@
 Coding 1- **Mean and median of an unsorted array**
 
-Create a Java program that dynamically accepts numbers, allowing you to store them, remove specific numbers if needed, and calculate both the mean and median of the stored numbers. The program should handle these operations efficiently as numbers are added or removed over time in firstly
+Create a Java program that dynamically accepts numbers, allowing you to store them, remove specific numbers if needed, and calculate both the mean and median of the stored numbers.
+The program should handle these operations efficiently as numbers are added or removed over time in firstly
 
 Coding 2
 
