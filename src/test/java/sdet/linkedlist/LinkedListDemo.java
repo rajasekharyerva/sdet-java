@@ -1,4 +1,4 @@
-package sdet.arrays;
+package sdet.linkedlist;
 
 // Define the Linked List Node structure
 class Node {

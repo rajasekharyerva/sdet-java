@@ -1,4 +1,4 @@
-package sdet.arrays;
+package sdet.linkedlist;
 
 class LinkedListNNode {
     Node head; // Head of the list
