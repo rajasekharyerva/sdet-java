@@ -7,7 +7,7 @@
 allure/
 allure-report/
 
-# Ignore temporary files
+# Ignore temporary files 
 target/
 
 # Ignore mongo data files
