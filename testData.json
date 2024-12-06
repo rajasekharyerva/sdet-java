@@ -1,7 +1,7 @@
 {
   "tc1": {
     "username": "testuser1",
-    "password": "password123"
+    "password": "password123" 
   },
   "tc2": {
     "lastName": "Doe",
