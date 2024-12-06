@@ -19,7 +19,7 @@ import java.io.IOException;
 
 @Listeners({AllureTestNg.class})
 public class TestCaseReadWriteTest {
-    private static final String FILE_PATH = "TestCases.xlsx";
+    private static final String FILE_PATH = "test_data/excel/data.xlsx";
 
     @Test(description = "Create - Excel - Test Case Sheet")
     @Feature("Create Test Case Sheet")
