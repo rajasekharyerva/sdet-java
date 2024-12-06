@@ -55,6 +55,18 @@
     - Build
     - Post Build
     - Run
+
+### Steps to Pass Method Name in Jenkins Job and Run Specific Test
+    Create a Parameterized Jenkins Job
+        create a new job or configure an existing job.
+        In the job configuration, check the "This project is parameterized" checkbox.
+    Add a String Parameter for Test Method
+        Add a String Parameter in the parameters section with a name like TEST_METHOD.
+        The default value could be a sample test method name, e.g., TestClassName#testMethod.
+    Use the Parameter in Maven Command
+        mvn clean test -Dtest=${TEST_METHOD}
+
+
      
 
 

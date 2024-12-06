@@ -35,3 +35,32 @@
     // Add argument to ignore SSL certificate errors
     options.addArguments("--ignore-certificate-errors");
 
+
+### Window
+    // Get the current window handle
+    String currentWindow = driver.getWindowHandle();
+
+    // Get all window handles
+    Set<String> windowHandles = driver.getWindowHandles();
+    driver.switchTo().window(windowHandle);
+
+    // Now you are in the new window, you can perform actions in it
+    // For example, to close the new window and switch back to the original window:
+    driver.close();
+    driver.switchTo().window(currentWindow);
+
+
+
+### Frame
+    // Switch to the first frame
+    driver.switchTo().frame(0);
+    
+    // Switch to frame by name or id
+    driver.switchTo().frame("frameNameOrId");
+    
+    // Switch to a frame by WebElement
+    WebElement frameElement = driver.findElement(By.id("frameId"));
+    driver.switchTo().frame(frameElement);
+    
+    driver.switchTo().defaultContent();
+

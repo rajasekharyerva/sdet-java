@@ -30,7 +30,7 @@ public class ArrayRotation {
     // Test the method with integers and characters
     public static void main(String[] args) {
         Integer[] intArray = {1, 2, 3, 4, 5, 6, 7};
-        Character[] charArray = {'A', 'B', 'C', 'D', 'E', 'F', 'G'};
+        Character[] charArray = {'H', 'e', 'l', 'l', 'o'};
 
         int k = 3;  // Number of rotations
 

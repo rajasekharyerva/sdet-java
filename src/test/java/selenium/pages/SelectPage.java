@@ -38,6 +38,7 @@ public class SelectPage {
         List<String> list = new ArrayList<String>();
         Select select = new Select(webElement);
         List<WebElement> list1 = select.getOptions();
+
         for(WebElement we: list1) {
             list.add(we.getText());
         }

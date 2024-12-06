@@ -1,0 +1,61 @@
+Comparison of Map Types
+Map Type	Thread-Safe	Allows Null Keys	Order	Use Case
+HashMap	No	Yes	No order	Fast access without caring about order
+LinkedHashMap	No	Yes	Insertion order	Maintain insertion order
+TreeMap	No	No	Sorted order	Sorted keys
+Hashtable	Yes	No	No order	Legacy thread-safe map
+ConcurrentHashMap	Yes	No	No order	Thread-safe map with better performance
+IdentityHashMap	No	Yes	No order	Compare keys by reference
+WeakHashMap	No	Yes	No order	Memory-sensitive caching
+EnumMap	No	No	Natural enum order	Keys are enums
+
+
+HashMap<Integer, String> map = new HashMap<>();
+map.put(1, "One");
+map.put(2, "Two");
+System.out.println(map);
+
+LinkedHashMap<Integer, String> map = new LinkedHashMap<>();
+map.put(1, "One");
+map.put(2, "Two");
+System.out.println(map); // Order is preserved
+
+TreeMap<Integer, String> map = new TreeMap<>();
+map.put(2, "Two");
+map.put(1, "One");
+System.out.println(map); // Sorted order: {1=One, 2=Two}
+
+
+Hashtable<Integer, String> map = new Hashtable<>();
+map.put(1, "One");
+map.put(2, "Two");
+System.out.println(map);
+
+ConcurrentHashMap<Integer, String> map = new ConcurrentHashMap<>();
+map.put(1, "One");
+map.put(2, "Two");
+System.out.println(map);
+
+IdentityHashMap<String, String> map = new IdentityHashMap<>();
+map.put(new String("key"), "value1");
+map.put(new String("key"), "value2");
+System.out.println(map); // Both entries will be stored
+
+WeakHashMap<Object, String> map = new WeakHashMap<>();
+Object key = new Object();
+map.put(key, "value");
+key = null; // Key is eligible for garbage collection
+System.gc(); // Trigger garbage collection
+System.out.println(map); // Map might be empty
+
+
+enum Day { MONDAY, TUESDAY, WEDNESDAY }
+EnumMap<Day, String> map = new EnumMap<>(Day.class);
+map.put(Day.MONDAY, "Work");
+map.put(Day.TUESDAY, "Gym");
+System.out.println(map);
+
+
+
+
+

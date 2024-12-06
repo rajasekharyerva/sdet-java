@@ -10,6 +10,7 @@ public class ExcelReaderExample {
     public static void main(String[] args) {
         String filePath = "src/test/resources/data.xlsx"; // Path to your Excel file
         try (FileInputStream fis = new FileInputStream(filePath);
+
              Workbook workbook = new XSSFWorkbook(fis)) {
 
             // Get the first sheet

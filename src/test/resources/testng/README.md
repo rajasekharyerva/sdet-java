@@ -14,6 +14,7 @@
 
 ### parallel
     methods, tests, classes, instances
+
 ### thread-count
     thread-count=4
 ### Priority
@@ -30,9 +31,8 @@
     <suite name="Sample Suite" verbose="1" parallel="false" thread-count="2">    
         <test name="RegressionTests">
             <groups>
-                <run>
-                    <include name="regression"/>
-                </run>
+                <include name="regression"/>
+                <exclude name="regression"/>
             </groups>
             <classes>
                 <class name="com.example.tests.MyTestClass"/>
@@ -87,3 +87,4 @@
 
 ### Re-run failed test using testng.xml
     <rerunFailedTests count="3" />
+    mvn test -DsuiteXmlFile=testng.xml

@@ -23,3 +23,9 @@ COUNT(DISTINCT):
 
 Returns the count of distinct (unique) values in a column.
 Example: SELECT COUNT(DISTINCT Department) FROM Employees;
+
+
+UNION
+Combines results of 2 queries without duplicates
+UNION ALL
+Combines results of 2 queries

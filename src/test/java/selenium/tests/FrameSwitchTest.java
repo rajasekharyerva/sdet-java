@@ -22,6 +22,10 @@ public class FrameSwitchTest {
         webDriver.get("https://demoqa.com/frames");
 
         // Locate all iframes on the page
+        //By Index: If the frame is the nth frame on the page.
+        //By Name or ID: If the frame has a name or id attribute.
+        //By WebElement: If the frame is identified by some element within it.
+        //By Locator: If you can locate the frame using an XPath or CSS selector.
         List<WebElement> iframes = webDriver.findElements(By.xpath("//div[@id='framesWrapper']//iframe"));
         System.out.println(iframes.size());
         for (WebElement iframe : iframes) {
