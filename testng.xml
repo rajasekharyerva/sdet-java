@@ -3,7 +3,7 @@
 <suite name="Sample Test Suite" parallel="false">
 <!--    <test name="Regression Tests">-->
 <!--        <classes>-->
-<!--            <class name="GetLinksTest"/>-->
+<!--            <class name="GetLinksTest"/>--> 
 <!--        </classes>-->
 <!--    </test>-->
 
