@@ -10,7 +10,7 @@ public class PrintTreeMapElements {
 
         // Add elements to the TreeMap
         treeMap.put("Date", 40);
-        treeMap.put("Apple", 50);
+        treeMap.put("Apple.txt", 50);
         treeMap.put("Cherry", 30);
         treeMap.put("Elderberry", 10);
         treeMap.put("Banana", 20);

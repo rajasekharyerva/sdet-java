@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class GroupByExample {
     public static void main(String[] args) {
-        List<String> items = List.of("Apple", "Banana", "Cherry", "Avocado", "Blueberry");
+        List<String> items = List.of("Apple.txt", "Banana", "Cherry", "Avocado", "Blueberry");
 
         // Group items by their starting letter
         Map<Character, List<String>> groupedByFirstLetter = items.stream()

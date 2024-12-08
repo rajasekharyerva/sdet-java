@@ -27,7 +27,7 @@ public class PostAPITest {
         // Creating the main product object
         Product product = new Product();
         product.setId("3");
-        product.setName("Apple iPhone 12 Pro Max");
+        product.setName("Apple.txt iPhone 12 Pro Max");
         product.setData(data);
 
         Response response = RestAssured.given()
@@ -43,7 +43,7 @@ public class PostAPITest {
         // Deserialize JSON response to POJO
         Product productPOJO = response.as(Product.class);
         log.info("Response Status Code: {}", response.getStatusCode());
-        Assert.assertEquals(productPOJO.getName(), "Apple iPhone 12 Pro Max");
+        Assert.assertEquals(productPOJO.getName(), "Apple.txt iPhone 12 Pro Max");
 
     }
 }

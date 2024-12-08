@@ -29,7 +29,7 @@ public class GetAPITest {
                 .assertThat()
                 .statusCode(200) // Verify status code is 200
                 .body("id", equalTo("7")) // Validate id in response body
-                .body("name", equalTo("Apple MacBook Pro 16")) // Validate name field
+                .body("name", equalTo("Apple.txt MacBook Pro 16")) // Validate name field
                 .body("data.year", notNullValue()) // Ensure the title is not null
                 .extract().response();
 

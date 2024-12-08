@@ -2,7 +2,8 @@
 - > Use a try-catch block to catch StaleElementReferenceException and re-locate the element.
 
 2. Why might Selenium’s hover or click not work on an element, and how do you resolve it?
-- >Possible reasons: dynamic content or overlays. Solutions: use JavaScriptExecutor or scroll the element into view.
+- >Possible reasons: dynamic content or overlays.
+    Solutions: use JavaScriptExecutor or scroll the element into view.
 
 6. What are the SOLID principles in software design?
 - >Key OOP principles for better code: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion.

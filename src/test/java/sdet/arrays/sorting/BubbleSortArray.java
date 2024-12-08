@@ -1,4 +1,4 @@
-package sdet.arrays;
+package sdet.arrays.sorting;
 
 public class BubbleSortArray {
     public static void main(String[] args) {
