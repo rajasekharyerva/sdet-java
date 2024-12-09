@@ -1,43 +1,23 @@
 𝐑𝐨𝐮𝐧𝐝𝟏:(not the exact but similar questions on same concepts)
-
 1. Given a string s, find the length of the longest substring without repeating characters.
-
 Example:
-
 Input: "abcabcbb"
-
 Output: 3
-
 Explanation: The answer is "abc", with a length of 3.
-
 𝐀𝐩𝐩𝐫𝐨𝐚𝐜𝐡: Use a sliding window technique with two pointers:
 
 2. Write a function that, given a m x n matrix where each row and each column are sorted in ascending order, searches for a given integer target.
-
 matrix = [
-
 [1, 4, 7, 11],
-
 [2, 5, 8, 12],
-
 [3, 6, 9, 16],
-
 [10, 13, 14, 17]
-
 ]
-
 target = 5
-
 Output: True
-
 𝐀𝐩𝐩𝐫𝐨𝐚𝐜𝐡:
-
 Start at the top right of the matrix.
-
 If the current number equals the target, return True.
-
 If the current number is greater than the target, move left.
-
 If the current number is less than the target, move down.
-
 Continue until you find the number or exit the matrix bounds.

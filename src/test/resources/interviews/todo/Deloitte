@@ -1,5 +1,4 @@
 Technical 1
-
 1. Common question( Intro+ project + framework architecture)
 2. Data selection in Calendar, Excel iteration then send values to text box.
 3. What are Idempotent methods? How is it relevant in RESTful web
@@ -14,7 +13,6 @@ need to use — SOAP or REST?
 10. Basic selenium question and SQL?
 
 ✅ Technical 2
-
 1. Common question(Intro)
 2. Java(Collection Questions only)
 3. Java Programming (Sort array in reverse order)
@@ -23,7 +21,6 @@ need to use — SOAP or REST?
 6. Automate one page (Login-Add to cart Assert-logout-Reporting).
 
 ✅ Managerial Round
-
 1. In manual testing, it takes 10 minutes, whereas in automation, it takes
 10 minutes to check functionality, so what would be your preference? and
 Why?

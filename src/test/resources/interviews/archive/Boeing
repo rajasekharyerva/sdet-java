@@ -1,23 +1,14 @@
 R1- Technical Interview
-
 3 person joined ( 2 QA’s , 1 Architect) 1 hour
 
 Questions:
-
 1. How do you test a new feature in backend automation?
-
 2. Explain client-server architecture in REST Assured.
-
 3. What is method chaining in REST Assured?
-
 4. Why do we use REST Assured for backend automation instead of Postman?
-
 5. Explain OOP concepts in test automation frameworks. Which ones have you used?
-
 6. What are HashMap and Hash table?
-
 7. What are function overloading and overriding?
-
 8. What is a static class in Java?
 
 1. What is a static initializer?
@@ -36,11 +27,7 @@ Questions:
 14. What is microservice architecture and explain the payload and its traces ?
 
 R2- Techno Managerial ( 1 Program Manager) 45 mins
-
 Questions about projects, experience and test automation basic questions.
-
 Leadership principles and some scenario based testing questions.
-
 Discussed about architecture, tech stack used in my previous project and skills i have.
-
 QA Methodologies

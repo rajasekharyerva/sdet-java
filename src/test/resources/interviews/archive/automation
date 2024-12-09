@@ -1,75 +1,36 @@
 1) Java program to remove duplicates characters from given String.
-
 2) Program Remove the second highest element from the HashMap.
-
-3) Java program to Generate prime numbers between 1 & given 4
-
-number
-
+3) Java program to Generate prime numbers between 1 & given 4 number
 4) How to find the missing values from a sorted array.
-
-5) Java program to input name, middle name and surname of a
-
-person and print only the initials.
-
+5) Java program to input name, middle name and surname of a person and print only the initials.
 5) Program to Print all Treemap elements?
-
 6) What is a singleton Design Pattern? How do you implement that in your framework?
-
 7) Write the Top 5 test cases for Booking Coupons.
-
 8) What is serialization and deserialization?
-
-9) What is the Difference between status codes 401 and 402? 1
-
+9) What is the Difference between status codes 401 and 402?
 10) Difference between selenium 3 and selenium 4?
-
 11) What is delegate in Java and where do you use Delegate in your Framework?
-
 12) How many maximum thread-pool can you open in the TestNG?
-
 13) What are the Major challenges that come into the picture when you do parallel testing using TestNG and Grid?
-
 14) How do you integrate your automation framework with the Jenkins pipeline?
-
 15) What will happen if we remove the main method from the java program?
-
 16) What are diff components there your current Project?
-
 17) How do you pass parameters in TestNG?
-
 18) Write the logic of retrying the failed test case with a minimum 3 numbers of time in Automation Testing. Which Interface do you use for it?
-
 19) What is the OOPs concept in java?
-
 20) What is encapsulation?
-
 21) What is Polymorphism?
-
 22) Difference Between Classes and Objects?
-
 23) What is collection in Java?
-
 24) What is out in System.out.println?
-
 25) In How many ways can we create an object?
-
 26) Why is Java not 100% Object-oriented?
-
 27) Can we make a constructor as Static?
-
 28) How to convert a JSON object to a java object using Jackson?
-
 29) What is the difference between Abstraction Class and Interfaces?
-
 30) Difference between String, StringBuilder, and Stringbuffer?
-
 31) What are other immutable classes in Java apart from String?
-
 32) Difference between TreeMap and HashMap?
-
 33) How do you set priorities for test automation, which test needs to be automated first?
-
 34) How do you set test case priorities for your team?
-
 35) What are the functional things you need to test on e-commerce sites?

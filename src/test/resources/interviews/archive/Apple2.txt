@@ -1,44 +1,39 @@
 𝗦𝘆𝗻𝗰𝗵𝗿𝗼𝗻𝗶𝘇𝗲𝗱 𝗕𝗹𝗼𝗰𝗸𝘀 𝗮𝗻𝗱 𝗠𝗲𝘁𝗵𝗼𝗱𝘀: 𝗔 𝗖𝗼𝗿𝗻𝗲𝗿𝘀𝘁𝗼𝗻𝗲 𝗼𝗳 𝗣𝗮𝗿𝗮𝗹𝗹𝗲𝗹 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻 𝗧𝗲𝘀𝘁𝗶𝗻𝗴
-
-In the dynamic world of modern software development, parallel automation testing has become indispensable for ensuring quality and efficiency. To guarantee data integrity and prevent race conditions in such environments, synchronized blocks and synchronized methods emerge as essential tools.
+In the dynamic world of modern software development, parallel automation testing has become indispensable for ensuring quality and efficiency.
+To guarantee data integrity and prevent race conditions in such environments, synchronized blocks and synchronized methods emerge as essential tools.
 
 𝗨𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱𝗶𝗻𝗴 𝗦𝘆𝗻𝗰𝗵𝗿𝗼𝗻𝗶𝘇𝗮𝘁𝗶𝗼𝗻
-Synchronization in Java is a mechanism that ensures exclusive access to shared resources, preventing multiple threads from modifying the same data simultaneously. This is crucial in parallel testing, where multiple threads might interact with shared objects or data structures.
+Synchronization in Java is a mechanism that ensures exclusive access to shared resources, preventing multiple threads from modifying the same data simultaneously.
+This is crucial in parallel testing, where multiple threads might interact with shared objects or data structures.
 
 𝟭) 𝗦𝘆𝗻𝗰𝗵𝗿𝗼𝗻𝗶𝘇𝗲𝗱 𝗕𝗹𝗼𝗰𝗸𝘀:
 -Enclose the code that needs to be synchronized within a block.
 -Use a synchronized keyword followed by an object reference.
-
 Example:
 synchronized (object) {
 // Code to be synchronized
 }
 
 𝟮) 𝗦𝘆𝗻𝗰𝗵𝗿𝗼𝗻𝗶𝘇𝗲𝗱 𝗠𝗲𝘁𝗵𝗼𝗱𝘀:
-
 - Apply the synchronized keyword directly to a method's declaration.
 - The object on which the method is called acts as the lock.
-
 Example:
 public synchronized void synchronizedMethod() {
 // Code to be synchronized
 }
 
 𝗦𝗶𝗴𝗻𝗶𝗳𝗶𝗰𝗮𝗻𝗰𝗲 𝗶𝗻 𝗣𝗮𝗿𝗮𝗹𝗹𝗲𝗹 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻 -
-
 1. Data Integrity: Prevents multiple threads from modifying the same data simultaneously, ensuring that test results are consistent and reliable.
 2. Race Condition Avoidance: Eliminates the possibility of unexpected behavior caused by threads interfering with each other's operations.
 3. Shared Resource Management: Controls access to shared objects like global variables, databases, or network connections.
 4. Framework Stability: Ensures that the framework's core components function correctly and reliably in a multithreaded environment.
 
 𝗕𝗲𝘀𝘁 𝗣𝗿𝗮𝗰𝘁𝗶𝗰𝗲𝘀-
-
 1. Use synchronization judiciously: Overuse can lead to performance bottlenecks.
 2. Avoid circular dependencies: Prevent deadlocks by ensuring that threads don't wait for each other in a circular manner.
 
 𝗘𝘅𝗮𝗺𝗽𝗹𝗲 𝗢𝗳 𝗜𝘁'𝘀 𝗨𝘀𝗮𝗴𝗲: 𝗜𝗻 𝗦𝗶𝗻𝗴𝗹𝗲𝘁𝗼𝗻 𝗣𝗮𝘁𝘁𝗲𝗿𝗻
 The singleton pattern, which guarantees that only one instance of a class exists, often uses synchronization to ensure thread safety.
-
 𝗝𝗔𝗩𝗔 𝗖𝗢𝗗𝗘 -
 public static Singleton getInstance() {
 if (instance == null) {

@@ -38,7 +38,6 @@ output:
 
 Git command :
 Master : commits - 58 57 56 branch-develop: 55
-
 - Local git merge
 1. How to merge latest commits from master to branch-develop in local IDE using git command
 2. Can we update the commit message after committing and before pushing the changes?

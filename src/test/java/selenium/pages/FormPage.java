@@ -128,6 +128,7 @@ public class FormPage extends BasePage {
     // Enter Mobile Number
     public void enterMobile(String mobile) {
         mobileTextBox.sendKeys(mobile);
+        //driver.findElement(RelativeLocator.with(By.xpath(" //label[text()='Mobile']")).toLeftOf(mobileTextBox)).click();
         pause(1000);
     }
 

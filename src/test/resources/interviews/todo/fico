@@ -1,10 +1,8 @@
 Coding 1- **Mean and median of an unsorted array**
-
 Create a Java program that dynamically accepts numbers, allowing you to store them, remove specific numbers if needed, and calculate both the mean and median of the stored numbers.
 The program should handle these operations efficiently as numbers are added or removed over time in firstly
 
 Coding 2
-
 You are required to write a test class using TestNG, Maven and Rest-assured that performs an API call to the login endpoint of the DummyJSON API.
 The test should verify that the API is functioning correctly by sending a POST request with a
 specific payload and validating the response.
@@ -30,17 +28,11 @@ verify the status code of response and assert that "token" key is present in res
 Technical Questions
 
 1.what is diff b/w docker and docker start
-
 2.what is docker run
-
 3.what is docker volume and its type s and where we use it?
-
 [4.how](http://4.how) to create a smallest resource in kubernetes cluster
-
 [5.how](http://5.how) do you expose outside world cluster
-
 6.what are the services Type in kubernetes
-
 7.what is headless service and what is the use case of it
 
 1. @DataProvider: Marks a method as a data provider supplying data for test methods
