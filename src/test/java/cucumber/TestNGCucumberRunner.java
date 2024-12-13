@@ -8,7 +8,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
         glue = "cucumber/steps", // Package containing step definitions
         plugin = {"pretty", "json:target/cucumber.json"},
         dryRun = true,
-        tags = "@regression", // Optional: specify tags to run specific scenarios
+        tags = "@BG", // Optional: specify tags to run specific scenarios
         //tags = "@smoke or @validLogin", // Run scenarios with either of the tags
         //tags = "@smoke and @validLogin", // Run scenarios with both tags
         //tags = "~@skip", // Exclude scenarios tagged with @skip

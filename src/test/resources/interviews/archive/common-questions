@@ -1,0 +1,39 @@
+I. Automation Fundamentals:
+
+1) Why automate testing? When is it appropriate?(Focus on ROI, efficiency, and limitations)
+2) What are the different types of automation frameworks?(Data-driven, keyword-driven, hybrid, BDD)
+3) Describe the automation testing lifecycle. (Planning, tool selection, design, execution, analysis, maintenance)
+4) Differentiate between manual and automated testing.(Strengths, weaknesses, and when to use each)
+5) What are the challenges of automation testing?(Maintenance, initial cost, choosing the right tools)
+
+II. Selenium WebDriver:
+
+1) Explain different locator strategies in Selenium.(ID, name, XPath, CSS selectors, etc.)
+2) How do you handle dynamic elements? (Implicit waits, explicit waits, FluentWait)
+3) How to handle alerts/popups and iframes?(SwitchTo method, driver.switchTo().alert())
+4) How do you handle file uploads and downloads?(sendKeys for upload, browser settings for downloads)
+5) What are different types of waits available in Selenium?(Implicit, Explicit, Fluent)
+
+III. API Testing:
+
+1) What is API testing? Why is it important?(Testing the application's interface directly)
+2) Experience with API testing tools?(RestAssured, Postman, etc.)
+3) How do you test different HTTP methods?(GET, POST, PUT, DELETE)
+4) How do you validate API responses?(Status codes, response body, headers)
+5) What is your experience with API documentation formats?(Swagger, OpenAPI)
+
+IV. Testing Concepts & Strategies:
+
+1) Explain different types of testing.(Unit, integration, system, regression, performance, etc.)
+2) What is your approach to creating test cases?(Equivalence partitioning, boundary value analysis, etc.)
+3) How do you prioritize test cases?(Risk-based testing, critical functionalities first)
+4) What is cross-browser testing? How is it done?(Ensuring compatibility across browsers, using tools like Selenium Grid)
+5) Experience with mobile testing?(Appium, Espresso, XCUITest)
+
+V. Programming & Technical Skills:
+
+1) (Based on your chosen language) Coding questions related to data structures, algorithms, or OOP concepts.
+2) How do you handle exceptions in your code?(Try-catch blocks, error handling mechanisms)
+3) What is your experience with version control systems?(Git, SVN)
+4) Familiar with CI/CD tools?(Jenkins, Azure DevOps, CircleCI)
+5) How do you debug your automation scripts?(Breakpoints, logging, debugging tools)

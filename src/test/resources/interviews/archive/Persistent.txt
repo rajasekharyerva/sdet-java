@@ -1,0 +1,101 @@
+Login Page
+Username
+Password
+Submit
+10000 user data
+login sucessful
+selenium-ui
+
+@Dataprovider
+Object[][] readUserData() {
+Object[][] userdata = new Object[3][2];
+userdata[0][0] = "user1";
+userdata[0][1] = "password1";
+userdata[1][0] = "user2";
+userdata[1][1] = "password2";
+userdata[2][0] = "user3";
+userdata[2][1] = "password3";
+
+return userdata;
+}
+
+Object[][] userdata = new Object[rowCount - 1][colCount];
+//loop
+userdata[i - 1][j] = getCellValue(cell);
+
+@Test(dataProvider = readUserData)
+loginTest(String username, String password) {
+//
+//Login Page has username, password, submit elements, methods to set text, click button
+loginpage.setUsername(username);
+loginpage.setPassword(password);
+loginpage.clickSubmit();
+Assert.assertEquals("", "homepage url", "user not logged");  // Get erro message
+//Logout
+}
+
+@BeforeMethos
+openBrowser() {
+webDriver = new ChromeDriver(0;
+
+}
+
+@BeforeClass
+closeBrowser() {
+}
+
+3 User
+User1, Password
+
+//Set Base URI
+RestAssured.baseURI = "http://api.weather.com";
+RestAssured.given().header("Content-Type", "application/json").body("jsonbodystring").when().post("/endpoint").then().statusCode(200).body("data.id", equalTo(123));
+// To validate status, body values
+
+String s="Persistent";
+ ersistentP -- left shift by 1 time
+ rsistentPe - left shift by 2 times
+
+
+Tables
+
+EmployeeDetails
+EmpID
+FullName
+ManagerID
+DOJ
+City
+
+EmployeeSalary
+EmpID
+ProjectID
+Salary
+Variable
+
+select ProjectID, count(EmpId) from EmployeeSalary
+inner join EmployeeDetails on EmployeeSalary.EmployeeSalary = EmployeeDetails.EmpID
+group by ProjectID
+
+SELECT es.ProjectID, COUNT(ed.EmpID) AS EmployeeCount
+FROM EmployeeSalary es
+JOIN EmployeeDetails ed ON es.EmpID = ed.EmpID
+GROUP BY es.ProjectID;
+
+
+public class SampleTest {
+    public static void main(String[] args) {
+        String input="Persistent";
+        //ersistentP -- left shift by 1 time
+        //rsistentPe - left shift by 2 times
+        //basic
+        int rotations = 15;
+        //if more than length
+        if(rotations >0) {
+            rotations = rotations % input.length();
+            String output = input.substring(rotations).concat(input.substring(0, rotations));
+            System.out.println(output);
+        } else {
+            System.out.println("Shift length should positive number");
+        }
+    }
+}

@@ -1,10 +1,8 @@
 Technical 1
 1. Common question( Intro+ project + framework architecture)
 2. Data selection in Calendar, Excel iteration then send values to text box.
-3. What are Idempotent methods? How is it relevant in RESTful web
-services domain?
-4. Based on what factors, you can decide which type of web services you
-need to use — SOAP or REST?
+3. What are Idempotent methods? How is it relevant in RESTful web services domain?
+4. Based on what factors, you can decide which type of web services you need to use — SOAP or REST?
 5. What is Payload in terms of RESTful web services?
 6. importance of API documentation in API automation testing?
 7. Have you integrated automation testing into CI/CD pipelines before?

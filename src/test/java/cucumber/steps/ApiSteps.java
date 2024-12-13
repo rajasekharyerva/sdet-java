@@ -33,5 +33,20 @@ public class ApiSteps {
     public void the_user_name_should_be(String userName) {
         response.then().body("name", equalTo(userName));
     }
+
+    @When("user logs abc")
+    public void userLogsAbc() {
+        System.out.println("User logs abc");
+    }
+
+    @Then("user should see abc")
+    public void userShouldSeeAbc() {
+        System.out.println("User should see ABC");
+    }
+
+    @Given("User is on the home page")
+    public void userIsOnTheHomePage() {
+        System.out.println("Background");
+    }
 }
 

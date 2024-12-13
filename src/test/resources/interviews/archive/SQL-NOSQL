@@ -1,0 +1,59 @@
+Struggling with SQL and NOSQL questions in interview ?
+
+Here’s a list of key questions you might be missing in your preparation:
+
+SQL Interview Questions:
+1. What is SQL?
+2. What is the difference between INNER JOIN and LEFT JOIN?
+3. What is a primary key in SQL?
+4. What is a foreign key in SQL?
+5. Explain the different types of SQL joins.
+6. What is normalization? Explain different normal forms.
+7. What is denormalization?
+8. What is the difference between WHERE and HAVING?
+9. What are aggregate functions in SQL?
+10. What is a subquery?
+11. What is a stored procedure in SQL?
+12. What is a trigger in SQL?
+13. What is the difference between TRUNCATE and DELETE?
+14. What is a view in SQL?
+15. What is a transaction in SQL?
+16. What is the ACID property in database transactions?
+17. Explain the difference between INSERT and UPDATE.
+18. What are the different types of indexes in SQL?
+19. What is a composite key in SQL?
+20. How can you retrieve unique records from a table in SQL?
+21. Explain the difference between GROUP BY and ORDER BY.
+22. What is a schema in SQL?
+23. What is a cursor in SQL?
+24. What is the difference between CHAR and VARCHAR in SQL?
+25. How would you optimize SQL queries for better performance?
+
+NoSQL Interview Questions:
+1. What is NoSQL, and why is it used?
+2. What are the different types of NoSQL databases?
+3. What is the difference between SQL and NoSQL?
+4. What is a document-based NoSQL database? Give an example.
+5. What is a key-value NoSQL database? Give an example.
+6. What is a column-family NoSQL database?
+7. What is a graph-based NoSQL database?
+8. What are the advantages of NoSQL databases over SQL databases?
+9. What is the CAP Theorem in NoSQL?
+10. What is sharding in NoSQL databases?
+11. What is the difference between horizontal and vertical scaling in NoSQL?
+12. What is data replication in NoSQL databases?
+13. What is the role of consistency in NoSQL databases?
+14. What is eventual consistency in NoSQL?
+15. How does MongoDB handle data modeling?
+16. What is MapReduce in NoSQL?
+17. What is the purpose of an index in MongoDB?
+18. What is the difference between MongoDB and Cassandra?
+19. What is a MongoDB replica set?
+20. What is a write concern in MongoDB?
+21. What is a NoSQL column-family store, and when would you use it?
+22. What is the difference between NoSQL and SQL when it comes to querying data?
+23. What is the purpose of an aggregate function in MongoDB?
+24. What is a document in MongoDB, and how is it different from a row in SQL?
+25. What are the main challenges of working with NoSQL databases in a production environment?
+
+These questions are from basic to advanced topics and are a great way to get ready for both SQL and NoSQL database interviews!

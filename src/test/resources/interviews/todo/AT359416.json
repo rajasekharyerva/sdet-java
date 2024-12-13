@@ -1,0 +1,182 @@
+{
+  "brand": null,
+  "productCode": "AT359416",
+  "variants": [],
+  "productType": "part",
+  "isBaseProduct": false,
+  "identifiers": {
+    "name": "FILTER",
+    "description": "Air Filter",
+    "marketingLiterature": null,
+    "valueStory": "A device that removes impurities and contaminants from air.",
+    "marketingName": "AT359416: Cab Air Filter",
+    "marketingDescription": {
+      "line1": "Keep Your Cabin Fresh: John Deere's cab air filter removes impurities and contaminants from the air, ensuring a clean and comfortable environment inside your vehicle\n",
+      "line2": "Designed for Compatibility: The AT359416 cab air filter is specifically manufactured for use with select John Deere equipment\n",
+      "line3": "High-Quality Construction: This filter is made with top-grade materials to ensure optimal performance and extended life\n",
+      "line4": "Easy Maintenance: Replace your cab air filter at regular intervals for optimal air quality and to maintain efficient airflow\n",
+      "line5": "Genuine John Deere Part: Trust in John Deere's commitment to quality and performance with this genuine OEM cab air filter\n\n"
+    },
+    "marketingValueStory": {
+      "line1": "Keep your cabin air fresh and clean by regularly replacing your cabin air filter. Use John Deere air filters for the best life and performance.",
+      "line2": null,
+      "line3": null,
+      "line4": null,
+      "line5": null
+    },
+    "brandName": "John Deere",
+    "brandCode": "JohnDeere",
+    "brandLogo": null
+  },
+  "fitsOn": {
+    "models": ["312GR", "314G", "316GR", "317G", "318D", "318E", "318G", "319D", "319E", "320D", "320E", "320G", "323D", "323E", "324E", "324G", "325G", "326D", "326E", "328D", "328E", "329D", "329E", "330 P", "330G", "331 P", "331G", "332D", "332E", "332G", "333 P", "333D", "333E", "333G", "334 P", "335 P"]
+  },
+  "complianceDetails": {
+    "isHazardous": false,
+    "hazardousCode": null,
+    "proposition65Message": "Yes",
+    "proposition65": null,
+    "proposition65MaterialList": null,
+    "isProp65": true
+  },
+  "fulfillmentDetails": {
+    "quantityInSalesPack": 0,
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 0,
+    "isReturnable": true,
+    "isCoreReturnable": false,
+    "isGroundOnly": false,
+    "isAtiFulfilled": false
+  },
+  "variantClassifiers": null,
+  "relations": null,
+  "productMeasurements": {
+    "weight": {
+      "value": 0.21980087539832294,
+      "unitOfMeasurement": "lb"
+    },
+    "height": {
+      "value": 1.2,
+      "unitOfMeasurement": "in"
+    },
+    "width": {
+      "value": 3.6000000000000005,
+      "unitOfMeasurement": "in"
+    },
+    "length": {
+      "value": 10.8,
+      "unitOfMeasurement": "in"
+    },
+    "volume": null
+  },
+  "packageMeasurements": {
+    "height": {
+      "value": 1.2,
+      "unitOfMeasurement": "in"
+    },
+    "width": {
+      "value": 3.6000000000000005,
+      "unitOfMeasurement": "in"
+    },
+    "length": {
+      "value": 10.8,
+      "unitOfMeasurement": "in"
+    },
+    "weight": {
+      "value": 0.21935995087395319,
+      "unitOfMeasurement": "lb"
+    }
+  },
+  "categories": [],
+  "enterpriseCategoryHierarchy": {
+    "l1Category": {
+      "code": "JDProducts",
+      "name": "John Deere Products"
+    },
+    "l2Category": {
+      "code": "Parts",
+      "name": "Parts"
+    },
+    "l3Category": {
+      "code": "Filters",
+      "name": "Filters"
+    },
+    "l4Category": {
+      "code": "CabAirFilters",
+      "name": "Cab Air Filters"
+    },
+    "l5Category": null,
+    "l6Category": null
+  },
+  "assets": [{
+    "type": "image/jpeg",
+    "qualifier": "AT359416_iso1.jpg",
+    "isPrimary": true,
+    "origin": null,
+    "mediaUrls": {
+      "bigResolution": "https://johndeere.widen.net/content/qju0wyhive/jpeg/AT359416_iso1.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+      "mediumResolution": "https://johndeere.widen.net/content/qju0wyhive/jpeg/AT359416_iso1.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+      "smallResolution": "https://johndeere.widen.net/content/qju0wyhive/jpeg/AT359416_iso1.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+    },
+    "alternateText": "John Deere Cab Air Filter - AT359416"
+  }, {
+    "type": "image/jpeg",
+    "qualifier": "AT359416_Left.jpg",
+    "isPrimary": false,
+    "origin": null,
+    "mediaUrls": {
+      "bigResolution": "https://johndeere.widen.net/content/ab6d9otakh/jpeg/AT359416_Left.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+      "mediumResolution": "https://johndeere.widen.net/content/ab6d9otakh/jpeg/AT359416_Left.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+      "smallResolution": "https://johndeere.widen.net/content/ab6d9otakh/jpeg/AT359416_Left.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+    },
+    "alternateText": "AIR FILTER"
+  }, {
+    "type": "image/jpeg",
+    "qualifier": "AT359416_Bottom.jpg",
+    "isPrimary": false,
+    "origin": null,
+    "mediaUrls": {
+      "bigResolution": "https://johndeere.widen.net/content/vh2rsmtdbt/jpeg/AT359416_Bottom.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+      "mediumResolution": "https://johndeere.widen.net/content/vh2rsmtdbt/jpeg/AT359416_Bottom.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+      "smallResolution": "https://johndeere.widen.net/content/vh2rsmtdbt/jpeg/AT359416_Bottom.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+    },
+    "alternateText": "AIR FILTER"
+  }, {
+    "type": "image/jpeg",
+    "qualifier": "AT359416_iso2.jpg",
+    "isPrimary": false,
+    "origin": null,
+    "mediaUrls": {
+      "bigResolution": "https://johndeere.widen.net/content/6ryejfe0ae/jpeg/AT359416_iso2.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+      "mediumResolution": "https://johndeere.widen.net/content/6ryejfe0ae/jpeg/AT359416_iso2.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+      "smallResolution": "https://johndeere.widen.net/content/6ryejfe0ae/jpeg/AT359416_iso2.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+    },
+    "alternateText": "AIR FILTER"
+  }, {
+    "type": "image/jpeg",
+    "qualifier": "AT359416_Front.jpg",
+    "isPrimary": false,
+    "origin": null,
+    "mediaUrls": {
+      "bigResolution": "https://johndeere.widen.net/content/xoss6dimuh/jpeg/AT359416_Front.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+      "mediumResolution": "https://johndeere.widen.net/content/xoss6dimuh/jpeg/AT359416_Front.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+      "smallResolution": "https://johndeere.widen.net/content/xoss6dimuh/jpeg/AT359416_Front.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+    },
+    "alternateText": "AIR FILTER"
+  }],
+  "specifications": {},
+  "extendedAttributes": {
+    "saleUnits": "PC",
+    "kitOrBundleCode": "A",
+    "partProductCodes": ["I", "A", "G", "L"],
+    "keywords": ["AT359416 CAB AIR FILTER"],
+    "warrantyDetails": "Generally, parts purchased from Shop.Deere.com are covered by the John Deere Parts Warranty, covering defects in material and workmanship, for a minimum period of 6 months from receipt. For complete warranty information, please contact your local authorized John Deere dealer.",
+    "marketingTags": null
+  },
+  "shippingRules": {
+    "specialShipping": null,
+    "supplierDirectText": null,
+    "groundOnly": false,
+    "supplierDirect": false
+  }
+}

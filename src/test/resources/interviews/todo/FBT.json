@@ -1,0 +1,480 @@
+{
+  "relatedProducts": [
+    {
+      "productCode": "AT441536",
+      "productName": "AT441536: Cab Fresh Air Filter",
+      "productAssets": [
+        {
+          "type": "image/jpeg",
+          "qualifier": "AT441536_iso2.jpg",
+          "isPrimary": true,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/gw8kfvtdlv/jpeg/AT441536_iso2.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/gw8kfvtdlv/jpeg/AT441536_iso2.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/gw8kfvtdlv/jpeg/AT441536_iso2.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "John Deere Cab Fresh Air Filter - AT441536"
+        },
+        {
+          "type": "image/jpeg",
+          "qualifier": "AT441536_iso1.jpg",
+          "isPrimary": false,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/lekpzd64xz/jpeg/AT441536_iso1.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/lekpzd64xz/jpeg/AT441536_iso1.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/lekpzd64xz/jpeg/AT441536_iso1.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "AIR FILTER"
+        },
+        {
+          "type": "image/jpeg",
+          "qualifier": "AT441536_Left.jpg",
+          "isPrimary": false,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/75pvh06hvh/jpeg/AT441536_Left.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/75pvh06hvh/jpeg/AT441536_Left.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/75pvh06hvh/jpeg/AT441536_Left.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "AIR FILTER"
+        },
+        {
+          "type": "image/jpeg",
+          "qualifier": "AT441536_Top.jpg",
+          "isPrimary": false,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/6kses2cxvz/jpeg/AT441536_Top.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/6kses2cxvz/jpeg/AT441536_Top.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/6kses2cxvz/jpeg/AT441536_Top.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "AIR FILTER"
+        }
+      ],
+      "productType": "part",
+      "confidence": 0.6650943396226415,
+      "brandName": null,
+      "brandCode": "JohnDeere",
+      "fulfillmentDetails": {
+        "quantityInSalesPack": 0,
+        "minOrderQuantity": 1,
+        "maxOrderQuantity": 0,
+        "isReturnable": true,
+        "isCoreReturnable": false,
+        "isGroundOnly": false,
+        "isAtiFulfilled": false
+      }
+    },
+    {
+      "productCode": "AT338105",
+      "productName": "AT338105: Primary Air Filter Element",
+      "productAssets": [
+        {
+          "type": "image/jpeg",
+          "qualifier": "AT338105_iso1.jpg",
+          "isPrimary": true,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/sdubsbivjj/jpeg/AT338105_iso1.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/sdubsbivjj/jpeg/AT338105_iso1.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/sdubsbivjj/jpeg/AT338105_iso1.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "John Deere Primary Air Filter Element - AT338105"
+        }
+      ],
+      "productType": "part",
+      "confidence": 0.17452830188679244,
+      "brandName": null,
+      "brandCode": "JohnDeere",
+      "fulfillmentDetails": {
+        "quantityInSalesPack": 0,
+        "minOrderQuantity": 1,
+        "maxOrderQuantity": 0,
+        "isReturnable": true,
+        "isCoreReturnable": false,
+        "isGroundOnly": false,
+        "isAtiFulfilled": false
+      }
+    },
+    {
+      "productCode": "MIU800650",
+      "productName": "MIU800650: Engine Oil Filter",
+      "productAssets": [
+        {
+          "type": "image/jpeg",
+          "qualifier": "MIU800650_iso2.jpg",
+          "isPrimary": true,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/hl9yd5tis6/jpeg/MIU800650_iso2.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/hl9yd5tis6/jpeg/MIU800650_iso2.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/hl9yd5tis6/jpeg/MIU800650_iso2.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "Oil Filter"
+        },
+        {
+          "type": "image/jpeg",
+          "qualifier": "MIU800650_iso1.jpg",
+          "isPrimary": false,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/u6uablittv/jpeg/MIU800650_iso1.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/u6uablittv/jpeg/MIU800650_iso1.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/u6uablittv/jpeg/MIU800650_iso1.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "John Deere Engine Oil Filter - MIU800650"
+        }
+      ],
+      "productType": "part",
+      "confidence": 0.14150943396226415,
+      "brandName": null,
+      "brandCode": "JohnDeere",
+      "fulfillmentDetails": {
+        "quantityInSalesPack": 0,
+        "minOrderQuantity": 1,
+        "maxOrderQuantity": 0,
+        "isReturnable": true,
+        "isCoreReturnable": false,
+        "isGroundOnly": false,
+        "isAtiFulfilled": false
+      }
+    },
+    {
+      "productCode": "MIU802421",
+      "productName": "MIU802421: Primary Fuel Filter Element",
+      "productAssets": [
+        {
+          "type": "image/jpeg",
+          "qualifier": "MIU802421_iso1.jpg",
+          "isPrimary": true,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/faglbvrpul/jpeg/MIU802421_iso1.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/faglbvrpul/jpeg/MIU802421_iso1.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/faglbvrpul/jpeg/MIU802421_iso1.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "John Deere Primary Fuel Filter Element - MIU802421"
+        }
+      ],
+      "productType": "part",
+      "confidence": 0.1320754716981132,
+      "brandName": null,
+      "brandCode": "JohnDeere",
+      "fulfillmentDetails": {
+        "quantityInSalesPack": 0,
+        "minOrderQuantity": 1,
+        "maxOrderQuantity": 0,
+        "isReturnable": true,
+        "isCoreReturnable": false,
+        "isGroundOnly": false,
+        "isAtiFulfilled": false
+      }
+    },
+    {
+      "productCode": "AT191102",
+      "productName": "AT191102: Cab Air Filter",
+      "productAssets": [
+        {
+          "type": "image/jpeg",
+          "qualifier": "AT191102_iso2.jpg",
+          "isPrimary": true,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/evryihfhuj/jpeg/AT191102_iso2.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/evryihfhuj/jpeg/AT191102_iso2.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/evryihfhuj/jpeg/AT191102_iso2.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "John Deere Cab Air Filter - AT191102"
+        },
+        {
+          "type": "image/jpeg",
+          "qualifier": "AT191102_Left.jpg",
+          "isPrimary": false,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/guxgjgxiba/jpeg/AT191102_Left.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/guxgjgxiba/jpeg/AT191102_Left.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/guxgjgxiba/jpeg/AT191102_Left.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "AIR FILTER"
+        },
+        {
+          "type": "image/jpeg",
+          "qualifier": "AT191102_Back.jpg",
+          "isPrimary": false,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/bbs2zpi6kw/jpeg/AT191102_Back.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/bbs2zpi6kw/jpeg/AT191102_Back.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/bbs2zpi6kw/jpeg/AT191102_Back.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "AIR FILTER"
+        },
+        {
+          "type": "image/jpeg",
+          "qualifier": "AT191102_iso1.jpg",
+          "isPrimary": false,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/k4mpprkmkk/jpeg/AT191102_iso1.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/k4mpprkmkk/jpeg/AT191102_iso1.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/k4mpprkmkk/jpeg/AT191102_iso1.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "AIR FILTER"
+        },
+        {
+          "type": "image/jpeg",
+          "qualifier": "AT191102_Right.jpg",
+          "isPrimary": false,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/ac1ken0oyd/jpeg/AT191102_Right.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/ac1ken0oyd/jpeg/AT191102_Right.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/ac1ken0oyd/jpeg/AT191102_Right.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "AIR FILTER"
+        },
+        {
+          "type": "image/jpeg",
+          "qualifier": "AT191102_Front.jpg",
+          "isPrimary": false,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/na7hpiplhi/jpeg/AT191102_Front.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/na7hpiplhi/jpeg/AT191102_Front.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/na7hpiplhi/jpeg/AT191102_Front.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "AIR FILTER"
+        }
+      ],
+      "productType": "part",
+      "confidence": 0.12264150943396226,
+      "brandName": null,
+      "brandCode": "JohnDeere",
+      "fulfillmentDetails": {
+        "quantityInSalesPack": 0,
+        "minOrderQuantity": 1,
+        "maxOrderQuantity": 0,
+        "isReturnable": true,
+        "isCoreReturnable": false,
+        "isGroundOnly": false,
+        "isAtiFulfilled": false
+      }
+    },
+    {
+      "productCode": "AT336803",
+      "productName": "AT336803: Secondary Air Filter Element",
+      "productAssets": [
+        {
+          "type": "image/jpeg",
+          "qualifier": "AT336803_iso1.jpg",
+          "isPrimary": true,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/pbjzxg5tbv/jpeg/AT336803_iso1.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/pbjzxg5tbv/jpeg/AT336803_iso1.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/pbjzxg5tbv/jpeg/AT336803_iso1.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "John Deere Secondary Air Filter Element - AT336803"
+        },
+        {
+          "type": "image/jpeg",
+          "qualifier": "AT336803_Bottom.jpg",
+          "isPrimary": false,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/tubs26a1ou/jpeg/AT336803_Bottom.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/tubs26a1ou/jpeg/AT336803_Bottom.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/tubs26a1ou/jpeg/AT336803_Bottom.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "FILTER ELEMENT"
+        },
+        {
+          "type": "image/jpeg",
+          "qualifier": "AT336803_Front.jpg",
+          "isPrimary": false,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/h7euyfr8jz/jpeg/AT336803_Front.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/h7euyfr8jz/jpeg/AT336803_Front.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/h7euyfr8jz/jpeg/AT336803_Front.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "FILTER ELEMENT"
+        },
+        {
+          "type": "image/jpeg",
+          "qualifier": "AT336803_iso3.jpg",
+          "isPrimary": false,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/wh5fge5hso/jpeg/AT336803_iso3.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/wh5fge5hso/jpeg/AT336803_iso3.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/wh5fge5hso/jpeg/AT336803_iso3.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "FILTER ELEMENT"
+        },
+        {
+          "type": "image/jpeg",
+          "qualifier": "AT336803_iso5.jpg",
+          "isPrimary": false,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/je0b13fwdy/jpeg/AT336803_iso5.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/je0b13fwdy/jpeg/AT336803_iso5.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/je0b13fwdy/jpeg/AT336803_iso5.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "FILTER ELEMENT"
+        },
+        {
+          "type": "image/jpeg",
+          "qualifier": "AT336803_Right.jpg",
+          "isPrimary": false,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/xxhahltgif/jpeg/AT336803_Right.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/xxhahltgif/jpeg/AT336803_Right.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/xxhahltgif/jpeg/AT336803_Right.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "FILTER ELEMENT"
+        },
+        {
+          "type": "image/jpeg",
+          "qualifier": "AT336803_iso2.jpg",
+          "isPrimary": false,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/m15jbb7wuq/jpeg/AT336803_iso2.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/m15jbb7wuq/jpeg/AT336803_iso2.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/m15jbb7wuq/jpeg/AT336803_iso2.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "FILTER ELEMENT"
+        }
+      ],
+      "productType": "part",
+      "confidence": 0.1179245283018868,
+      "brandName": null,
+      "brandCode": "JohnDeere",
+      "fulfillmentDetails": {
+        "quantityInSalesPack": 0,
+        "minOrderQuantity": 1,
+        "maxOrderQuantity": 0,
+        "isReturnable": true,
+        "isCoreReturnable": false,
+        "isGroundOnly": false,
+        "isAtiFulfilled": false
+      }
+    },
+    {
+      "productCode": "KV16429",
+      "productName": "KV16429: Primary Air Filter Element",
+      "productAssets": [
+        {
+          "type": "image/jpeg",
+          "qualifier": "KV16429_iso2.jpg",
+          "isPrimary": true,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/nof4yh6gru/jpeg/KV16429_iso2.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/nof4yh6gru/jpeg/KV16429_iso2.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/nof4yh6gru/jpeg/KV16429_iso2.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "John Deere Primary Air Filter Element - KV16429"
+        },
+        {
+          "type": "image/jpeg",
+          "qualifier": "KV16429_Top.jpg",
+          "isPrimary": false,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/w50qodxiku/jpeg/KV16429_Top.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/w50qodxiku/jpeg/KV16429_Top.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/w50qodxiku/jpeg/KV16429_Top.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "AIR FILTER"
+        },
+        {
+          "type": "image/jpeg",
+          "qualifier": "KV16429_Left.jpg",
+          "isPrimary": false,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/asepmlbodj/jpeg/KV16429_Left.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/asepmlbodj/jpeg/KV16429_Left.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/asepmlbodj/jpeg/KV16429_Left.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "AIR FILTER"
+        },
+        {
+          "type": "image/jpeg",
+          "qualifier": "KV16429_iso1.jpg",
+          "isPrimary": false,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/8wk29hirev/jpeg/KV16429_iso1.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/8wk29hirev/jpeg/KV16429_iso1.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/8wk29hirev/jpeg/KV16429_iso1.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "AIR FILTER"
+        },
+        {
+          "type": "image/jpeg",
+          "qualifier": "KV16429_Bottom.jpg",
+          "isPrimary": false,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/wiqufrmpdu/jpeg/KV16429_Bottom.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/wiqufrmpdu/jpeg/KV16429_Bottom.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/wiqufrmpdu/jpeg/KV16429_Bottom.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "AIR FILTER"
+        }
+      ],
+      "productType": "part",
+      "confidence": 0.10377358490566038,
+      "brandName": null,
+      "brandCode": "JohnDeere",
+      "fulfillmentDetails": {
+        "quantityInSalesPack": 0,
+        "minOrderQuantity": 1,
+        "maxOrderQuantity": 0,
+        "isReturnable": true,
+        "isCoreReturnable": false,
+        "isGroundOnly": false,
+        "isAtiFulfilled": false
+      }
+    },
+    {
+      "productCode": "MIU805005",
+      "productName": "MIU805005: Final Fuel Filter",
+      "productAssets": [
+        {
+          "type": "image/jpeg",
+          "qualifier": "MIU805005_iso1.jpg",
+          "isPrimary": true,
+          "origin": null,
+          "mediaUrls": {
+            "bigResolution": "https://johndeere.widen.net/content/tj9rg8od7l/jpeg/MIU805005_iso1.jpeg?w=1200&h=1200&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "mediumResolution": "https://johndeere.widen.net/content/tj9rg8od7l/jpeg/MIU805005_iso1.jpeg?w=300&h=300&position=c&color=ffffffff&quality=100&u=jq3ioy",
+            "smallResolution": "https://johndeere.widen.net/content/tj9rg8od7l/jpeg/MIU805005_iso1.jpeg?w=100&h=100&position=c&color=ffffffff&quality=100&u=jq3ioy"
+          },
+          "alternateText": "Filter Element"
+        }
+      ],
+      "productType": "part",
+      "confidence": 0.10377358490566038,
+      "brandName": null,
+      "brandCode": "JohnDeere",
+      "fulfillmentDetails": {
+        "quantityInSalesPack": 0,
+        "minOrderQuantity": 1,
+        "maxOrderQuantity": 0,
+        "isReturnable": true,
+        "isCoreReturnable": false,
+        "isGroundOnly": false,
+        "isAtiFulfilled": false
+      }
+    }
+  ]
+}

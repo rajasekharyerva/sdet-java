@@ -36,3 +36,28 @@ What challenges might a team face when transitioning from a traditional release 
 - >Apply the Dutch National Flag algorithm for linear-time sorting.
 
 
+timeout error - implementation - retry mechanism, specific builder cases implementation not be retry
+retry creates multiple records for same
+v1, v2 config for DLQ implementations - lost track of it
+fetch updates from azure databricks, Hybris - few attributes from ADB, Hybris
+variants a-b-c-d size, color, fit, style- user able access from direct child if parent is soft delete via api even parent/child broken
+product categories, l1,l2,l3,l4. parts-machines-agriculture-spare parts dropdown missing due to data issue.
+category updates from back end independently / along with product - category mapping
+1. categories l1, l2, l3, l4
+2. product translations updates from backend
+3. FBT, Alternates/Substitutes
+4. v1, v2 - udm address event builder (feature flag not enabled data going to v1)
+address update, old new address - issue, updated with some other user, null
+images missing, wrong images(x-lower)
+roll back scenarios ui - (bc) - css, udm
+language fall backs - en-US, en-FR, en-CA - English, French, fr-EN
+en-FR - en-CA ? fr-CA
+alerts - configs
+topics, qlik tasks, update fields to track
+change mask - not to updates again
+if product active only update else skip, when it active update all fields.
+synchronization issues - full synchronization period
+config maps for each environment updated & committed
+bypass run
+dry run - in staging env, tagging -  enforcing testing pro-prod or staging env
+auto conversions - based on regions, en-US lb, in, cm, kgs

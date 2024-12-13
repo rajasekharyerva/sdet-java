@@ -1,0 +1,26 @@
+AQM Technologies recent SDET interview question
+
+Round 1:
+
+ 1. Write Test Scenarios for Lift(Elevators) for UI, Security, Performance and Accessibility Testing
+ 2. Convert String to integer without using inbuilt(integer.parse)
+ 3. Rotate right shift array at 3 times using Java Program.
+ Input: [1,2,3,4,5,6 ,7] and n=3;
+ Output: [5,6,7,1,2,3,4]
+
+Round 2:
+
+ 1. Print all tab names in Home page in icicilombard[dot]com using selenium java
+ 2. Reverse words at same place of given string:
+I/p: Test Automation and o/p: tseT noitamotuA
+ 3. Get max and min occurrences of given String: Teeeessst Autoooooomationn output: m-1 and o-8
+
+Round 3:
+
+ 1. Describe your last project.
+ 2. Brief about some challenges faced during your project and how can you resolve the same.
+ 4. Open Amazon Site and Search with Any. Then write xpath to get all sponsored related items.
+ 5. Write Test Scenarios for Search box in Amazon
+ 6. What will be Authentication Request method: Post or Get?
+ 7. What are the different Status codes in API?
+ 8. What is Accessibility testing and provide real time examples.

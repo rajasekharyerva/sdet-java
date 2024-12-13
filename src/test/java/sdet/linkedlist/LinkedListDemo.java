@@ -1,17 +1,5 @@
 package sdet.linkedlist;
 
-// Define the Linked List Node structure
-class Node {
-    int data;
-    Node next;
-
-    // Constructor
-    Node(int data) {
-        this.data = data;
-        this.next = null;
-    }
-}
-
 class LinkedList {
     Node head;
 

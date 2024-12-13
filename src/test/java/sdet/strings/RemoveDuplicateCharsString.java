@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class RemoveDuplicateCharsString {
     public static void main(String[] args) {
-        String input = "this is a sample string";
+        String input = "This is a sample string";
         System.out.println(removeDuplicatesList(input));
         System.out.println(removeDuplicatesSet(input));
     }
