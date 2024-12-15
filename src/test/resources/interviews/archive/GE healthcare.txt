@@ -1,0 +1,50 @@
+1st round:
+Diff between page object and page factory?
+What is data driven testing?
+Diff between abstract class and interface?
+Singleton dsgn pattern?
+Explain framework?
+How u estimate ur work?
+static and dynamic binding
+Stale element exception?
+Desired capability?
+Diff between hashmap and hashset
+How u integrate rest assured with project?
+Approach and types of testing performed by u on API testing?
+
+2nd Round:
+Basic intro
+Background in cucumber
+What all is included in runner class in cucumber
+How u implemented listeners in ur framework
+Explain interface in ur framework perspective not definition
+How many listener interfaces u r using
+How u use loggers in ur project for debugging
+Is there any log listeners in ur framework? If not can u use it?
+What is constructor?
+Can we have more than one constructor in a class?
+In default constructor can u initialize variables even without passing parameters?
+What exceptions can occur in selenium and that u have seen in project.
+What is stale element exception. Then what is timeout exception?
+How u setup environment in postman
+How u store a response of one request and use same response in another request in postman
+Diff between 200 and 201.
+If u create any resource u get 201. But sometime we get 200 as well as for successful response. How will u verify this 200 is coming instead of 201, if it’s a bug?
+How u r storing url of ur application in framework
+Suppose u have 50 apis in config out of which 48 are common to dev and test env but 2 are diff in both. How u handle this in framework.
+
+3rd round: Managerial
+
+Tell me about yourself
+How many frameworks have you worked on till now?
+Tell me something about TestNG that you liked?
+Do you use maven project and if yes why?
+Tell me about cucumber and why you are not using cucumber in your project. Explain properly with valid points
+Tell cucumber features
+Given an api to fetch user details by sending empId in request what can be the possible test cases. Can you write some cases?
+Suppose your org has some QAs and they have all manual test cases available with them. Now you want to hire someone to automate your testcases. From your end what automation tool will you suggest and why? How will you estimate time for all these scenarios to automate? What can be the risks involved in above scenarios? Can you name some of them?
+How many project time estimates do you know?
+In recent time any accomplishment did you receive from employee that does not belongs to your team? How you helped them?
+Are you willing to relocate?
+Do you have any questions to me?
+At the end one program was given to identify if a given number is prime or not. The task was to reduce the time complexity of given code.

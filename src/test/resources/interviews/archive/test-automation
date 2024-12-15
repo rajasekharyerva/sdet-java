@@ -21,10 +21,12 @@ What challenges might a team face when transitioning from a traditional release 
 
 1. How do deployment pipelines integrate security practices (DevSecOps), and what measures would you implement to ensure that security is not compromised during Continuous Deployment?
 2. What considerations should be taken when implementing a multi-region deployment strategy to ensure availability and minimise latency?
-3. Imagine a scenario where a deployment to production fails after 75% of a Rolling Deployment has been completed. What strategies would you employ to minimise service disruptions and revert to the previous stable version?
+3. Imagine a scenario where a deployment to production fails after 75% of a Rolling Deployment has been completed.
+What strategies would you employ to minimise service disruptions and revert to the previous stable version?
 4. How would you implement environment-specific configurations securely in a CD pipeline to prevent exposure of sensitive data (e.g., API keys, database passwords)?
 5. Explain how you would use feature flags in conjunction with Continuous Deployment to manage the release of new features without impacting the entire user base.
-6. Circle CI users sometimes encounter parallel execution challenges during large-scale deployments. How would you structure a Circle CI pipeline to ensure efficient, synchronised multi-environment deployments?
+6. Circle CI users sometimes encounter parallel execution challenges during large-scale deployments.
+How would you structure a Circle CI pipeline to ensure efficient, synchronised multi-environment deployments?
 7. How do you implement a robust monitoring system in a Jenkins or Circle CI pipeline to automatically halt deployments if predefined metrics (e.g., error rates, response times) exceed acceptable thresholds?
 8. How would you design a CD pipeline for a microservices architecture to ensure that interdependencies between services are handled properly during deployment?
 9. How would you use container orchestration tools (like Kubernetes) in conjunction with Jenkins or Circle CI to achieve zero-downtime deployments for a high-traffic web service?

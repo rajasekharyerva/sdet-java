@@ -1,16 +1,6 @@
 package sdet.linkedlist;
 
 class LinkedListReverse {
-    // Define the Node class
-    static class Node {
-        int data;
-        Node next;
-
-        public Node(int data) {
-            this.data = data;
-            this.next = null;
-        }
-    }
 
     Node head;
 

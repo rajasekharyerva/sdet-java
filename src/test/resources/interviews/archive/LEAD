@@ -1,7 +1,9 @@
-𝐓𝐫𝐚𝐜𝐞𝐚𝐛𝐢𝐥𝐢𝐭𝐲 𝐌𝐚𝐭𝐫𝐢𝐱: A Traceability Matrix is a document that helps ensure that test cases cover all requirements. It maps and traces user requirements with the test cases, ensuring no functionality is missed during testing. This matrix is crucial in Software Development and Testing because it ensures that every requirement has been tested.
+𝐓𝐫𝐚𝐜𝐞𝐚𝐛𝐢𝐥𝐢𝐭𝐲 𝐌𝐚𝐭𝐫𝐢𝐱: A Traceability Matrix is a document that helps ensure that test cases cover all requirements.
+It maps and traces user requirements with the test cases, ensuring no functionality is missed during testing.
+This matrix is crucial in Software Development and Testing because it ensures that every requirement has been tested.
 𝐏𝐮𝐫𝐩𝐨𝐬𝐞:
 ->𝐄𝐧𝐬𝐮𝐫𝐞𝐬 𝐂𝐨𝐯𝐞𝐫𝐚𝐠𝐞: Confirms that all requirements have corresponding test cases.
-->𝐓𝐫𝐚𝐜𝐤𝐬 𝐏𝐫𝐨𝐠𝐫𝐞𝐬𝐬: Helps track the status of requirements and testing.
+->𝐓𝐫𝐚𝐜𝐤𝐬 𝐏𝐫𝐨𝐠𝐫𝐞𝐬𝐬:Helps track the status of requirements and testing.
 ->𝐈𝐝𝐞𝐧𝐭𝐢𝐟𝐢𝐞𝐬 𝐆𝐚𝐩𝐬: Easily spots missing requirements or tests.
 ->𝐌𝐚𝐧𝐚𝐠𝐞𝐬 𝐂𝐡𝐚𝐧𝐠𝐞𝐬: Tracks changes in requirements and ensures they are tested.
 
@@ -13,7 +15,8 @@
 ->𝐒𝐭𝐚𝐭𝐮𝐬: Status of the test case (e.g., Passed, Failed, In Progress).
 
 1. How do you prioritize test cases when you have limited time for testing?
-->Effective prioritization of test cases ensures that critical functionalities are tested first, minimizing risk and maximizing the value of testing within the limited time available. This approach demonstrates a clear understanding of the application's priorities and the potential impact on users and the business.
+->Effective prioritization of test cases ensures that critical functionalities are tested first, minimizing risk and maximizing the value of testing within the limited time available.
+This approach demonstrates a clear understanding of the application's priorities and the potential impact on users and the business.
 2. You are automating a complex workflow with multiple steps. Could you please tell me how you can ensure that the test is maintainable?
 3. You are given a rotated sorted array and a target value. The array was originally sorted in ascending order but then rotated at an unknown pivot. Your task is to determine if the target value exists in the array. If it does, return its index; otherwise, return -1. The algorithm should run in O(log n) time.
 ->To solve this problem in O(log n) time, we can use a modified binary search algorithm.
@@ -34,11 +37,11 @@ how do we prevent a class from being overridden?
 4. Write a program to reverse a string, palindrome of string.
 5. write a program to find the max sum of contiguous subarrays in an array of integers
 
-3.     Which version of Selenium you are using?
-4.     Which version of Appium you are using?
-5.     What is synchronisation in selenium?
-6.     What are the different types of exceptions that you came across in your project?
-7.     What are the updates from Appium 1.0 to Appium 2.0?
-8.     What is Thread.Sleep(); Which exception you will get when you use it?
-9.     Explain the Accessibility Testing.
-10.  Write a java program to print first 10 fibonacci Elements. Take 0,1 as first and Second Elements.(Use only online java compiler)
+3.Which version of Selenium you are using?
+4.Which version of Appium you are using?
+5.What is synchronisation in selenium?
+6.What are the different types of exceptions that you came across in your project?
+7.What are the updates from Appium 1.0 to Appium 2.0?
+8.What is Thread.Sleep(); Which exception you will get when you use it?
+9.Explain the Accessibility Testing.
+10.Write a java program to print first 10 fibonacci Elements. Take 0,1 as first and Second Elements.(Use only online java compiler)

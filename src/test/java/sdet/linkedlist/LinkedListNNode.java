@@ -3,15 +3,6 @@ package sdet.linkedlist;
 class LinkedListNNode {
     Node head; // Head of the list
 
-    static class Node {
-        int data;
-        Node next;
-
-        Node(int data) {
-            this.data = data;
-            this.next = null;
-        }
-    }
 
     // Constructor to directly initialize the list
     public LinkedListNNode(int[] elements) {

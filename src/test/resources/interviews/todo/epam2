@@ -7,18 +7,20 @@
 7. Where do you run your test cases?
 8. Which version of selenium you have used
 9. Window A,B,C,D, How to switch to C and close it?
-10. How to handle dropdown?(By select class and alternate is by using findElements?
+10. How to handle dropdown?(By select class and alternate is by using findElements?)
 11. Write a code using HashMap
 Brian – 21
 Lee – 22
 Cathe – 45
-Using key and value and find the javerage?
+Using key and value and find the average?
 12. Multiple catch block
-Try{}
-Catch(exception e){
-Syso(A);
-Catch(Arithmetic exception)
-Syso(B);
+try {
+    // some code
+} catch (ArithmeticException e) {
+    System.out.println("B");
+} catch (Exception e) {
+    System.out.println("A");
+}
 13. The logic of parent and child exception
 14. When to use abstract class and when to use interface
 15. Why can’t we create the framework with all static methods?
