@@ -30,8 +30,8 @@ Technical Questions
 1.what is diff b/w docker and docker start
 2.what is docker run
 3.what is docker volume and its type s and where we use it?
-[4.how](http://4.how) to create a smallest resource in kubernetes cluster
-[5.how](http://5.how) do you expose outside world cluster
+4.how to create a smallest resource in kubernetes cluster
+5.how do you expose outside world cluster
 6.what are the services Type in kubernetes
 7.what is headless service and what is the use case of it
 
