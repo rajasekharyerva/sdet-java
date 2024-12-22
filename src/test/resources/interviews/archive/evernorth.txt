@@ -1,0 +1,38 @@
+//evernorth
+source
+USA
+IND
+AUS
+IND
+
+
+destination
+AUS
+SOUTH
+ENG
+AUS
+PAK
+
+WebElement dropdownElement = driver.findElement(By.id("dropdown_id"));
+Select source = new Select(dropdownElement)
+List<WebElement> allOptions = select.getOptions();
+List<String> list1 = new ArrayList<>();
+for (WebElement option : allOptions) {
+  list1.add(option.getText());
+}
+
+WebElement dropdownElement2 = driver.findElement(By.id("dropdown_id2"));
+Select source = new Select(dropdownElement2)
+List<WebElement> allOptions2 = select.getOptions();
+List<String> list2 = new ArrayList<>();
+for (WebElement option2 : allOptions2) {
+  list2.add(option2.getText());
+}
+
+Set<String> set = new HashSet<>(list1);  // Add all elements of list1
+set.addAll(list2);
+
+
+
+
+

@@ -1,0 +1,14 @@
+Round 1:
+1. Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1
+2. Given a string, calculate the frequency of characters in a string.
+3. Question related to testng like invocation count and parallel execution
+4. Excel integration locators
+
+Round 2:
+1. Code to move all zeros to end
+2. Question related to parallel execution API automation diff between UI and API testing
+3. When to do API or UI testing
+4. Scenario based question like give test cases for lift
+
+Round 3:
+Question related to frameworks and maven

@@ -1,5 +1,7 @@
 package sdet.arrays;
 
+import java.util.Arrays;
+
 public class ShiftZeroes {
     public static void shiftZeroesToRear(int[] arr, int index, int nonZeroIndex) {
         // Base case: If we've processed the entire array
@@ -42,11 +44,12 @@ public class ShiftZeroes {
     public static void main(String[] args) {
         int[] arr = {0, 1, 0, 3, 12, 0, 4};
         shiftZeroesToRear(arr, 0, 0);
+        System.out.println(Arrays.toString(arr));
         for (int num : arr) {
             System.out.print(num + " ");
         }
         // Output: 1 3 12 4 0 0 0
-
+        System.out.println("--------");
         shiftZeroesToFront(arr, arr.length - 1, arr.length - 1);
         for (int num : arr) {
             System.out.print(num + " ");

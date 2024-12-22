@@ -1,0 +1,86 @@
+//Wipro
+System.setProperty("webdriver.chorme.driver", "path/driver");
+WebDriver driver = new ChromeDriver();
+
+//get url
+driver.get("https://www.makemytrip.com/");
+
+// web element source, destination, date
+WebElement source = driver.findElement(By.xpath("");
+WebElement destination = driver.findElement(By.xpath("");
+
+WebElement date = driver.findElement(By.xpath("");
+WebElement search = driver.findElement(By.xpath("");
+
+
+source.sendkeys("")
+
+
+//automsearch & select
+select.o
+we
+destination.sendkeys("")
+//automsearch & select - reuse
+
+// date picker select date //
+
+
+
+@Test(dataProvider = "loginDataProvider")
+@Parameters({"username", "password"})
+
+@BeforeMethod
+
+
+@DataProvider(name = "loginDataProvider")
+    public Object[][] getLoginData() {
+        return new Object[][] {
+            { "user1", "pass1" },
+            { "user2", "pass2" },
+            { "user3", "pass3" }
+        };
+    }
+
+
+@AfterMethod
+
+testng.xml
+<test name="TestParameters">
+        <parameter name="username" value="testUser" />
+        <parameter name="password" value="testPass" />
+        <classes>
+            <class name="com.project.tests.LoginTest" />
+        </classes>
+    </test>
+
+oct 22nd
+book a ticker 31 of nov
+31 available data present/not - check fails ()
+not available valida not there- going ahead book for 30 th nover
+(if 30 days)
+
+
+
+december 31
+
+
+Feature: Book a flight
+Scenario: Book a fligh on specifi / date
+GIVEN user naviagtes to make my trip webistre
+  WHEN enters source destination date
+  and clicks search button
+  THEN user should see results
+
+StepsDef
+public void EnterSource("enters  <>destination date") {
+
+}
+
+
+request -
+response -
+
+
+
+
+

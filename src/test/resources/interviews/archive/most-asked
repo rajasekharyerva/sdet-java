@@ -1,0 +1,30 @@
+Core Java Concepts:
+
+↳ String Manipulation:
+ * Reversing a string
+ * Palindromes
+ * Counting vowels or consonants
+ * Finding the longest/shortest word
+
+↳ Array Manipulation:
+ * Finding the largest/smallest element
+ * Sorting arrays (bubble sort, insertion sort, selection sort, merge sort, quick sort)
+ * Reversing an array
+ * Finding duplicates
+ * Finding longest substring
+ * Finding repetitive substrings
+ * Finding second smallest/largest element
+
+↳ Number Operations:
+ * Prime number check
+ * Fibonacci series
+ * Factorial calculation
+ * Armstrong number check
+
+↳ Data Structures:
+ * Implementing basic data structures like linked lists, stacks, queues
+ * Traversing and searching in these structures
+
+↳ OOP Concepts:
+ * Inheritance, polymorphism, encapsulation, abstraction
+ * Creating abstract classes and interfaces

@@ -1,0 +1,71 @@
+//tcs
+string s = "this is sdet interview interview" //input
+output: interview - 2
+// string[] strarr = split(" ")
+map<string integer>
+loop
+if
+map.get('keystr') null
+map.put('keystr', 1)
+else
+map.put('keystr', map.get('keystr') + 1)
+
+loop
+if(map.get('key' > 1)
+print('key'), map.get('key')
+
+//
+string s = "this is sdet interview" //input
+output = "siht si"
+don't use buffer and builders
+
+string[] s = split(" ");
+loop(i i<s.lenght; i++)
+    loop(int j;j=i.length-1; i--)
+    out = out+s.substr(j, j+1)
+    //str.reverse()
+
+ data driven
+ all test cases
+ 10 parameter -
+
+ tc1-name, acntno
+ tc2- address, dob
+
+ external test
+ 100
+
+ 10 test cases
+
+ data - excel
+
+username  password dob   city      pincode
+rajasekhar xuxnn   01-   hyder     c1
+
+
+ library - sheet - 1( 10 ..n parameters)
+
+ tc1-readexcel("username", "password")
+ (parameters) - utility (fields retured)
+
+ while index/header
+
+ tc1- p1,p2,p3-  username, password, dob
+ tc2-p4,p5   city, pincode
+
+pojo
+ api / json
+ employ, id, name
+
+ dynamic table / po
+ 4 row / 7 row
+
+ wel = tab/today/tr/td
+
+ 10 for(
+ tr/td =  5, 6
+ we = /tr/td[text()='Selenium']
+ break;
+ 15
+
+ 100

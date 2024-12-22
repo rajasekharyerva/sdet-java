@@ -1,0 +1,74 @@
+1. What is the difference b/w background and before annotation?
+1.1 Explain testng annotations and how will we use annotation in our framework
+    TestNG annotations are used to control the flow of test methods and provide additional information about the test methods.
+    TestNG annotations are used to mark methods as test methods, setup methods, teardown methods, etc.
+    Annotations like @Test, @BeforeMethod, @AfterMethod, @BeforeClass, @AfterClass, @BeforeSuite, @AfterSuite are commonly used in TestNG framework.
+    Annotations help in organizing and prioritizing test methods, setting dependencies between test methods, and controlling the execution flow of tests.
+2. How can we verify dynamic schema of a response?
+    // Validate the response JSON against the schema
+    response.then().body(matchesJsonSchemaInClasspath("responseSchema.json"));
+3. How can we use one scenario's output in another scenario's input?
+    Data sharing: Achieved via ScenarioContext, Singletons, Shared Storage, or global variables within hooks or step definitions.
+4. What is priority in testNG?
+5. Keyword-driven framework
+6. Oops concepts, live coding, programming, testing types.
+    Encapsulation, Inheritance, Polymorphism, Abstraction
+        Overriding:
+        Overriding is a concept in object-oriented programming where a subclass provides a specific implementation of a method that is already provided by its superclass.
+        Overriding allows a subclass to provide a specific implementation of a method that is already provided by its superclass
+        It is used in automation frameworks to customize or extend the functionality of existing methods or classes
+        In automation testing, overriding can be used to modify the behavior of test methods inherited from a base test class
+7. Difference b/w Hashmap vs HashTable and which one is faster on basis of performance!
+    HashMap allows null values and keys, while HashTable does not. HashMap is not synchronized, making it faster in performance compared to HashTable.
+    HashMap allows null values and keys, while HashTable does not.
+    HashMap is not synchronized, making it faster in performance compared to HashTable.
+    HashMap is preferred for non-thread-safe applications, while HashTable is preferred for thread-safe applications.
+8. Current roles and responsibilities ?
+9. Dynamic web tables ? Or dynamic elements ?
+    Sometimes IDs and classes of the web element keep changing.
+    Such web elements are called Dynamic web elements.
+    These are database based elements and its values get refreshed everytime the database gets updated.
+11. Reverse of a String
+12. Frame related selenium webdriver scenario question
+13. Abstract class vs Interface (Detailed)
+14. Database Testing Questions
+15. severity , priority
+16. framework development question
+17. java final keyword (detailed)
+18. checked and unchecked exception with Ex.
+19. What is POM ? Why we need !
+    POM stands for Page Object Model. It is a design pattern used in test automation to create reusable and maintainable code.
+    POM helps in separating the test scripts from the web elements, making the code more organized and easier to maintain.
+    It improves code reusability by creating separate classes for each web page, containing all the elements and actions related to that page.
+    POM reduces code duplication and enhances test script readability.
+    It allows for easier maintenance and updates as any changes in the UI can be made in the Page Object class without affecting the test scripts.
+    Example: Creating a LoginPage class with methods to interact with login form elements like username, password, and login button.
+20. Why Stale Element Reference Exception!
+    Stale Element Reference Exception occurs when an element is no longer attached to the DOM.
+    Occurs when an element is located in the DOM, but later becomes detached or deleted
+    Common in dynamic web applications where elements are frequently changing
+    Can be resolved by re-locating the element before interacting with it
+21. Diff between Collection VS Collections
+    Collection is an interface in Java that represents a group of objects, while Collections is a utility class in Java that contains static methods for operating on collections.
+    Collection is an interface in Java, while Collections is a utility class.
+    Collection is used to represent a group of objects, while Collections is used for operations on collections like sorting, searching, etc.
+    Example: List is a Collection interface, while Collections.sort() is a method in the Collections class.
+22. POM and Page factory difference
+23. Driver Capabilities
+24. Diff between HashSet, HashMap
+25. Approach you will follow to make framework more dynamic
+26. Dynamic table
+27. Explain rest assured and write a code for post and verify the response
+    Rest Assured is a Java library for testing RESTful APIs. It simplifies API testing by providing a fluent interface to make HTTP requests and validate responses.
+    Rest Assured is commonly used in API automation testing to validate the functionality of RESTful APIs.
+    It allows testers to easily make HTTP requests, set headers, parameters, and body, and validate the response.
+    Here is an example code snippet for posting data and verifying the response using Rest Assured:
+    given()
+    .contentType(ContentType.JSON)
+    .body("{ \"name\": \"John Doe\", \"age\": 30 }")
+    .when().post("https://api.example.com/users")
+    .then()
+    .assertThat()
+    .statusCode(201)
+    .and()
+    .body("name", equalTo("John Doe"))

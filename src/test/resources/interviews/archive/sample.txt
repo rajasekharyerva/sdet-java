@@ -1,0 +1,43 @@
+int[] input = new int[]{2, 5, 3, 5, 3, 0, 7, 4, 9, 10};
+List<Integer> list = new AraryList();
+for(int i=0; i<input.length() -1; i++) {
+for(int j=i; j<input.length() -1; j++) {
+if(!list.contains(input[j]) {
+list.add(input[j]);
+}
+}
+int counter=0;
+int[] output = new int[list.size()];
+for(Integer elemnt: list) {
+output[counter]=elemnt;
+counter++;
+}
+
+1. size = 0
+2. same elements -
+3. large array size
+4. non integers(special char, char)
+5. negative values (mix of both)
+6. double values
+
+int input = 12779; //1013
+int search = 7;
+String inputStr = String.parseInt(input);
+char[] chArr = inputStr.toCharArray();
+int output = 0;
+for(char ch: chArr) {
+    if(search == ch){
+    output++;
+    }
+}
+sout(output);
+while(input>0) {
+int rem = input%10;
+input = input/10;
+if(rem == search){
+count++
+}
+}
+sout(count);
+
+//input[@id='pass']/../../preceding-sibling::div//input

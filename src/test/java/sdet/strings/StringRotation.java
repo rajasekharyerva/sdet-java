@@ -2,9 +2,9 @@ package sdet.strings;
 
 public class StringRotation {
     public static void main(String[] args) {
-        String input = "Hello"; // lloHe
+        String input = "Persistant"; // lloHe - 3
         int len = input.length();
-        String output = input.substring(2).concat(input.substring(0,2));
+        String output = input.substring(3).concat(input.substring(0, 3));
         System.out.println(output);
     }
 }

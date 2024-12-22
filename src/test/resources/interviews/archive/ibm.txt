@@ -1,0 +1,100 @@
+//ibm
+//registration page contains
+first name
+last name
+email id
+password
+register button
+
+1. successful registration
+first name, lastname, email, password
+click registration & verify user registered
+
+2. email validation
+valid email format
+
+3. mandatory fields
+* marked fields
+click register button and validate without mandatory fields user able register
+
+4. field validation
+first name & last name - length, alphanumeric, numeric, chars
+email - length, format, special chars(allowed, not allowed)
+password - length,
+
+5. duplicate user registration
+register user with email id <abc@xyz.com> - success/already exist in system
+register again with same user details click register button. respective error should be shown to user/user already exist
+
+sql commands
+---------------
+validate pre sql
+file
+select count(*) employee
+
+test1
+// java, sql jdbc(libraries)
+int count=0;
+connect to db using credentials - host, user, password
+connection = DriverManager.getConnection;
+sql = "select count(*) as count from employee";
+PreparedStatement stmt = connection.prepareStatement(sql);
+ResultSet rs = stmt.executeQuery();
+while(rs.next()) {
+count = rs.getInt("count")
+}
+from result set - get now of rows/count
+
+assertion - testng assert.assertTrue(count > 5, "Employee count !> 5")
+
+new application, high traffic - 3M
+Define Test Objectives
+Throughput, Response Time, Error Rates
+Understand Your Application
+Test Environment Setup
+Design Gatling Tests
+Users, Scenario, Load Profile
+Run the Tests
+Analyze Results
+Identify Bottlenecks
+Optimize and Retest
+Document Findings
+Continuous Performance Testing
+Load Generation, Data Management, Network Simulation
+
+employee table
+id
+name
+city
+
+department table
+dep_id
+emp_id
+dep_name
+
+count of emp in each department
+
+select dep_name, count(emp_id) from department
+inner join employee
+on department.emp_id = employee.id
+group by dep_id
+
+nmae of all employee hr_dept
+
+select name from employee
+inner join department
+on employee.id = department.emp_id
+where  dep_name = 'hr_dept'
+
+tue- issue
+friday - release
+
+
+
+
+
+
+
+
+
+
