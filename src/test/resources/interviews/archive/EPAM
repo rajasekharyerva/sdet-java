@@ -10,10 +10,10 @@
 10.WAP to reverse the string without using inbuilt method
 11.What is difference between string and string buffer
 12.What is difference between private, public and protected access modifiers
-13.Collections framework heirarchy interfaces and their classes
+13.Collections framework hierarchy interfaces and their classes
 14.What is difference between hashtable and hashset
 15.What is difference between comparable and comparator
-16.Explain the exception heirarchy
+16.Explain the exception hierarchy
 17.WAP to create a custom exception
 18.What is an interface and an abstract class?
 19.Why abstract class is allowed to have a constructor
