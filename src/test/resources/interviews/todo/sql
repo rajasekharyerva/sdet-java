@@ -1,0 +1,9 @@
+1️⃣ Explain Order of Execution of SQL query
+2️⃣ Provide a use case for each of the functions Rank, Dense_Rank & Row_Number ( 💡 majority struggle )
+3️⃣ Write a query to find the cumulative sum/Running Total
+4️⃣ Find the Most selling product by sales/ highest Salary of employees
+5️⃣ Difference between union vs union all
+6️⃣ Identify if there any duplicates in a table
+7️⃣ Write a query to find the Running Difference (Ideal sol'n using windows function)
+8️⃣ Scenario based Joins question, understanding of Inner, Left and Outer Joins via simple yet tricky question
+9️⃣ LAG, write a query to find all those records where the transaction value is greater then previous transaction value.

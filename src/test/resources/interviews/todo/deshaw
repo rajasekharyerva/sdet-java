@@ -1,0 +1,25 @@
+Rounds Overview:
+1️. Technical Rounds (3):
+ • Round 1 & 2:
+ ---- Focused on previous experience, DSA, and a couple of SQL questions.
+ ---- One memorable SQL question:
+ From a dataset, get all employee names earning the highest salary in each department without using inner queries or subqueries.
+
+ • Round 3:
+---- A mix of 70% DSA and 30% QA-related questions:
+---- Framing test cases for a bank application based on requirements.
+---- Questions on security testing (like XSS, SQL Injection).
+---- Discussions on performance testing strategies.
+
+2️. HR Round:
+---- Often overlooked, but a culture-fit round at D.E. Shaw is critical!
+
+• DSA Topics Covered:
+--- Linked Lists, Dynamic Programming, Greedy Algorithms, Sliding Window
+--- Total 7 DSA problems:
+6 Leetcode Medium, 1 Easy
+
+• Question that is remembered:
+--- Removing a node from a linked list when the head isn’t given.
+--- A variation of the Meeting Rooms problem (finding the minimum rooms required for given meeting intervals).
+--- Follow-up questions were asked for every problem, testing depth of understanding.

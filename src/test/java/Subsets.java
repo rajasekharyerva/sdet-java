@@ -25,10 +25,11 @@ public class Subsets {
 
         for (int i = 0; i < totalSubsets; i++) {
             List<Character> subset = new ArrayList<>();
-
             for (int j = 0; j < n; j++) {
+                System.out.println("i: " + i + ", 1<<j: " + (1 << j) + ", (i & (1 << j): " + (i & (1 << j)));
                 // Check if jth bit in i is set
                 if ((i & (1 << j)) != 0) {
+
                     subset.add(set[j]);
                 }
             }

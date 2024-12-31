@@ -6,6 +6,7 @@ public class StringPermutations {
 
     // Function to generate all permutations of the string
     public static void permute(String str, int l, int r, List<String> result) {
+        System.out.println("Recursive: left-" + l + ", right-" + r);
         if (l == r) {
             result.add(str); // Add permutation to result when all characters are fixed
         } else {
@@ -32,7 +33,7 @@ public class StringPermutations {
     }
 
     public static void main(String[] args) {
-        String str = "ABC"; // Sample string
+        String str = "Permu"; // Sample string
         List<String> result = new ArrayList<>();
 
         permute(str, 0, str.length() - 1, result);

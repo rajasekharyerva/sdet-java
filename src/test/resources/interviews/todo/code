@@ -1,0 +1,10 @@
+Delete the Last Occurrence of an Element in an Array
+Input:
+arr = [1, 2, 3, 4, 1, 2, 3, 4, 5, 6, 2, 4, 2, 5]
+element = 2
+Output:
+[1, 2, 3, 4, 1, 2, 3, 4, 5, 6, 2, 4, 5]
+
+Identify the number of characters needed to make a string a Palindrome
+Input: s = "abcd"
+Output: Number of Characters to add : 3

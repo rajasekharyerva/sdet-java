@@ -23,20 +23,19 @@
 17. Implement breadth-first search (BFS) on a graph.
 12. Check if a binary tree is a binary search tree (BST).
 40. Find the shortest path in a maze.
-
-
 37. Implement a priority queue.
 38. Implement a hashmap (dictionary).
-32. Find all subsets of a set.
-33. Find all permutations of a string.
-39. Count the number of inversions in an array.
-22. Find the longest common subsequence of two strings.
 18. Check if a graph is connected.
+34. Implement the Josephus Problem.
+33. Find all permutations of a string.
+32. Find all subsets of a set.
+39. Count the number of inversions in an array.
+31. Implement a trie (prefix tree).
+30. Find the median of two sorted arrays.
+22. Find the longest common subsequence of two strings.
+
 19. Implement Dijkstra's algorithm for shortest path.
 20. Implement Prim's algorithm for minimum spanning tree.
 21. Implement Kruskal's algorithm for minimum spanning tree.
 24. Implement the Knuth–Morris–Pratt (KMP) algorithm for string matching.
 25. Implement the Rabin-Karp algorithm for string matching.
-30. Find the median of two sorted arrays.
-31. Implement a trie (prefix tree).
-34. Implement the Josephus Problem.
