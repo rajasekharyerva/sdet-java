@@ -1,0 +1,48 @@
+#interview questions #tcs #automation
+
+📌 Manual Testing Questions.
+
+#Have you worked in Agile methodology ? Explain it ?
+#Explain the points you consider while writing good test case
+#What is Bug Life Cycle ?
+#Difference between Test scenario vs Test Case
+#Difference between Functional vs Non Functional Testing ?
+#Difference between smoke and sanity testing.
+#What is STLC in software testing ?
+#Difference between alpha and beta testing.
+#How many tests you have automated in single sprint ?
+#How do you decide which test cases to automate ?
+#Which test cases you would not automate ?
+#Tell me is 100 % automation possible ?
+#What are important things you would consider when logging a bug.
+#Where you write your test cases ? In excel or some other tool ?
+
+
+📌 Automation Interview Questions
+
+#Difference between implicit and explicit waits.
+#Asked to share screen and write xpath for given element
+#Use of Actions class and select class
+#Explain your roles and responsibilities
+#Exceptions you faced while working with selenium , Give 5 examples.
+#OOPS concepts (Inheritance,abstraction,polymorphism etc)
+#Difference between findElement( ) vs findElements( )
+#How to handle alerts in selenium ?
+#Write Selenium code to take screenshot
+#What is priority in testNg ?
+#Which reports you are using in your framework.
+#Difference between Scenario vs Scenario outline in cucumber BDD
+#Asked to explain your framework which you working on.
+#What are tags in cucumber ?
+#How do you manage test data in your framework ?
+#Abstract class vs Interface
+#Asked to write Java code to reverse string , Array manipulation
+#Questions asked from HashMap , HashSet
+#Difference between array and arraylist ?
+#What is collection in Java.
+#Why String is immutable in Java ?
+#Difference between collection and collections ?
+#Difference between StringBuffer and StringBuilder ?
+#API Status codes difference 400,401,201,200 etc. ( Learn more I would say )
+#Difference between PUT vs Patch request ?
+#Github basic command like git add , git commit , git diff commands (better to learn more commands before appearing for interview)

@@ -28,8 +28,36 @@ public class MyPractice {
         //stringJoins();
         //printMultiplesOf5();
         //maxOrMin();
-        mergeUnsortedArrays();
+        //mergeUnsortedArrays();
+        //maximum3Minimum3();
+        //stringAnagram();
+        duplicateStrean();
 
+    }
+
+    private static void duplicateStrean() {
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 2, 3, 5);
+        Set<Integer> seen = new HashSet<>();
+        List<Integer> duplicates = numbers.stream()
+                .filter(n -> !seen.add(n))  // add returns false if the element is already present
+                .collect(Collectors.toList());
+        System.out.println(duplicates);
+    }
+
+    private static void stringAnagram() {
+        String s1 = "RaceCar";
+        String s2 = "CarRace";
+        String o1 = Arrays.stream(s1.split("")).map(String::toUpperCase).sorted().collect(Collectors.joining(""));
+        String o2 = Arrays.stream(s2.split("")).map(String::toUpperCase).sorted().collect(Collectors.joining(""));
+        System.out.println(o1);
+        System.out.println(o2);
+    }
+
+    private static void maximum3Minimum3() {
+        List<Integer> listOfIntegers = Arrays.asList(45, 12, 56, 15, 24, 75, 31, 89);
+        String output = listOfIntegers.stream().sorted().limit(3).map(String::valueOf).collect(Collectors.joining(" "));
+        System.out.println(output);
+        listOfIntegers.stream().sorted(Comparator.reverseOrder()).limit(3).forEach(System.out::print);
     }
 
     private static void mergeUnsortedArrays() {

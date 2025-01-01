@@ -34,8 +34,8 @@ class MeetingRooms {
         // Test case
         int[][] intervals = {
                 {15, 20},
-                {0, 30},
-                {5, 10}
+                {0, 10},
+                {5, 20}
         };
 
         System.out.println("Minimum rooms required: " + mr.minMeetingRooms(intervals)); // Output: 2
