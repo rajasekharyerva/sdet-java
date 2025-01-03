@@ -1,0 +1,31 @@
+Coforge Interview questions for hashtag#QA / hashtag#SDET role | hashtag#Exp: 4-8 yrs
+📌 Round 1 : ( Technical )
+👉 : Explain about your project , how long is your sprint ?
+👉 : Have you created a framework from scratch ? What are challenges you have faced while working with framework ?
+👉 : Difference between StringBuffer and StringBuilder
+👉 : Program to remove duplicate elements from an arraylist.
+👉 : Where have you used Inheritance in your framework ?
+👉 : How would you handle authentication popup using selenium ?
+👉 : How many testcases you have automated in a single sprint.
+👉 : Difference between RequestSpecification , ResponseSpecification in REST Assured write code & explain it
+👉 : Difference between 500 vs 503 API Status code
+----------------------------------------------------------------
+📌 Round 2 ( Technical )
+👉 : Given a string , remove all the duplicate elements from a string
+👉 : Write code to fetch the username, password from properties file
+👉 : What is use of GroupBy in SQL.
+👉 : Suppose you logged a bug , developer says it's not a bug how would you convince developer that it's a bug.
+👉 : Suppose a JS alert is coming on a webpage ,it appears randomly when you click some random button (you cannot predict when it will come) ,then how would you make sure that alert is accepted automatically by selenium.
+👉 : What is Stale Element exception.
+👉 : Have you tested GRAPHQL API. Explain how you did it ?
+👉 : How many string objects will be created : String s1 = new String("JAVA");
+👉 : Difference between finally and finalize in Java
+👉 : Use of protected access modifier ?
+👉 : How would you achieve thread safety in your framework. When running tests in parallel.
+
+📌 Round 3 : (Managerial)
+
+👉Again he asked few technical questions on Selenium,API
+
+📌 Round 4 : (HR Discussion)
+👉Salary discussion

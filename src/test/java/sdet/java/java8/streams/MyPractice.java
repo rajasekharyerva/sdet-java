@@ -31,8 +31,232 @@ public class MyPractice {
         //mergeUnsortedArrays();
         //maximum3Minimum3();
         //stringAnagram();
-        duplicateStrean();
+        //duplicateStrean();
+        //countOddAndEvenNumbers();
+        //maxAndMin();
+        //missingInteger();
+        //missingIntegers();
+        //firstLastOccurrences();
+        //firstRepeating();
+        //removeDuplicatesArrayList();
+        //secondLargestInArray();
+        //sortArray();
+        //removeWhiteSpaces();
+        //printFirstLetterOfEachWordString();
+        //longestSubstring();
+        //diffWaysIterateList();
+        reverseStringPreserveSpace();
 
+
+    }
+
+
+    private static void reverseStringPreserveSpace() {
+        var input = "aandkd djnd";
+        int start = 0;
+        int end = input.length() - 1;
+        char[] chArray = input.toCharArray();
+        while (start < end) {
+            if (' ' == chArray[start]) {
+                start++;
+            } else if (' ' == chArray[end]) {
+                end--;
+            } else {
+                char temp = chArray[start];
+                chArray[start] = chArray[end];
+                chArray[end] = temp;
+                start++;
+                end--;
+            }
+        }
+        System.out.println(new String(chArray));
+    }
+
+    private static void diffWaysIterateList() {
+        List<String> list = List.of("Apple", "ball", "cat", "dog");
+        //1
+        for (int i = 0; i < list.size(); i++) {
+            System.out.println(list.get(i));
+        }
+
+        //2
+        for (String item : list) {
+            System.out.println(item);
+        }
+
+        //3
+        Iterator iterator = list.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+
+        //4
+        ListIterator listIterator = list.listIterator();
+        while (listIterator.hasNext()) {
+            System.out.println(listIterator.next());
+        }
+
+        list.stream().forEach(System.out::print);
+    }
+
+    private static void longestSubstring() {
+        String s = "abcabcxbb";
+        int left = 0;
+        int maxLength = 0;
+        Set<Character> set = new HashSet<>();
+        for (int i = 0; i < s.length(); i++) {
+            while (set.contains(s.charAt(i))) {
+                set.remove(s.charAt(left));
+                left++;
+            }
+            maxLength = Math.max(maxLength, i - left + 1);
+            set.add(s.charAt(i));
+
+        }
+        System.out.println(maxLength);
+    }
+
+    private static void printFirstLetterOfEachWordString() {
+        String input = "This is a sample sentence";
+        var words = input.split("\\s+");
+        for (var word : words) {
+            System.out.print(word.charAt(0) + " ");
+        }
+
+    }
+
+    private static void removeWhiteSpaces() {
+        String input = "jnaln  wfnfnvw wvvknvnv vw  ";
+        System.out.println(input.replaceAll("\\s+", ""));
+
+    }
+
+    private static void sortArray() {
+        int[] numbers = {6, 1, 3, 2, 4, 7, 8, 9};
+        //Arrays.sort(numbers);
+        for (int i = 0; i < numbers.length; i++) {
+            for (int j = i + 1; j < numbers.length; j++) {
+                if (numbers[i] > numbers[j]) {
+                    int temp = numbers[i];
+                    numbers[i] = numbers[j];
+                    numbers[j] = temp;
+                }
+            }
+        }
+        System.out.println(Arrays.toString(numbers));
+    }
+
+    private static void secondLargestInArray() {
+        int[] numbers = {1, 2, 3, 2, 4, 5, 2, 6};
+        var largest = Integer.MIN_VALUE;
+        var secondLargest = Integer.MIN_VALUE;
+        for (int num : numbers) {
+            if (num > largest) {
+                secondLargest = largest;
+                largest = num;
+            }
+            if (num > secondLargest && num < secondLargest) {
+                secondLargest = num;
+            }
+        }
+        System.out.println(secondLargest);
+    }
+
+    private static void removeDuplicatesArrayList() {
+        ArrayList<String> list = new ArrayList<>();
+        list.add("Apple");
+        list.add("Banana");
+        list.add("Apple");
+        list.add("Orange");
+        list.add("Banana");
+        list.add("Grapes");
+
+        Set<String> list1 = new HashSet<>(list);
+        ArrayList<String> list2 = new ArrayList<>(list1);
+        System.out.println(list2.toString());
+    }
+
+    private static void firstRepeating() {
+        int[] numbers = {1, 2, 3, 2, 4, 5, 2, 6}; // Example array
+        Set<Integer> seen = new HashSet<>();
+        int firstRepeating = -1;
+        for (int num : numbers) {
+            if (seen.contains(num)) {
+                firstRepeating = num;
+                break;
+            }
+            seen.add(num);
+        }
+        System.out.println("First repeating: " + firstRepeating);
+    }
+
+    private static void firstLastOccurrences() {
+        int[] numbers = {1, 2, 3, 2, 4, 5, 2, 6}; // Example array
+        int target = 2; // Element to find first and last occurrence
+        int firstOccurrence = -1;
+        int lastOccurrence = -1;
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] == target) {
+                firstOccurrence = i;
+                break;
+            }
+        }
+        for (int j = numbers.length - 1; j >= 0; j--) {
+            if (numbers[j] == target) {
+                lastOccurrence = j;
+                break;
+            }
+        }
+
+        System.out.println("First Occurrence: " + firstOccurrence);
+        System.out.println("Last Occurrence: " + lastOccurrence);
+    }
+
+    private static void missingIntegers() {
+        int[] numbers = {1, 3, 4, 6, 8};
+        Set<Integer> set = new HashSet<>();
+        for (int num : numbers) {
+            set.add(num);
+        }
+        for (int i = numbers[0]; i < numbers[numbers.length - 1]; i++) {
+            if (!set.contains(i))
+                System.out.println("Missing: " + i);
+        }
+    }
+
+    private static void missingInteger() {
+        int[] numbers = {1, 2, 4, 5, 6};
+        int n = numbers.length + 1;
+        int expectedSum = n * (n + 1) / 2;
+        int actualSum = 0;
+        for (int num : numbers) {
+            actualSum += num;
+        }
+        int missingNum = expectedSum - actualSum;
+        System.out.println("Missing number: " + missingNum);
+    }
+
+    private static void maxAndMin() {
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 2, 3, 5);
+        int max = numbers.get(0);
+        int min = numbers.get(0);
+        for (int num : numbers) {
+            if (num > max) max = num;
+            if (num < min) min = num;
+        }
+        System.out.println("Max: " + max);
+        System.out.println("Min: " + min);
+    }
+
+    private static void countOddAndEvenNumbers() {
+        List<Integer> listOfIntegers = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 1, 2, 3, 4, 5, 6, 2, 4, 2, 5));
+        var evenCounts = 0;
+        var oddCounts = 0;
+        for (int num : listOfIntegers) {
+            if (num % 2 == 0) evenCounts++;
+            else oddCounts++;
+        }
+        System.out.println("Counts Even: " + evenCounts + ", Odd: " + oddCounts);
     }
 
     private static void duplicateStrean() {

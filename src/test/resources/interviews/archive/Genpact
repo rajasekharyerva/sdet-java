@@ -1,0 +1,15 @@
+#QA hashtag#Interviewquestions from Genpact (5 years)
+
+1) What is Selenium?
+2) How do you optimize your Selenium tests for performance?
+3) What is Selenium Grid and how do you use it to run parallel tests across multiple browsers and machines?
+4) Explain the concept of cross-browser compatibility testing with Selenium ?
+5) How do you handle iFrames and JavaScript execution in Selenium ?
+6) Explain the WebDriver architecture and how it interacts with different browsers ?
+7) Which is fastest and why among the web elements using different locator strategies (ID, XPath, CSS Selector, Class Name) ?
+8) What are the different types of waits in Selenium ? (explicit, implicit, fluent)
+9) What are some common Selenium exceptions you have encountered and how did you troubleshoot them?
+10) How would you structure your test cases using the Page Object Model design pattern?
+11) Describe the benefits of using a custom automation framework.
+12) What are Hooks in Cucumber?
+13) Difference between List and Set ?

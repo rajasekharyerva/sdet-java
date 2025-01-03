@@ -1,0 +1,48 @@
+#deloitte hashtag#interview experience 6-7 years
+
+📌 Round 1 : ( Technical )
+
+👉 Explain about yourself and your roles and responsibilities.
+👉 Write Java code to reverse a string preserving the white space
+👉 Given a SQLtable , find the second largest salary of employee
+👉 Explain Joins concept , what are different joins available
+👉 What is LinkedHashMap ? Explain use
+👉 Explain Black box testing and white box testing ?
+👉 What is difference between exception and error
+👉 Difference between findElement and findElements
+👉 What is the difference between implicit wait and explicit wait
+👉 Write selenium code to automate calendar WebElement
+👉 How would you fetch the text from a text box in selenium ?
+👉 How to enter some text in a alert using selenium ?
+👉 What is difference between checked and unchecked exceptions ?
+👉 Xpath selects two element on webpage ,does findElement give exception
+👉 Smoke Testing & Sanity Testing
+👉 What are relative locators in Selenium ?
+👉 Explain the challenges you faced in your project ?
+👉 How would you pick test cases for regression ?
+
+📌 Round 2 : ( Techno-managerial round )
+
+👉 Again asked about framework
+👉 In framework suppose you have 100 pages , do you create 100 page Objects ? ( Let see if you can give some good answer in comments ? )
+👉 What is Element click intercepted exception , how to fix it ?
+👉 How to take screenshot for failed test cases only in testng.
+👉 Explain how to connect your test cases with azure ?
+👉 What is get fetch command ?
+👉 In postman how to delete variable after test execution is finished ?
+👉 Why you are preferring cucumber BDD in your project ?
+👉 What is dynamic and static binding ?
+👉 What is method overloading & method overriding?
+👉 What is difference between comparable and comparator ?
+👉 How would you conclude that a login page is user friendly ?
+👉 What are 5 points you consider when writing a good test case ?
+👉 Suppose developer is not fixing the bug what is your approach to handle it ?
+👉 What are Threads in Jmeter ?
+👉 Can you automate captcha ?
+👉 In what cases we require fluent waits ?
+👉 In selenium how will you open new tab ?
+👉 In jenkins what is purpose of CRON expression
+
+📌 Round 3 : ( HR )
+
+👉 Salary discussion
