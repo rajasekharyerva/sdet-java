@@ -35,9 +35,17 @@ select * from employees;
 select * from employees e1#e1.EmployeeId, e1.EmployeeName, e1.Department, e1.Salary
 left join employees e2
 on e1.Department = e2.Department and e1.Salary < e2.Salary
+where e2.Salary is null;
 
 # distinct
 select DISTINCT Department from employees
+
+
+
+
+SELECT Salary from employees e 
+order by Salary desc
+limit 10 offset 0;
 
 
 

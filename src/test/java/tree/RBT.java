@@ -1,4 +1,4 @@
-
+package tree;
 
 class BinaryTree2 {
     Node root;

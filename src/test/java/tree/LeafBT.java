@@ -1,3 +1,5 @@
+package tree;
+
 class LeafBT {
     Node root;
 
@@ -33,5 +35,5 @@ class LeafBT {
         System.out.println("Leaf nodes of the binary tree:");
         tree.printLeafNodes(tree.root);
     }
-    
+
 }

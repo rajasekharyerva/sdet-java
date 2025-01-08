@@ -1,19 +1,16 @@
 package selenium.tests;
 
 import io.qameta.allure.Feature;
-import io.qameta.allure.testng.AllureTestNg;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import selenium.pages.BooksPage;
-import selenium.utilities.CustomTestListener;
 
 import java.util.List;
 import java.util.Map;
 
-@Listeners({AllureTestNg.class, CustomTestListener.class})
+//@Listeners({AllureTestNg.class, CustomTestListener.class})
 public class BooksTest extends BaseTest {
     private static final Logger logger = LoggerFactory.getLogger(BooksTest.class);
 
@@ -29,7 +26,7 @@ public class BooksTest extends BaseTest {
         //test.log(Status.INFO, "Navigating to Google");
         booksPage.enterSearchText(searchTxt);
         List<Map<String, String>> tableData = booksPage.getTableRowData();
-        for(Map<String, String> map: tableData) {
+        for (Map<String, String> map : tableData) {
             Assert.assertEquals(map.get("First Name"), searchTxt);
         }
 

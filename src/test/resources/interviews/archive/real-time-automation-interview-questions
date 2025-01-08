@@ -1,0 +1,36 @@
+Real time #Automation Testing Interview Questions
+
+1. You’re assigned to test a new feature, but the requirements are vague. How would you approach this task?
+2. Imagine a critical bug is found in production during a live demo. How would you handle it?
+3. A developer disputes a bug you’ve raised, claiming it’s not an issue. How would you resolve this conflict?
+
+4. Write 5 manual test cases for testing the Google News feed feature.
+Ø Ensure to include both functional and UI test cases.
+Ø Define preconditions, test steps, expected results, and postconditions.
+5. Create a simple JMeter test plan to simulate 100 concurrent users accessing a sample web page.
+Ø Configure thread groups and listeners.
+Ø Capture key performance metrics like response time and throughput.
+
+6. Write a Selenium script to perform the following:
+Ø Open a website with a dynamically generated search bar ID.
+Ø Locate the search bar using a dynamic XPath or CSS selector.
+Ø Input a search query and validate the results page.
+
+7. Automate a test case for verifying dynamic news content updates.
+
+Ø Navigate to the Gnews feed page.
+Ø Use Selenium WebDriver to monitor the feed for newly loaded content after a set interval.
+Ø Validate that new news articles (with unique headlines) are being added dynamically to the feed every 10 seconds.
+Ø Log the titles of the newly added articles.
+
+8. Explain the key components of the automation framework you developed in your current project.
+9. How to implement modularity and reusability in your framework?
+10. What improvements can be made to a Page Object Model-based framework to enhance maintainability?
+
+11. How to implement parameterization in TestNG for running tests with multiple sets of data?
+12. How to use Java Streams to filter and process data from a list?
+13. Write a code snippet to retrieve and print all test case names containing a specific keyword from a list of strings using Streams.
+14. How to test APIs in Selenium or using Java?
+15. Write a simple script in Java to send a GET request to an API endpoint and validate the response status code.
+16. How can you validate test data stored in a database against the UI data displayed in the application?
+17. Write a code snippet to retrieve data from a SQL database and use it in a Selenium test script.

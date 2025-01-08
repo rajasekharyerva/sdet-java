@@ -1,4 +1,4 @@
-package sdet;
+package tree;
 
 import java.util.Arrays;
 

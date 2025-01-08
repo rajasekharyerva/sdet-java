@@ -25,6 +25,7 @@
         <gatling.maven.version>4.10.0</gatling.maven.version>
         <scala.version>2.13.9</scala.version>
         <aspectj.version>1.9.20.1</aspectj.version>
+        <mongodb-driver-sync>5.2.1</mongodb-driver-sync>
         <argLine>--add-opens java.base/java.lang=ALL-UNNAMED</argLine>
     </properties>
     <repositories>
@@ -40,6 +41,13 @@
             <artifactId>selenium-java</artifactId>
             <version>${selenium-java.version}</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-sync -->
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver-sync</artifactId>
+            <version>5.2.1</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
         <dependency>
             <groupId>org.testng</groupId>
@@ -233,12 +241,12 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.5.1</version>
                 <configuration>
-                    <!--<suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
-                    </suiteXmlFiles>-->
-                    <includes>
-                        <include>**/*Test.class</include>
-                    </includes>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <!-- <includes>
+                         <include>**/*Test.class</include>
+                     </includes>-->
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
@@ -297,12 +305,12 @@
                 <artifactId>maven-surefire-report-plugin</artifactId>
                 <version>3.5.1</version>
                 <reportSets>
-                <reportSet>
-                    <reports>
-                        <report>report-only</report> <!-- Generates report only without running tests -->
-                        <report>report</report> <!-- Generates report after tests are run -->
-                    </reports>
-                </reportSet>
+                    <reportSet>
+                        <reports>
+                            <report>report-only</report> <!-- Generates report only without running tests -->
+                            <report>report</report> <!-- Generates report after tests are run -->
+                        </reports>
+                    </reportSet>
                 </reportSets>
             </plugin>
         </plugins>

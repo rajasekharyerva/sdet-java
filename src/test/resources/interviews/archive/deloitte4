@@ -1,0 +1,45 @@
+Deloitte recent interview questions
+
+
+📌 Round 1 : ( Technical )
+ 
+👉 Explain about your framework
+👉 Print Fibonacci series
+👉 DB code to connect with MongoDB and extract the object
+👉 Difference between Final, finally and finalize
+👉 Where you have used OOPS in framework
+👉 Explain Collections in Java
+👉 What are the collections you have used?
+👉 Difference between findElement and findElements
+👉 What is the difference between implicit wait and explicit wait
+👉 If both waits can be used why to use implicit and .why to use explicit ?
+👉 Selenium syntax for copy and pasting image.
+👉 What reporting have you used ? and Extent reports
+👉 What are the selenium exceptions have you faced ? How did u solve it
+👉 How will you integrate jenkins with your framework
+👉 Puzzle(A boy and a doctor were fishing. The boy is the doctor's son, but the doctor isn't the boy's father. Who is the doctor?-Ans: the doctor is the boys mother)
+👉 What is functional testing & System Testing
+👉 Smoke Testing & Sanity Testing
+👉 Explain the interesting bug you found
+👉Regression testing & Retesting
+
+📌 Round 2 : ( Techno-managerial round )
+ 
+👉 Explain about your framework
+👉 Selenium Syntax for scrolling 2000 pixels
+👉 Syntax for right click in Selenium ?
+👉 Syntax for taking Screenshot in Selenium.
+👉 Syntax for file upload/download using autoIt , Robotclass
+👉 What are the challenges have you faced during parallel execution?
+👉 If the testcases are running for 10 hours in automation, if the manager ask to reduce to 8hrs how will u reduce it?
+👉 Which domain have u worked on?
+👉 What is Gherkin in cucumber BDD ?
+👉 What is method overloading & method overriding?
+👉 What are the healthcare terminologies you know
+👉 Epic & User Story
+👉 Role of Scrum Master
+👉 What is velocity
+👉 How velocity is calculated
+👉 Have you performed code review ? If yes how will you do it
+👉 If there is TOSCA, LoadRunner and Selenium, which tool will you use for which testing
+👉 How will you integrate Jenkins with your framework

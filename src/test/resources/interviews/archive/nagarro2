@@ -7,7 +7,7 @@
 👉 How System.out.println( ) works ?
 👉 Write code to achieve multiple Inheritance using Interface ?
 👉 Why String is immutable in Java ? StringBuffer use.
-👉How would you design test cases for an application where the requirements are not clear?
+👉 How would you design test cases for an application where the requirements are not clear?
 👉 Suppose you have 10 test cases and they are failing randomly what will be your approach on fixing those scripts.
 👉 What is Bug Life cycle , explain in detail.
 👉 Suppose you are working with multiple tabs in selenium, how would you wait in selenium ,until the number of opened tabs should be equal to 4

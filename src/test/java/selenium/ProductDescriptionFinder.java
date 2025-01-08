@@ -15,7 +15,7 @@ public class ProductDescriptionFinder {
         WebDriver driver = new ChromeDriver();
 
         // Load the webpage that contains the XML structure
-        String filePath = new File("/Users/rajasekharreddyyerva/IdeaProjects/sdet-repo/src/test/java/selenium/sample.html").getAbsolutePath(); // Update with your actual path
+        String filePath = new File("/Users/rajasekharreddyyerva/IdeaProjects/sdet2-repo/src/test/java/selenium/sample.html").getAbsolutePath(); // Update with your actual path
         driver.get("file:///" + filePath);
 
         // Use XPath to locate all <product> elements where <description> contains 'sff'

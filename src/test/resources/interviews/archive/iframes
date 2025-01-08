@@ -1,0 +1,10 @@
+Consolidated questions specific to "Iframe" which can be asked on any automation tools (Selenium/Cypress/Playwright) in Interviews :-
+
+1) How do you verify whether an element is inside an iframe? Can you directly access elements inside an iframe without switching to it?
+2) What happens if you try to interact with an element inside an iframe without switching to it first?
+2) How do you retrieve the number of iframes on a web page?
+3) How would you handle slow-loading iframes during testing? ( Ans - using Wait statements)
+4) How do you handle multiple iframes on a page?
+5) What would you do if you need to handle nested iframes?
+6) How do you switch back to the main content from an iframe?
+7) What are the common test cases you can derive on iframes?

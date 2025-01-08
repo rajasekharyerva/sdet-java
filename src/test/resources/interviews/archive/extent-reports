@@ -1,0 +1,11 @@
+Consolidated Interview Questions on "Extent Report" :
+
+1) How would you handle a situation where Extent Report is not updating after execution?
+2) Why do we need flush() method ?
+3) What would you do if screenshots are not loading in the Extent Report?
+4) What are the advantages of using Extent Reports over other reporting tools?
+5) How do you log exceptions in Extent Reports?
+6) How do you integrate Extent Reports with TestNG?
+7) What is the difference between flush() and close() methods in Extent Reports?
+8) How can you generate reports for parallel execution?
+9) ExtentSparkReporter ???

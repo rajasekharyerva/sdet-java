@@ -35,6 +35,8 @@ public class GetAPITest {
 
         // Print the response for debugging purposes
         logger.info("Response Body: {}", response.asString());
+        long responseTime = response.getTime();
+        
     }
 }
 

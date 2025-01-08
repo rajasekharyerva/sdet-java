@@ -1,0 +1,32 @@
+Interview questions from WNS for 2-3 yrs experienced candidates :
+
+1a) Write a code to fetch data from one excel sheet and dump into the other excel sheet ?
+1b) Among all the given locator which locator is fastest of all?
+2) If the method fails to find the element which of the two methods throws you the expectations?
+3) Why should we use selenium?
+4) How to execute multiple Test cases at a time in TestNG?
+5) Which method allows you to change control from one window to other?
+6) Which annotations executed first?
+7) Which open source tolls allows us to read and write Ms Excel file using Java?
+8) How many types of XPath are there in selenium?
+9) In selenium 4,which of the following method allows us to take screenshot of a specific web element?
+10) Which language use in gherkins?
+11) When you only want to access a single element on a webpage which method will you use?
+12) Which class is used for drop-down in selenium?
+13) Which component of selenium is most important?
+14) Which keywords use in gherkins?
+15) How many locators does selenium has in total?
+16) Which exception is shown in selenium when there is a delay in the loading time of the elements with which we are interacting?
+17) Write correct syntax for absolute path and Relative xpath
+18) What is User interface testing?
+19) Which XPath search dissimilar nodes in XML document from the current node
+20) What do you mean by open source software
+21) Which of following browser support selenium?
+22) Which method are present in POM to locate webelement?
+23) Which type of wait command waits for a certain amount of time before it throws an exception?
+24) Which tool you will use to manage and organised jar and lib in automation?
+25) _ is a type of change related testing performed after fixing a defect to confirm that a failure caused by the defect does not reoccur
+26) Which type of XPath start with a double forward slash?
+27) Which type of XPath start with a single forward slash?
+28) How many types of wait commands does the selenium web driver provide?
+29) Which of the following waits takes timeout and polling frequency as it's parameter?

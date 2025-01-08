@@ -1,5 +1,13 @@
 package sdet.java.java8.streams;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -45,9 +53,77 @@ public class MyPractice {
         //printFirstLetterOfEachWordString();
         //longestSubstring();
         //diffWaysIterateList();
-        reverseStringPreserveSpace();
+        //reverseStringPreserveSpace();
+        //fibonacciSeries();
+        // reverseStringWithoutReverse();
+        //initializeArrayAndFindMissing();
+        webDriverWait();
 
+    }
 
+    private static void webDriverWait() {
+        WebDriver webDriver = new ChromeDriver();
+        WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(30));
+
+    }
+
+    // Generic method to wait for an element using any locator
+    public static WebElement waitForElement(WebDriver driver, By locator, long timeoutInSeconds, long pollingIntervalInMillis) {
+        FluentWait<WebDriver> wait = new FluentWait<>(driver)
+                .withTimeout(Duration.ofSeconds(timeoutInSeconds))   // Set total timeout
+                .pollingEvery(Duration.ofMillis(pollingIntervalInMillis)) // Set polling interval
+                .ignoring(NoSuchElementException.class); // Ignore exceptions while waiting
+
+        // Wait until the element is visible
+        return wait.until(new Function<WebDriver, WebElement>() {
+            @Override
+            public WebElement apply(WebDriver driver) {
+                try {
+                    WebElement element = driver.findElement(locator);
+                    if (element != null && element.isDisplayed()) {
+                        return element; // Return element if it is visible
+                    }
+                } catch (NoSuchElementException e) {
+                    // Element not found, continue waiting
+                }
+                return null; // If element is not found or not visible, return null
+            }
+        });
+    }
+
+    private static void initializeArrayAndFindMissing() {
+        ArrayList<Integer> arrayList = new ArrayList<>(Arrays.asList(10, 9, 2, 1));//3 elements
+        int start = arrayList.get(0);
+        // int end = arrayList.get(arrayList.size() - 1);
+        int index = 0;
+
+        while (start >= 0) {
+            if (start == arrayList.get(index)) {
+                index++;
+            } else {
+                System.out.println(start);
+            }
+            start--;
+        }
+    }
+
+    private static void reverseStringWithoutReverse() {
+        String input = "Test in Progress";
+        for (int i = input.length() - 1; i >= 0; i--) {
+            System.out.print(input.charAt(i));
+        }
+    }
+
+    private static void fibonacciSeries() {
+        int first = 0;
+        int second = 1;
+        int n = 5;
+        for (int i = 1; i <= 5; i++) { //0,1,1,2,3,5,8
+            int fib = first + second;
+            first = second;
+            second = fib;
+            System.out.println(fib);
+        }
     }
 
 

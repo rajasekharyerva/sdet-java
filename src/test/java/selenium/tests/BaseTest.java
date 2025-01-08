@@ -3,7 +3,6 @@ package selenium.tests;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import io.qameta.allure.testng.AllureTestNg;
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,11 +10,10 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 import selenium.utilities.ConfigReader;
 import selenium.utilities.DriverManager;
-import selenium.utilities.ScreenshotListener;
 import selenium.utilities.SummaryReportGenerator;
 
 
-@Listeners({ScreenshotListener.class, AllureTestNg.class})
+//@Listeners({ScreenshotListener.class, AllureTestNg.class})
 public class BaseTest {
     private static final Logger logger = LoggerFactory.getLogger(BaseTest.class);
     WebDriver driver;
@@ -24,6 +22,7 @@ public class BaseTest {
 
     @BeforeClass
     public void setUpReport() {
+        System.out.println("Calling BaseTest @BeforeClass setUpReport");
         // Create an instance of ExtentSparkReporter
         ExtentSparkReporter spark = new ExtentSparkReporter("target/Spark.html");
         // Create an ExtentReports instance and attach the HTML reporter
@@ -32,7 +31,8 @@ public class BaseTest {
     }
 
     @BeforeMethod(alwaysRun = true)
-    public void setUp(ITestResult result){
+    public void setUp(ITestResult result) {
+        System.out.println("Calling BaseTest @BeforeMethod setUpReport");
         //test = extent.createTest(result.getMethod().getDescription());
         System.setProperty("browser", "Chrome");
         //System.setProperty("os", "Windows 10");
@@ -46,17 +46,19 @@ public class BaseTest {
     }
 
     @AfterMethod(alwaysRun = true)
-    public void tearDown(ITestResult result){
+    public void tearDown(ITestResult result) {
         logger.info("Finished test: {}", result.getMethod().getDescription());
         DriverManager.quitDriver();
     }
 
     @AfterClass
     public void tearDownClass() {
-        //extent.flush();
+        System.out.println("Calling BaseTest @AfterClass tearDownClass");
+
+        extent.flush();
     }
 
-    @AfterSuite
+    @AfterSuite(enabled = false)
     public void generateReport() {
         SummaryReportGenerator.generateSummaryReport();
 

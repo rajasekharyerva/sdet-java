@@ -1,0 +1,26 @@
+
+🔗 Interview Preparation Series: Advanced QA and Automation Testing Questions 🔗
+Let’s dive deeper into concepts that test not just your knowledge but also your problem-solving abilities.
+💡 Here's the next set of questions to help you ace your QA interviews:
+Coding Questions
+1️⃣ Write a program to find the missing number in an array of integers from 1 to n.
+2️⃣ How would you find the intersection of two arrays in Java?
+3️⃣ Write a code snippet to implement a binary search algorithm.
+4️⃣ Develop logic to check whether a number is prime or not.
+5️⃣ How would you write a program to count occurrences of a character in a string?
+6️⃣ Implement a program to find the longest substring without repeating characters.
+7️⃣ Create logic for validating whether a string contains balanced parentheses.
+8️⃣ Write a program to simulate a simple queue using stacks.
+
+Scenario-Based Questions
+🔍 Agile Methodology: How would you estimate testing tasks during sprint planning for a complex feature?
+🔍 Bug Tracking: A bug is not reproducible in the developer's environment but exists in production. How would you approach this?
+🔍 Test Automation Framework: What factors would you consider when designing a framework for a large e-commerce website?
+🔍 Database Testing: You are tasked with verifying data integrity for a financial application. What test cases would you create?
+🔍 Security Testing: How would you test an application for vulnerabilities such as SQL injection or XSS?
+🔍 API Load Testing: How would you ensure an API can handle a high number of concurrent requests?
+🔍 UI Testing: How would you verify color, font, and text consistency across different browsers?
+🔍 CI/CD Pipeline: What steps would you take to integrate automated test scripts into a CI/CD pipeline?
+💻 Pro Tip: For coding questions, focus on clarity and efficiency. For scenario-based questions, showcase your analytical skills and practical experience.
+📢 What’s your approach to these questions? Share your thoughts and solutions in the comments, and tag someone who might benefit from this series!
+#QAEngineer #AutomationTesting #InterviewQuestions #CodingChallenges #ScenarioTesting #CareerGrowth

@@ -1,0 +1,22 @@
+Most important hashtag#Automation Testing Interview Questions
+
+1. Write a Page Object Model for a login page that has a username field, password field, and login button. Include methods for invalid and valid login scenarios.
+2. In framework suppose you have 100 pages , do you create 100 page Objects
+3. Write a Selenium script that waits for a dynamically loaded element
+4. Write a Selenium script to open a new tab, navigate to a different URL, and verify the title of the new page.
+5. Implement a TestNG listener to take a screenshot of a failed test case.
+6. Create a Cucumber feature file for a search functionality in an e-commerce application, including steps for filtering results by category.
+7. Explain how you handle shared test data between multiple Cucumber scenarios.
+8. What is an ElementClickInterceptedException? Give scenarios where this might occur and explain how to resolve it.
+9. How to handle stale element exceptions in Selenium?
+10. Explain the purpose of Actions class in Selenium. Can you use it to perform a double-click action?
+11. How to handle file uploads and downloads using Selenium WebDriver?
+12. What are Fluent Waits in Selenium, and when would you use them instead of Explicit Waits?
+13. Create a JMeter test plan with 50 threads that hit a sample API endpoint and measure response times.
+14. Add assertions to check that the response time for the API is under 2 seconds.
+15. Configure an Azure Pipeline to trigger automated tests in a Selenium framework upon every code commit.
+16. How to integrate Azure DevOps with your automation test framework?
+17. Explain the purpose of Azure Pipelines and how they can be configured to run test suites automatically.
+18. Write a program to sort a list of Employee objects by name (using Comparable) and by salary (using Comparator).
+19. Implement a program to demonstrate static and dynamic binding in Java.
+20. You report a bug that the developer refuses to fix, saying it's "not reproducible." Write steps to handle the situation professionally.

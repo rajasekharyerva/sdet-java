@@ -1,0 +1,19 @@
+Selenium Scenario-Based Questions
+1️⃣ Dynamic Dropdowns: How would you select an item from a dropdown where options load dynamically as you type?
+2️⃣ File Upload: Automate a scenario to upload a file in a form where the input type is hidden or disabled.
+3️⃣ Pop-ups and Alerts: How would you handle multiple browser windows, alerts, and authentication pop-ups using Selenium?
+4️⃣ Page Load Timeout: Write logic to wait for a specific element to load completely before performing any action.
+5️⃣ Stale Element Reference Exception: What is this exception, and how would you handle it in a Selenium script?
+6️⃣ Screenshot Capture: Write a script to take screenshots only when a test case fails.
+7️⃣ Mouse Hover: Automate a scenario where you need to hover over a menu item to reveal submenus and click one.
+8️⃣ Drag and Drop: How would you automate a drag-and-drop feature using Selenium WebDriver?
+9️⃣ Broken Links: Automate a script to check all links on a webpage and identify any broken ones.
+🔟 Data-Driven Testing: How would you use Selenium to read test data from an external source (Excel/CSV) and execute test cases?
+
+Advanced Selenium Questions
+🔍 XPath Optimization: How would you handle scenarios where IDs and class names are dynamically generated?
+🔍 Ajax Elements: Automate a scenario where you need to wait for Ajax elements to load dynamically.
+🔍 Scroll Actions: Write a script to scroll to the bottom of a webpage or a specific element.
+🔍 Responsive Testing: How would you validate UI behavior on different screen sizes using Selenium?
+🔍 Browser Compatibility: What steps would you take to execute a single script across multiple browsers?
+🔍 Parallel Execution: How would you configure Selenium to run tests in parallel using TestNG or JUnit?
