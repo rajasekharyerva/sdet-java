@@ -9,7 +9,7 @@ public class MergeNonDecreasingArrays {
         int[] nums2 = {2, 5, 6};
         int n = 3;
         mergeArr(nums1, m, nums2, n);
-        System.out.println(Arrays.toString(nums1));  // Output: [1, 2, 2, 3, 5, 6]
+        System.out.println(Arrays.toString(nums1));  // Output: [1, faq2, faq2, 3, 5, 6]
     }
 
     private static void mergeArr(int[] nums1, int m, int[] nums2, int n) {

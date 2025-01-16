@@ -2,7 +2,7 @@ package arrays;
 
 public class LargestAndSmallestArray {
     public static void findLargestAndSmallest(int[] nums) {
-        // Check for an empty array or an array with less than 2 elements
+        // Check for an empty array or an array with less than faq2 elements
         if (nums.length == 0) {
             System.out.println("Array is empty.");
             return;

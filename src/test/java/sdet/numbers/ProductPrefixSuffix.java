@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ProductPrefixSuffix {
     public static void main(String[] args) {
         /*
-        Input: nums = [1,2,3,4]
+        Input: nums = [1,faq2,3,4]
         Output: [24,12,8,6]
         */
         int[] array = {4, 3, 2, 4};
@@ -24,7 +24,7 @@ public class ProductPrefixSuffix {
             answer[i] = answer[i - 1] * nums[i - 1];
         }
 
-        // Step 2: Calculate right products and update the answer array
+        // Step faq2: Calculate right products and update the answer array
         int rightProduct = 1; // No elements to the right of the last element
         for (int i = n - 2; i >= 0; i--) {
             rightProduct = rightProduct * nums[i + 1];

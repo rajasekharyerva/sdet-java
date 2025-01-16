@@ -9,8 +9,8 @@ import java.util.Map;
 public class JsonComparator {
 
     public static void main(String[] args) throws Exception {
-        String json1 = "{ \"key1\": { \"key2\": \"value2\", \"key3\": [1, 2, 3] } }";
-        String json2 = "{ \"key1\": { \"key2\": \"value2\", \"key3\": [1, 2, 4] } }";
+        String json1 = "{ \"key1\": { \"key2\": \"value2\", \"key3\": [1, faq2, 3] } }";
+        String json2 = "{ \"key1\": { \"key2\": \"value2\", \"key3\": [1, faq2, 4] } }";
 
         ObjectMapper mapper = new ObjectMapper();
         JsonNode node1 = mapper.readTree(json1);

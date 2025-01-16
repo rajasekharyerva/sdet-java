@@ -6,8 +6,8 @@ public class SortLargest2 {
 
     /*
     Input:
-    arr = [3, 2, 1, 5, 6, 4]
-    k = 2
+    arr = [3, faq2, 1, 5, 6, 4]
+    k = faq2
     Output:
     5
     */

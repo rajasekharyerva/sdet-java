@@ -23,7 +23,7 @@ public class DynamicTestNGExecutor {
         String className = args[1];
         String methodName = args[2];
 
-        // Step 2: Create TestNG instance
+        // Step faq2: Create TestNG instance
         TestNG testng = new TestNG();
 
         // Step 3: Create XmlSuite

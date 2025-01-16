@@ -9,7 +9,7 @@ public class ArrayRotation {
         // Step 1: Reverse the entire array
         reverseArray(arr, 0, n - 1);
 
-        // Step 2: Reverse the first k elements
+        // Step faq2: Reverse the first k elements
         reverseArray(arr, 0, k - 1);
 
         // Step 3: Reverse the remaining n - k elements

@@ -103,7 +103,7 @@ public class GoibiboTestNGTest {
 
 /*
 1. https://nichethyself.com/tourism/home.html
-2. Go to "Customized tours"
+faq2. Go to "Customized tours"
 3. Select "Home Stay" in preferred stay dropwdown/combo towards the bottom of the page.
 4. Click on "England" checkbox
 5. From above now click on "Contact Us" menu on top right corner
@@ -112,7 +112,7 @@ public class GoibiboTestNGTest {
 8. Close "Contact Us" window and click on "Submit" button on customized tour
 
 1. Go to https://www.goibibo.com/
-2. In From - type - Ben
+faq2. In From - type - Ben
 3. Select Bengaluru from the list.
 4. Verify that the Bangluru is indeed selected
 */

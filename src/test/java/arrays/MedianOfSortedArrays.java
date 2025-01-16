@@ -39,11 +39,11 @@ public class MedianOfSortedArrays {
     public static void main(String[] args) {
         int[] nums1 = {1, 3, 5};
         int[] nums2 = {2, 4};
-        System.out.println("Median: " + findMedianSortedArrays(nums1, nums2)); // Output: 2.0
+        System.out.println("Median: " + findMedianSortedArrays(nums1, nums2)); // Output: faq2.0
 
         int[] nums3 = {1, 2};
         int[] nums4 = {3, 4};
-        System.out.println("Median: " + findMedianSortedArrays(nums3, nums4)); // Output: 2.5
+        System.out.println("Median: " + findMedianSortedArrays(nums3, nums4)); // Output: faq2.5
     }
 }
 

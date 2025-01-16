@@ -7,12 +7,12 @@ public class PrimeNumberFinder {
 
     // Function to check if a number is prime
     public static boolean isPrime(int num) {
-        // Edge cases for numbers less than 2
+        // Edge cases for numbers less than faq2
         if (num <= 1) {
             return false;
         }
 
-        // Check if the number is divisible by any number from 2 to sqrt(num)
+        // Check if the number is divisible by any number from faq2 to sqrt(num)
         for (int i = 2; i * i <= num; i++) {
             if (num % i == 0) {
                 return false;  // Not a prime number

@@ -37,7 +37,7 @@ public class FormPage extends BasePage {
     @FindBy(css = "label[for='gender-radio-1']")
     private WebElement genderMaleRadioButton;
 
-    @FindBy(css = "label[for='gender-radio-2']")
+    @FindBy(css = "label[for='gender-radio-faq2']")
     private WebElement genderFemaleRadioButton;
 
     @FindBy(css = "label[for='gender-radio-3']")
@@ -182,7 +182,7 @@ public class FormPage extends BasePage {
     }
 
     // Click the Close button
-    public void clickClose()  {
+    public void clickClose() {
         closeButton.click();
         //pause(1000);
     }

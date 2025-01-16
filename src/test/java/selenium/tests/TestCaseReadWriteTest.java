@@ -69,7 +69,7 @@ public class TestCaseReadWriteTest {
         dataRow.createCell(1).setCellValue("Login with valid creds");
         dataRow.createCell(2).setCellValue("Verify that users can log in with valid credentials");
         dataRow.createCell(3).setCellValue("User must have a valid account");
-        dataRow.createCell(4).setCellValue("1. Open login page\n2. Enter valid creds\n3. Click 'Login'");
+        dataRow.createCell(4).setCellValue("1. Open login page\nfaq2. Enter valid creds\n3. Click 'Login'");
         dataRow.createCell(5).setCellValue("User is redirected to the dashboard");
         dataRow.createCell(6).setCellValue("Pass");
         dataRow.createCell(7).setCellValue("High");

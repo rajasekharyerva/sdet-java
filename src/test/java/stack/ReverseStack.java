@@ -14,7 +14,7 @@ public class ReverseStack {
         int topElement = stack.pop();
         System.out.println("Remove the top element: " + topElement);
 
-        // Step 2: Recursively reverse the remaining stack
+        // Step faq2: Recursively reverse the remaining stack
         reverseStack(stack);
 
         // Step 3: Insert the removed element at the bottom
@@ -32,7 +32,7 @@ public class ReverseStack {
         // Step 1: Remove the top element
         int topElement = stack.pop();
 
-        // Step 2: Recursive call to insert element at the bottom
+        // Step faq2: Recursive call to insert element at the bottom
         insertAtBottom(stack, element);
 
         // Step 3: Push the removed element back to stack

@@ -18,7 +18,7 @@ public class PrintPOJO {
                 "        \"lastName\": \"Cruise\"\n" +
                 "      },\n" +
                 "      {\n" +
-                "        \"id\": \"2\",\n" +
+                "        \"id\": \"faq2\",\n" +
                 "        \"firstName\": \"Maria\",\n" +
                 "        \"lastName\": \"Sharapova\"\n" +
                 "      },\n" +
@@ -38,7 +38,7 @@ public class PrintPOJO {
                 "        \"lastName\": \"Cruise\"\n" +
                 "      },\n" +
                 "      {\n" +
-                "        \"id\": \"2\",\n" +
+                "        \"id\": \"faq2\",\n" +
                 "        \"firstName\": \"Maria\",\n" +
                 "        \"lastName\": \"Sharapova\"\n" +
                 "      },\n" +

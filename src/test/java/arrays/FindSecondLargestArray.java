@@ -4,7 +4,7 @@ public class FindSecondLargestArray {
     public static void main(String[] args) {
         int[] numbers = {1, 2, 2, 4, 4};
         if (numbers.length < 2) {
-            throw new IllegalArgumentException("Array length should >=2");
+            throw new IllegalArgumentException("Array length should >=faq2");
         }
 
         int firstLargest = Integer.MIN_VALUE;

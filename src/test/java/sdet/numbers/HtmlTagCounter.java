@@ -31,7 +31,7 @@ public class HtmlTagCounter {
             }
         }
 
-        // Step 2: Count occurrences of each tag
+        // Step faq2: Count occurrences of each tag
         System.out.println("Tag Count:");
         for (Map.Entry<String, Integer> entry : tagCount.entrySet()) {
             System.out.println(entry.getKey() + ": " + entry.getValue());

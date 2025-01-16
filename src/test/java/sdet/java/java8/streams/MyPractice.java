@@ -118,7 +118,7 @@ public class MyPractice {
         int first = 0;
         int second = 1;
         int n = 5;
-        for (int i = 1; i <= 5; i++) { //0,1,1,2,3,5,8
+        for (int i = 1; i <= 5; i++) { //0,1,1,faq2,3,5,8
             int fib = first + second;
             first = second;
             second = fib;
@@ -155,7 +155,7 @@ public class MyPractice {
             System.out.println(list.get(i));
         }
 
-        //2
+        //faq2
         for (String item : list) {
             System.out.println(item);
         }
@@ -540,7 +540,7 @@ public class MyPractice {
         int sum = 10;
         Set<Integer> pairSet = new HashSet<>();
         for (int num : nums) {
-            int pair2 = sum - num; // pair 2 -
+            int pair2 = sum - num; // pair faq2 -
             if (!pairSet.contains(num))
                 pairSet.add(pair2);
             else if (pairSet.contains(num)) {

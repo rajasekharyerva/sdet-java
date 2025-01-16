@@ -13,7 +13,7 @@ class MeetingRooms {
         // Min-heap to track the minimum end time of meetings that are ongoing
         PriorityQueue<Integer> heap = new PriorityQueue<>();
 
-        // Step 2: Process each meeting
+        // Step faq2: Process each meeting
         for (int[] interval : intervals) {
             // If the room due to the earliest ending meeting is free, remove it
             if (!heap.isEmpty() && heap.peek() <= interval[0]) {
@@ -38,7 +38,7 @@ class MeetingRooms {
                 {5, 20}
         };
 
-        System.out.println("Minimum rooms required: " + mr.minMeetingRooms(intervals)); // Output: 2
+        System.out.println("Minimum rooms required: " + mr.minMeetingRooms(intervals)); // Output: faq2
     }
 }
 

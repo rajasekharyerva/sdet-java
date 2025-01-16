@@ -29,7 +29,7 @@ public class UserToPdfWithPDFBox {
         List<Map<String, Object>> users = fetchUsersFromDatabase();
 
         if (users != null && !users.isEmpty()) {
-            // Step 2: Generate PDF with the user data
+            // Step faq2: Generate PDF with the user data
             String pdfFilePath = "user_data.pdf";
             generatePdf(users, pdfFilePath);
 
@@ -60,7 +60,7 @@ public class UserToPdfWithPDFBox {
         return users;
     }
 
-    // Step 2: Generate PDF using Apache PDFBox
+    // Step faq2: Generate PDF using Apache PDFBox
     private static void generatePdf(List<Map<String, Object>> users, String filePath) {
         try {
             PDDocument document = new PDDocument();
@@ -105,28 +105,27 @@ public class UserToPdfWithPDFBox {
     private static void validatePdfContent(String pdfFilePath, List<Map<String, Object>> expectedData) {
 
 
-            // Open the file using Files.newInputStream() to get an InputStream
-            try{
-                // Load the PDF document using InputStream
-                PDDocument document = Loader.loadPDF(new File(pdfFilePath));
+        // Open the file using Files.newInputStream() to get an InputStream
+        try {
+            // Load the PDF document using InputStream
+            PDDocument document = Loader.loadPDF(new File(pdfFilePath));
 
-                // Extract text from the PDF
-                PDFTextStripper stripper = new PDFTextStripper();
-                String pdfText = stripper.getText(document);
+            // Extract text from the PDF
+            PDFTextStripper stripper = new PDFTextStripper();
+            String pdfText = stripper.getText(document);
 
-                document.close();
+            document.close();
 
-                // Validate the content by checking each user's data
-                for (Map<String, Object> user : expectedData) {
-                    String userData = user.get("id") + " " + user.get("name") + " " + user.get("email");
-                    if (pdfText.contains(userData)) {
-                        System.out.println("Valid content found in PDF: " + userData);
-                    } else {
-                        System.out.println("Content mismatch for: " + userData);
-                    }
+            // Validate the content by checking each user's data
+            for (Map<String, Object> user : expectedData) {
+                String userData = user.get("id") + " " + user.get("name") + " " + user.get("email");
+                if (pdfText.contains(userData)) {
+                    System.out.println("Valid content found in PDF: " + userData);
+                } else {
+                    System.out.println("Content mismatch for: " + userData);
                 }
             }
-         catch (IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }

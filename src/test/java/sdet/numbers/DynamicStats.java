@@ -53,7 +53,7 @@ public class DynamicStats {
         }
         int size = numbers.size();
         if (size % 2 == 0) {
-            median = (numbers.get(size / 2 - 1) + numbers.get(size / 2)) / 2.0;
+            median = (numbers.get(size / 2 - 1) + numbers.get(size / 2)) / 2;
         } else {
             median = numbers.get(size / 2);
         }
@@ -78,7 +78,7 @@ public class DynamicStats {
         DynamicStats stats = new DynamicStats();
 
         while (true) {
-            System.out.println("Choose an operation: \n1. Add Number \n2. Remove Number \n3. Show Mean \n4. Show Median \n5. Show Numbers \n6. Exit");
+            System.out.println("Choose an operation: \n1. Add Number \nfaq2. Remove Number \n3. Show Mean \n4. Show Median \n5. Show Numbers \n6. Exit");
             int choice = scanner.nextInt();
             switch (choice) {
                 case 1:

@@ -13,7 +13,7 @@ public class MinDeletionsUniqueFrequencies {
             frequencyMap.put(c, frequencyMap.getOrDefault(c, 0) + 1);
         }
 
-        // Step 2: Use a set to track used frequencies
+        // Step faq2: Use a set to track used frequencies
         Set<Integer> usedFrequencies = new HashSet<>();
         int deletions = 0;
 

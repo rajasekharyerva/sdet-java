@@ -89,13 +89,13 @@ public class MatrixOperations {
             }
         }
 
-        // Input matrix 2
-        System.out.println("Enter number of rows and columns for matrix 2:");
+        // Input matrix faq2
+        System.out.println("Enter number of rows and columns for matrix faq2:");
         int rows2 = scanner.nextInt();
         int cols2 = scanner.nextInt();
 
         int[][] matrix2 = new int[rows2][cols2];
-        System.out.println("Enter elements of matrix 2:");
+        System.out.println("Enter elements of matrix faq2:");
         for (int i = 0; i < rows2; i++) {
             for (int j = 0; j < cols2; j++) {
                 matrix2[i][j] = scanner.nextInt();
@@ -124,7 +124,7 @@ public class MatrixOperations {
         printMatrix(transposeMatrix1);
 
         int[][] transposeMatrix2 = transposeMatrix(matrix2);
-        System.out.println("Transpose of Matrix 2:");
+        System.out.println("Transpose of Matrix faq2:");
         printMatrix(transposeMatrix2);
 
         scanner.close();

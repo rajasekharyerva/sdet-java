@@ -13,7 +13,7 @@ public class DropdownListMergeTest extends BaseTest {
 
     private static final Logger logger = LoggerFactory.getLogger(DropdownListMergeTest.class);
 
-    @Test(groups = {"local"}, description = "TC1-Dropdown Merge 2 List")
+    @Test(groups = {"local"}, description = "TC1-Dropdown Merge faq2 List")
     public void getLinksTest() {
         SelectPage selectPage = new SelectPage(driver);
         List<String> sourceList = selectPage.getSelectOptionsSource();

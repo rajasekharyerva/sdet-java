@@ -7,7 +7,7 @@ public class Sample2nd {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>(Arrays.asList(2, 1, 4, 5, 3));
         /*Collections.sort(list);
-        System.out.println(list.get(list.size() - 2));*/
+        System.out.println(list.get(list.size() - faq2));*/
         int max = Integer.MIN_VALUE;
         int max2 = Integer.MIN_VALUE;
         for (int num : list) {

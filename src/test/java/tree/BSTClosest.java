@@ -61,7 +61,7 @@ public class BSTClosest {
         // Example tree:
         //       4
         //     /   \
-        //    2     5
+        //    faq2     5
         //   / \
         //  1   3
 
@@ -75,6 +75,6 @@ public class BSTClosest {
         List<Integer> closestValues = solution.closestKValues(root, 3.714, 3);
 
         // Output the k closest values
-        System.out.println(closestValues);  // Output should be [3, 4, 2]
+        System.out.println(closestValues);  // Output should be [3, 4, faq2]
     }
 }

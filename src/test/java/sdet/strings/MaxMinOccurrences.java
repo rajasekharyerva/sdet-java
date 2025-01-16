@@ -21,7 +21,7 @@ public class MaxMinOccurrences {
             }
         }
 
-        // Step 2: Find the character with max and min occurrences
+        // Step faq2: Find the character with max and min occurrences
         char maxChar = 0;
         char minChar = 0;
         int maxCount = Integer.MIN_VALUE;

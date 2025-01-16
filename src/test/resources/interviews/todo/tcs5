@@ -1,0 +1,54 @@
+-> TCS Recently asked Interview Questions for QA Automation Testing Role for 3+ years of Experience
+
+-> I have provided answer for all those questions.
+
+Round 1:
+1. Tell me something about yourself?
+2. What is the difference between regression and sanity?
+3. What is defect Lifecycle ?
+4. What is traceability matrix ?
+5. How may test cases you can write in a day?
+6. How can you define regression testing and when it's used ?
+7. Difference between relative XPath and absolute XPath ?
+8. Which framework are you using and explain it ?
+9. How to take screenshot in Selenium and can can you write code for it?
+10. What are the different types of agile meeting?
+11. What are benefits of using TestNG framework?
+12. Can you explain POM.XML & where you use it ?
+13. Write a code to swap two numbers without using third variable?
+14. What is the difference between List and Set?
+15. In a webpage how would you ensure that page has been loaded completely?
+16. What is constructor and when you will use it and what is super in constructor?
+17. What is the difference between private and protected?
+18. How will you achieve dynamic polymorphism?
+19. Can you override static methods?
+20. Can the main method be overloaded?
+
+Round 2:
+1. Can you explain your project with your role and responsibility?
+2. How do you perform API testing, explain in detail ?
+3. What are common api errors that are often found?
+4. What are the major changes you faced while performing API testing ?
+5. What is mocking in API testing?
+6. What is the difference between Post and Put in API ?
+7. What is singleton design pattern?
+8. What is constructor, if you want to call constructor
+from parent class, what you will do?
+9. What is the difference between final, finally and finalize?
+10. How will handle alerts in Selenium ?
+11. How will you handle dynamic elements using X-path?
+12. How to refresh page in Selenium and ots command ?
+13. Can you explain Page Factory?
+14. What is the use of maven?
+15. What are the primary key and unique keys?
+16. How many joins are there and any differences?
+17. Select the top 3 max salary employees by dept?
+18. What do you achieve by git?
+19. Are you aware of CI/CD pipeline ?
+
+Round 3:
+1. Why you are looking for a change?
+2. Tell us 3 best thing you alike about your previous organization?
+3. Tell 2 points you don't like about your previous manager?
+4. Where do see yourself in next 5 years?
+5. Salary expectation

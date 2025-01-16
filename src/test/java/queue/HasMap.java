@@ -91,9 +91,9 @@ class HashMap<K, V> {
         map.put("two", 2);
         map.put("three", 3);
 
-        System.out.println("Value for 'two': " + map.get("two")); // Output: 2
+        System.out.println("Value for 'two': " + map.get("two")); // Output: faq2
         map.remove("two");
         System.out.println("Value for 'two' after removal: " + map.get("two")); // Output: null
-        System.out.println("Size: " + map.size()); // Output: 2
+        System.out.println("Size: " + map.size()); // Output: faq2
     }
 }

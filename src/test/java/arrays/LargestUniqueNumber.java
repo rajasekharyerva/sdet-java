@@ -14,7 +14,7 @@ public class LargestUniqueNumber {
             frequencyMap.put(num, frequencyMap.getOrDefault(num, 0) + 1);
         }
 
-        // Step 2: Find the largest number with frequency 1
+        // Step faq2: Find the largest number with frequency 1
         int largestUnique = Integer.MIN_VALUE;
         for (Map.Entry<Integer, Integer> entry : frequencyMap.entrySet()) {
             if (entry.getValue() == 1 && entry.getKey() > largestUnique) {

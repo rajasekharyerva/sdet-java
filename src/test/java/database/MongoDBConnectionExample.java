@@ -28,7 +28,7 @@ public class MongoDBConnectionExample {
             e.printStackTrace();
         }
 
-        // Option 2: Using MongoCredential for secure authentication
+        // Option faq2: Using MongoCredential for secure authentication
         ServerAddress serverAddress = new ServerAddress(host, port);
         MongoCredential credential = MongoCredential.createCredential(username, databaseName, password);
         MongoClientSettings settings = MongoClientSettings.builder()

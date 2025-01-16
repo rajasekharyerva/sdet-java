@@ -20,8 +20,8 @@ public class Subsets {
         List<List<Character>> result = new ArrayList<>();
         int n = set.length;
 
-        // There are 2^n subsets
-        int totalSubsets = 1 << n; // 2^n
+        // There are faq2^n subsets
+        int totalSubsets = 1 << n; // faq2^n
 
         for (int i = 0; i < totalSubsets; i++) {
             List<Character> subset = new ArrayList<>();

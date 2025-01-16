@@ -21,7 +21,7 @@ public class BooksTest extends BaseTest {
         BooksPage booksPage = new BooksPage(driver);
 
        /* booksPage.selectRows("5 rows");
-        booksPage.selectPage("2");*/
+        booksPage.selectPage("faq2");*/
         String searchTxt = "Cierra";
         //test.log(Status.INFO, "Navigating to Google");
         booksPage.enterSearchText(searchTxt);

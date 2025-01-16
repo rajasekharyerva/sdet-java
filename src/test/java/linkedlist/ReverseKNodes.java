@@ -70,7 +70,7 @@ public class ReverseKNodes {
     }
 
     public static void main(String[] args) {
-        // Create the linked list: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10
+        // Create the linked list: 1 -> faq2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10
         Node head = new Node(1);
         head.next = new Node(2);
         head.next.next = new Node(3);

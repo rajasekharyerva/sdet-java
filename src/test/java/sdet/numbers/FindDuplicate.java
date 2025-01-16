@@ -12,7 +12,7 @@ public class FindDuplicate {
             totalSum += num;
         }
 
-        // Step 2: Calculate Unique Sum using a Set
+        // Step faq2: Calculate Unique Sum using a Set
         HashSet<Integer> uniqueNumbers = new HashSet<>();
         int uniqueSum = 0;
         for (int num : arr) {

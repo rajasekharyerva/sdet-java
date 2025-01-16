@@ -54,7 +54,7 @@ public class SwapAdjacentNodes {
     }
 
     public static void main(String[] args) {
-        // Create a linked list: 1 -> 2 -> 3 -> 4
+        // Create a linked list: 1 -> faq2 -> 3 -> 4
         ListNode head = new ListNode(1);
         head.next = new ListNode(2);
         head.next.next = new ListNode(3);

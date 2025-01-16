@@ -1,0 +1,15 @@
+Post 1: Advanced Selenium Concepts and Questions
+🚀 Interview Preparation Series: Advanced Selenium Challenges 🚀
+Take your Selenium knowledge to the next level with these advanced scenario-based challenges! If you’re preparing for interviews or just honing your skills, these questions will help you stand out:
+
+Selenium Questions
+1️⃣ Flaky Tests: How would you identify and fix flaky tests in your Selenium suite?
+2️⃣ Shadow DOM: How do you interact with elements inside a Shadow DOM using Selenium?
+3️⃣ Page Object Model (POM): Explain POM and implement it for a login page.
+4️⃣ Selenium Grid: What is Selenium Grid? How would you use it to execute tests across multiple environments?
+5️⃣ Handling Captchas: What strategies can you use to test a page with captchas?
+6️⃣ Database Validation: How would you validate UI data with database records using Selenium?
+7️⃣ Custom Waits: Write logic for a custom wait to verify the visibility of a web element.
+8️⃣ Cookie Management: How would you add, delete, and fetch cookies using Selenium WebDriver?
+9️⃣ Handling Large Tables: Automate a scenario to extract data from a dynamically loaded table and verify it.
+🔟 Retry Logic: Implement retry logic for test cases that fail due to transient issues.

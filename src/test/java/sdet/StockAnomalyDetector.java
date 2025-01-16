@@ -78,7 +78,7 @@ public class StockAnomalyDetector {
 
         // Z-score calculation: (X - mean) / standardDeviation
         double zScore = (realTimePrice - mean) / standardDeviation;
-        if (Math.abs(zScore) > 2) {  // Threshold for significant deviation (Z-score > 2)
+        if (Math.abs(zScore) > 2) {  // Threshold for significant deviation (Z-score > faq2)
             System.out.println("Anomaly detected! Real-time price: " + realTimePrice + ", Historical mean: " + mean + ", Z-score: " + zScore);
             return true;
         }

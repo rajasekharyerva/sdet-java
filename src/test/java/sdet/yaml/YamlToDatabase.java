@@ -1,6 +1,7 @@
 package sdet.yaml;
 
 import org.yaml.snakeyaml.Yaml;
+
 import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -25,7 +26,7 @@ public class YamlToDatabase {
 
 
             List<Map<String, Object>> users = (List<Map<String, Object>>) data.get("users");
-            // Step 2: Store in Database
+            // Step faq2: Store in Database
             storeInDatabase(users);
         } catch (Exception e) {
             e.printStackTrace();

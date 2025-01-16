@@ -1,0 +1,100 @@
+Click button in window, when button clicked 3 child windows gets open up,
+navigate to 2nd child when title match then input field present in iframe
+//title
+//assert
+String parentWindow = webDriver.getWindowHandle();
+WebElement button = webDiver.findElement(By.xpath("//button");
+button.click();
+Set<String> windowsSet = webDriver.getWindowHandles();
+String expectedTitle = "2nd Window";
+for(String window: windowsSet){
+if(!parentWindow.equals(window)){
+webDriver.switchTo().window(window);
+String currentTitle = webDriver.getTitle();
+if(currentTitle.equals(expectedTitle)) {
+// call next steps
+WebElement iframe = webDiver.findElement(By.xpath("//iframe"); // Assuming 1 frame
+webDiver.switchTo().frame(iframe);
+WebElement inputElement = webDiver.findElement(By.xpath("//input");
+inputElement.sendKeys("input text");
+webDiver.switchTo().defaultContent();
+}
+}
+}
+webDriver.close();
+}
+
+//Bearer token
+//from response, id and description
+RestAssured.baseUri = "www.api.weather.com";
+Response response = RestAssured.given().header("Authorization", "Bearer dkhf").get("/hyderabad");
+String description = response.jsonpath().getString("description")
+int id = response.jsonpath().getInt("id");
+
+
+
+int[] a = { 30, 78, 55, 39, 26, 99, 78, 55,... 
+int[] a = { 30, 78, 55, 39, 26, 99, 78, 55, 99, 30 }
+remove the duplicates and sort the array
+import java.util.Arrays;import java.util.Co...
+
+Plain Text
+import java.util.Arrays;import java.util.Collections;public class SampleTest {
+ public static void main(String[] args) {
+  int[] a = { 30, 78, 55, 39, 26, 99, 78, 55, 99, 30 };
+ int[] res =  removeDuplicates(a);
+ Arrays.sort(res);
+ for(int s: res) {
+    System.out.println(s);
+     }    }
+     private static int[] removeDuplicates(int[] array) {        for(int i=0; i<array.length-1;i++){            for(int j =i+1; j<array.length;j++){                if(array[i] == array[j]){                    array[j] =0;                }            }        }        //get index        int index = 0;        for(int i=0; i<array.length-1;i++) {            if(array[i] == 0) {                index = i;                break;            }        }        int[] result = new int[index];        for(int i=0; i<index;i++){            result[i] = array[i];        }        return  result;    }}
+write program to convert "I like Like to To... 
+
+write program to convert "I like Like to To code" into "I like to code"?
+import java.util.LinkedHashSet;import java....
+
+Plain Text
+import java.util.LinkedHashSet;import java.util.Set;public class SampleTest2 {
+public static void main(String[] args) {        //write program to convert "I like Like to To code" into "I like to code"?        String input = "I like Like to To code";        //input =input.replaceAll("\\[A-Z\\]", "[a-z]");        Set<String> stringSet = new LinkedHashSet<>();        String[] strArray = input.split(" ");        StringBuilder result = new StringBuilder();        for(String str: strArray){            String temp = str.toLowerCase();            if(!stringSet.contains(temp)){                stringSet.add(temp);                result.append(str).append(" ");            }        }        System.out.println(result.toString().trim());    }}
+String str = "Hello Good Morning World" p... 
+
+String str = "Hello Good Morning World"
+print first letter and last letter from each word
+
+public class SampleTest3 { public static... 
+
+
+Plain Text
+public class SampleTest3 {    public static void main(String[] args) {        //String str = "Hello Good Morning World"        //print first letter and last letter from each word        //Ho Gd Mg Wd        String input = "Hello Good Morning World";        String[] inputArray = input.split(" ");        StringBuilder result = new StringBuilder();        for(String str: inputArray) {            int length = str.length();            result.append(str.substring(0,1)).append(str.substring(length-1, length));        }        System.out.println(result.toString());    }}
+HashMap<String,Integer> m = new HashMap<>()... 
+
+
+HashMap<String,Integer> m = new HashMap<>();
+m.put("A", null);
+m.put("B",2);
+m.put(null,3);
+sysout(map.get(null));
+What is the output of this ?
+Class Parent{ 	void display(){ 	sysou... 
+
+
+Class Parent{
+	void display(){
+	sysout("Child");
+	}
+	}
+	Public class Class1{
+		public static vid main(String[] args){
+		Child c = new Parent();
+		c.display();
+		}
+		}
+button window, when click 3 child windows o... 
+
+
+Plain Text
+button window, when click 3 child windows open up, 2nd child navigate to // input field present in iframe//title//assertString parentWindow = webDriver.getWindowHandle();WebElement button = webDiver.findElement(By.xpath("//button");button.click();Set<String> windowsSet = webDriver.getWindowHandles();String expectedTitle = "2nd Window";for(String window: windowsSet){if(!parentWindow.equals(window)){webDriver.switchTo().window(window);String currentTitle = webDriver.getTitle();if(currentTitle.equals(expectedTitle)) {// call next stepsWebElement iframe = webDiver.findElement(By.xpath("//iframe"); // Assuming 1 framewebDiver.switchTo().frame(iframe);WebElement inputElement = webDiver.findElement(By.xpath("//input");inputElement.sendKeys("input text");webDiver.switchTo().defaultContent();}}}webDriver.close();}
+has context menu
+
+
+has context menu

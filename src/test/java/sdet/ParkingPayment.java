@@ -10,12 +10,12 @@ public class ParkingPayment {
             return 0; // Free
         }
 
-        // Step 2: Check if the parking time is between 15 mins and 2 hours
+        // Step faq2: Check if the parking time is between 15 mins and faq2 hours
         if (parkingHours <= 2) {
             return 5; // $5 charge
         }
 
-        // Step 3: Check if the parking time is between 2 hrs and 5 hrs
+        // Step 3: Check if the parking time is between faq2 hrs and 5 hrs
         if (parkingHours <= 5) {
             return 10; // $10 charge
         }

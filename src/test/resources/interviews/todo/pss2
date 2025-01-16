@@ -1,0 +1,24 @@
+💻 Interview Preparation Series: Coding and Scenario-Based Questions for QA Engineers 💻
+Preparing for interviews in QA and Automation Testing? Let’s level up your skills with some coding and real-world scenario-based challenges! 🚀
+
+Coding Questions
+1️⃣ Write a program to reverse a string without using in-built functions.
+2️⃣ How would you find the factorial of a number using recursion?
+3️⃣ Write logic to interchange two numbers without using a third variable.
+4️⃣ Create a program to identify duplicate elements in an array.
+5️⃣ Write a code snippet to check if a given string is a palindrome.
+6️⃣ Develop a program to find the second-largest number in an array.
+7️⃣ Write a logic to generate a Fibonacci series up to 'n' numbers.
+8️⃣ How would you write a program to sort an array without using in-built methods?
+
+Scenario-Based Questions
+🔍 Login Page Testing: How would you test a login page for both positive and negative scenarios? What edge cases would you consider?
+🔍 API Testing: You are testing an API for user details. What test cases would you create for a GET and POST request?
+🔍 Error Handling: What would you do if you find a critical bug just before the product release?
+🔍 Performance Testing: How would you ensure the scalability of a web application with a high user load?
+🔍 Mobile App Testing: What strategies would you apply to test a mobile app on different devices and OS versions?
+🔍 Regression Testing: A new feature is added to a product. How will you ensure existing functionalities are not affected?
+🔍 Cross-Browser Testing: What scenarios would you test to ensure compatibility across multiple browsers?
+💡 Challenge Yourself: Try solving these coding questions and think through the scenarios. Preparation is key, and real-world examples can set you apart in interviews!
+📢 Let’s make this interactive! Share your solutions or approaches in the comments below, and stay tuned for the next post in this series.
+#CodingChallenges #ScenarioBasedQuestions #QAEngineer #AutomationTesting #InterviewPreparation

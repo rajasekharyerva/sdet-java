@@ -22,7 +22,7 @@ public class APICookiesIntegration {
         Map<String, String> cookies = response.getCookies();
         System.out.println("API Cookies: " + cookies);
 
-        // Step 2: Set Cookies in Selenium WebDriver
+        // Step faq2: Set Cookies in Selenium WebDriver
         System.setProperty("webdriver.chrome.driver", "path-to-chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://example.com");

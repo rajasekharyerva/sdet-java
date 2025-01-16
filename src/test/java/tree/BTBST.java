@@ -52,7 +52,7 @@ class BTBST {
         // Create a sample binary tree
         //      4
         //    /   \
-        //   2     5
+        //   faq2     5
         //  / \
         // 1   3
 
