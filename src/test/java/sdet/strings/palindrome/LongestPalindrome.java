@@ -1,4 +1,4 @@
-package sdet.strings;
+package sdet.strings.palindrome;
 
 public class LongestPalindrome {
     public static void main(String[] args) {
@@ -26,7 +26,7 @@ public class LongestPalindrome {
     }
 
     private static int expandAroundCenter(String str, int left, int right) {
-        System.out.println("Checking: "+left+" >=0 "+right+" < length "+str.charAt(left)+"=="+str.charAt(right));
+        // System.out.println("Checking: " + left + " >=0 " + right + " < length " + str.charAt(left) + "==" + str.charAt(right));
         while (left >= 0 && right < str.length() && str.charAt(left) == str.charAt(right)) {
             left--;
             right++;
