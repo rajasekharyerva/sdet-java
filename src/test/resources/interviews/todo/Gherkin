@@ -1,0 +1,30 @@
+|| Interview questions related to the Gherkin language||
+
+Here are some common interview questions you might encounter when discussing Gherkin:
+
+1. What is Gherkin, and what is its primary purpose?
+ - Gherkin is a language used to write executable specifications in a human-readable format. Its primary purpose is to define the behavior of a software application in a way that non-technical stakeholders can understand.
+
+2. What are the key components of a Gherkin file?
+ - Gherkin files typically consist of feature, scenario, scenario outline, Given-When-Then steps, and tags.
+
+3. Explain the structure of a Gherkin scenario.
+ - A Gherkin scenario consists of three parts: Given, When, and Then. "Given" sets up the initial state, "When" describes the action taken, and "Then" specifies the expected outcome or result.
+
+4. What is the purpose of tags in Gherkin?
+ - Tags are used to label scenarios or features, making it easier to organize and filter them. They can be used for various purposes, such as grouping related scenarios or marking scenarios for specific test runs.
+
+5. What are scenario outlines, and when do you use them?
+ - Scenario outlines are used when you have a scenario that follows a similar structure but with different input values. They are a way to create data-driven tests in Gherkin.
+
+6. Explain the difference between "Background" and "Scenario" in Gherkin.
+ - "Background" is used to define steps that are common to all scenarios in a feature file, while "Scenario" is used to define a specific test case or scenario.
+
+7. How do you write comments in a Gherkin file?
+ - Comments in Gherkin are written with the "#" symbol at the beginning of a line.
+
+8. What are the best practices for writing effective Gherkin scenarios?
+ - Some best practices include using clear and concise language, avoiding technical details, and focusing on the behavior being tested. Scenarios should be independent and not rely on the order of execution.
+
+9. Explain how Gherkin scenarios are transformed into executable tests.
+ - Gherkin scenarios are typically associated with a test automation framework like Cucumber, which provides step definitions that map Gherkin steps to actual code. These step definitions are implemented to execute the tests.

@@ -1,0 +1,12 @@
+Cognizant Interview Questions for 10 YOE - #SDET
+1. Explain your current roles and responsibilities.
+2. Explain the current framework structure.
+3. Tell me what was the major contribution towards Automation Testing.
+4. Scenario based questions on POM and Cucumber.
+5. WAP to find the longest palindrome in a string.
+6. WAP to get a new array from 2 arrays-
+ char[] s1= {'A','B','C','D','E','t','Z'};
+ char[] s2= {'c','d','e','f'};
+ Output- {a,C,b,D,c,E,d,F,e,t,z}
+7. What are idempotent methods in RestAssured.
+8. Difference between Path parameter and Query Parameter.
