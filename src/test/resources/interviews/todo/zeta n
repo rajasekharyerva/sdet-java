@@ -1,0 +1,41 @@
+Hello Connections,
+
+Interview Questions for SDET role in Zeta.
+
+Exp Level 4 - 7 Years
+
+1. Given an unsorted array of integers, find the third largest number in the array. If the array has less than 3 distinct numbers
+ return the largest number ?
+ Example
+ Input:
+ arr=[2,4,1,5,3,6]
+ Output:
+ 4
+ Explaination:
+ The sorted array in descending order is[6,5,4,3,2,1]. The third largest number is 4.
+
+2. Given an array Of Strings, group the strinbgs that are anagrams of each other.
+ Example:
+ Input:
+ arr=["eat","tea","tan","ate","nat","bat"]
+ Output:
+ [["eat,"tea","ate"],["tan","nat"],["bat"]]
+ Explaination: The group of anagrams are ["eat,"tea","ate"],["tan","nat"] and ["bat"]
+
+3. Given an array of integers, find the largest number that does not have any duplicates in an array.
+ Example:
+ Input:
+ arr=[4,3,2,7,3,4,8]
+ Output:
+ 8
+ Explaination: The unique numbers are [2,7,8] and the largest among them is 8
+
+4. Java program to find second max element from an array ?
+
+5. How do you handle multiple windows and iframes. Explain via code ?
+
+6. How do you handle SSL certificates and security relates issues in Selenium ?
+
+7. How do you handle exceptions and errors in Selenium ?
+
+8. What are the advantages and limitations of Selenium for test automation ?

@@ -1,0 +1,21 @@
+Tata 1mg recently asked interview questions:
+.
+.
+1. What is the difference between severity, priority, and criticality?
+2. What is Equivalence partitioning?
+3. Write test cases for Playlist Shuffle.
+4. What is BackWord Compatibility?
+
+5. Given a string, remove all vowels (both uppercase and lowercase) and capitalise the first letter of each word in the resulting string.
+𝐄𝐱𝐚𝐦𝐩𝐥𝐞:
+𝐈𝐧𝐩𝐮𝐭: "programming is fun"
+𝐎𝐮𝐭𝐩𝐮𝐭: "Prgrmmng S Fn"
+𝐄𝐱𝐩𝐥𝐚𝐧𝐚𝐭𝐢𝐨𝐧:
+- Remove vowels: "prgrmmng s fn"
+- Capitalize first letter of each word: "Prgrmmng S Fn"
+
+6. Given a singly linked list, return the k-th last element. If k is greater than the size of the linked list, return null.
+𝐄𝐱𝐚𝐦𝐩𝐥𝐞:
+𝐈𝐧𝐩𝐮𝐭: head = [1, 2, 3, 4, 5], k = 2
+𝐎𝐮𝐭𝐩𝐮𝐭: 4
+𝐄𝐱𝐩𝐥𝐚𝐧𝐚𝐭𝐢𝐨𝐧: The 2nd last element is 4.

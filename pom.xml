@@ -26,6 +26,7 @@
         <scala.version>2.13.9</scala.version>
         <aspectj.version>1.9.20.1</aspectj.version>
         <mongodb-driver-sync>5.2.1</mongodb-driver-sync>
+        <chaintest.testng.version>1.0.7</chaintest.testng.version>
         <argLine>--add-opens java.base/java.lang=ALL-UNNAMED</argLine>
     </properties>
     <repositories>
@@ -107,6 +108,17 @@
             <groupId>io.gatling</groupId>
             <artifactId>gatling-core</artifactId>
             <version>${gatling.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>chaintest-testng</artifactId>
+            <version>${chaintest.testng.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
+        <dependency>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+            <version>2.3.34</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/io.gatling/gatling-http -->
         <dependency>

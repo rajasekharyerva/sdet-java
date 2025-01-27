@@ -1,0 +1,48 @@
+Deloitte Interview Questions for hashtag#Automation Engineer (6-7 Years)
+
+📌 Round 1: (Technical)
+
+ 1. Explain about yourself and your roles and responsibilities.
+ 2. Write Java code to reverse a string while preserving the whitespace.
+ 3. Given an SQL table, find the second-largest salary of an employee.
+ 4. Explain the concept of joins and list the different types of joins available.
+ 5. What is LinkedHashMap? Explain its use.
+ 6. Explain black-box testing and white-box testing.
+ 7. What is the difference between an exception and an error?
+ 8. Difference between findElement and findElements.
+ 9. What is the difference between implicit wait and explicit wait?
+ 10. Write Selenium code to automate a calendar WebElement.
+ 11. How would you fetch the text from a text box in Selenium?
+ 12. How do you enter text in an alert using Selenium?
+ 13. What is the difference between checked and unchecked exceptions?
+ 14. If an XPath selects two elements on a webpage, does findElement throw an exception?
+ 15. Explain smoke testing and sanity testing.
+ 16. What are relative locators in Selenium?
+ 17. Explain the challenges you faced in your project.
+ 18. How would you pick test cases for regression testing?
+
+📌 Round 2: (Techno-Managerial)
+
+ 1. Explain your framework in detail.
+ 2. In your framework, if you have 100 pages, do you create 100 Page Objects?
+ 3. What is an “Element click intercepted” exception, and how do you fix it?
+ 4. How do you take screenshots for failed test cases only in TestNG?
+ 5. Explain how to connect your test cases with Azure.
+ 6. What is the get fetch command?
+ 7. In Postman, how do you delete a variable after test execution is finished?
+ 8. Why do you prefer using Cucumber BDD in your project?
+ 9. Explain dynamic binding and static binding.
+ 10. What is method overloading, and what is method overriding?
+ 11. What is the difference between Comparable and Comparator?
+ 12. How would you conclude that a login page is user-friendly?
+ 13. What are 5 points you consider when writing a good test case?
+ 14. Suppose a developer is not fixing a bug; how would you approach the situation?
+ 15. What are threads in JMeter?
+ 16. Can you automate captchas?
+ 17. In what cases would you require fluent waits?
+ 18. In Selenium, how would you open a new tab?
+ 19. In Jenkins, what is the purpose of a CRON expression?
+
+📌 Round 3: (HR)
+
+ 1. Salary discussion.
