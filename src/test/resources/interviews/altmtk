@@ -1,0 +1,46 @@
+Technical Discussion
+Behavior
+1. Issue found in production after deployment and have 1 day to provide fix. What is yor approach.
+2. What is your actions items when application is given to test with minimal documentation
+3. What is your approach when dev is not accepting issue/bug raised by QA
+4. Experience in preparing Test Strategy and Test Planning
+Selenium
+iframes:
+1. How you identify frames
+2. Code: There are 3 frames in a web page, you need to interact with element in frame2 then move to frame 3.
+3. How to get text from textbox in a page.
+4. Code: Open Lululemon website, hover Shoes and Click on Cross Training Shoes.
+Java:
+1. What are the Collections used in framework
+2. What is Encapsulation
+3. What is polymorphism & it's types
+API
+1. What are different types of methods used in API
+2. How did you store a response returned from API
+3. "phoneNumbers": [
+           {
+               "type": "iPhone",
+               "number": "0123-4567-8888" // 345678
+           },
+           {
+               "type": "home",
+               "number": "0123-4567-8910"
+           }
+       ]
+How you store it in POJO, print number value where type = "home"
+SQL
+1. SQL concepts used in framework
+2. Difference b/w DELETE and TRUNCATE
+
+Technical Discussion:
+1. Experience & tech stack used in previous projects
+2. Automation/Testing of Kafka usage in application
+3. Explain current work - project in detail & domain
+4. How to test Reporting or reports generated in Power BI like applications. Validate the underlying data vs report generated
+5. What is current role and it's responsibilities
+6. How to validate the functionality UI and API
+7. Tool used for issue tracking
+8. Tool used for Automation
+9. How to test SaaS application
+10. Frameworks and tools you worked or known apart from Selenium
+11. What is team size/ratio. What is your role IC or leading team

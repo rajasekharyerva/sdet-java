@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 import org.testng.annotations.Test;
 
@@ -13,8 +14,8 @@ import static io.restassured.RestAssured.given;
 
 public class GetAllObjects {
 
-@Test
-    public void getObjects() {
+    @Test
+    public void getObjects() throws JSONException {
         String resp = "{\n" +
                 "    \"Messages\": [\n" +
                 "        {\n" +
@@ -54,25 +55,25 @@ public class GetAllObjects {
                 .body("String").when().put("/path").then().extract().response();
 
         JSONObject jsonObject = new JSONObject(resp);
-        if(jsonObject.get("Messages")instanceof JSONArray){
+        if (jsonObject.get("Messages") instanceof JSONArray) {
             JSONArray array = jsonObject.getJSONArray("Messages");
-            for(int i=0; i<array.length(); i++) {
+            for (int i = 0; i < array.length(); i++) {
                 JSONObject jobj = (JSONObject) array.get(i);
                 System.out.println(jobj.get("Description"));
             }
         }
-    ObjectMapper om = new ObjectMapper();
-    try {
-        JsonNode jn = om.readTree(resp);
-        JsonNode jnp = jn.path("Messages");
-        if(jnp.isArray()) {
-            for (JsonNode node : jnp) {
-                System.out.println(node.path("Description").asText());
+        ObjectMapper om = new ObjectMapper();
+        try {
+            JsonNode jn = om.readTree(resp);
+            JsonNode jnp = jn.path("Messages");
+            if (jnp.isArray()) {
+                for (JsonNode node : jnp) {
+                    System.out.println(node.path("Description").asText());
+                }
             }
+            //System.out.println(jn.path("Messages").path("Description"));
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException(e);
         }
-        //System.out.println(jn.path("Messages").path("Description"));
-    } catch (JsonProcessingException e) {
-        throw new RuntimeException(e);
     }
-}
 }

@@ -5,6 +5,7 @@
 | Export to path                       | ``                         |
 | Echo                                 | `echo $PATH`               |
 | Changes the directory to your folder | `cd <path-to-your-folder>` |
+|Screenshot| Shft+Ctrl+Cmd+4|
 
 
 ### Export PATH

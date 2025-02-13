@@ -1,10 +1,13 @@
 package sdet;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.Iterator;
+
 public class JsonIterator {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws JSONException {
         // Sample JSON
         String jsonString = """
                 {
@@ -23,10 +26,11 @@ public class JsonIterator {
         iterateJson(jsonObject);
     }
 
-    public static void iterateJson(Object obj) {
+    public static void iterateJson(Object obj) throws JSONException {
         if (obj instanceof JSONObject) {
             JSONObject jsonObject = (JSONObject) obj;
-            for (String key : jsonObject.keySet()) {
+            for (Iterator it = jsonObject.keys(); it.hasNext(); ) {
+                String key = (String) it.next();
                 System.out.println("Key: " + key);
                 Object value = jsonObject.get(key);
                 checkValue(value);
@@ -43,7 +47,7 @@ public class JsonIterator {
         }
     }
 
-    public static void checkValue(Object value) {
+    public static void checkValue(Object value) throws JSONException {
         if (value instanceof JSONObject) {
             System.out.println("Node: JSONObject");
             iterateJson(value);
@@ -55,4 +59,3 @@ public class JsonIterator {
         }
     }
 }
-
