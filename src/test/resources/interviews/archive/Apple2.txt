@@ -8,14 +8,14 @@ This is crucial in parallel testing, where multiple threads might interact with 
 
 𝟭) 𝗦𝘆𝗻𝗰𝗵𝗿𝗼𝗻𝗶𝘇𝗲𝗱 𝗕𝗹𝗼𝗰𝗸𝘀:
 -Enclose the code that needs to be synchronized within a block.
--Use a synchronized keyword followed by an object reference.
+-Use a synchronized frameworks.keyword followed by an object reference.
 Example:
 synchronized (object) {
 // Code to be synchronized
 }
 
 𝟮) 𝗦𝘆𝗻𝗰𝗵𝗿𝗼𝗻𝗶𝘇𝗲𝗱 𝗠𝗲𝘁𝗵𝗼𝗱𝘀:
-- Apply the synchronized keyword directly to a method's declaration.
+- Apply the synchronized frameworks.keyword directly to a method's declaration.
 - The object on which the method is called acts as the lock.
 Example:
 public synchronized void synchronizedMethod() {

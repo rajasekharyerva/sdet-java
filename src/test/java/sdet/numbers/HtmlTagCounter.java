@@ -27,7 +27,7 @@ public class HtmlTagCounter {
             } else {
                 // Opening tag
                 tagCount.put(tag, tagCount.getOrDefault(tag, 0) + 1);
-                tagStack.push(tag);  // Push opening tag to the stack
+                tagStack.push(tag);  // Push opening tag to the collections.stack
             }
         }
 

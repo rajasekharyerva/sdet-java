@@ -1,10 +1,10 @@
 1. How do you reverse a string in Java without using built-in methods?
-2. How can you find the second largest number in an array without sorting it?
+2. How can you find the second largest number in an array without collections.sorting it?
 3. What is the difference between == and .equals() in Java?
 4. How do you use the Map interface to count the frequency of characters in a string?
 5. How do you remove duplicate elements from an ArrayList?
 6. What is the difference between HashMap and TreeMap, and when would you use each?
 7. How do you find the longest substring without repeating characters in a string?
-8. How can you implement a custom sorting algorithm using Comparator?
+8. How can you implement a custom collections.sorting algorithm using Comparator?
 9. What are the differences between ArrayList and LinkedList, and which is better for insertion-heavy operations?
 10. How do you handle exceptions in Java? Can you create a custom exception class?

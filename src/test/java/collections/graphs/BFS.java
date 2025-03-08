@@ -7,7 +7,7 @@ class BFS {
     // BFS from given source s
     static void bfs(List<List<Integer>> adj, int s) {
 
-        // Create a queue for BFS
+        // Create a collections.queue for BFS
         Queue<Integer> q = new LinkedList<>();
 
         // Initially mark all the vertices as not visited
@@ -19,7 +19,7 @@ class BFS {
         visited[s] = true;
         q.add(s);
 
-        // Iterate over the queue
+        // Iterate over the collections.queue
         while (!q.isEmpty()) {
 
             // Dequeue a vertex and print it

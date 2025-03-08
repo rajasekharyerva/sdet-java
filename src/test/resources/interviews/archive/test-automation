@@ -35,7 +35,7 @@ How would you structure a Circle CI pipeline to ensure efficient, synchronised m
 - >Use in-order traversal and a min-heap or sliding window for efficiency.
 
 5. What’s the best way to sort an array of 0s, 1s, and 2s?
-- >Apply the Dutch National Flag algorithm for linear-time sorting.
+- >Apply the Dutch National Flag algorithm for linear-time collections.sorting.
 
 Challenges or Production issues
 -------------------------------

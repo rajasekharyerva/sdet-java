@@ -26,7 +26,7 @@
  Solve a problem using recursion, such as computing the factorial or Fibonacci sequence.
 
 8. Array Sorting:
- Implement sorting algorithms like bubble sort, merge sort, or quicksort.
+ Implement collections.sorting algorithms like bubble sort, merge sort, or quicksort.
 9. Binary Search:
  Implement a binary search algorithm to find an element in a sorted array.
 11. Linked List Reversal:
@@ -34,9 +34,9 @@
 12. Matrix Operations:
  Perform matrix operations like addition, multiplication, or transpose.
 13. Implement a Stack:
- Create a stack data structure and implement basic operations (push, pop).
+ Create a collections.stack data structure and implement basic operations (push, pop).
 14. Implement a Queue:
- Create a queue data structure and implement basic operations (enqueue, dequeue).
+ Create a collections.queue data structure and implement basic operations (enqueue, dequeue).
 
 
 

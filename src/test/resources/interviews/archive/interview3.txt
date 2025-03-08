@@ -17,7 +17,7 @@
  - Write a program to count vowels and consonants in a string.
 
 7. Sort an Array
- - Practice sorting collections.arrays using built-in methods and manual techniques like bubble or selection sort.
+ - Practice collections.sorting collections.arrays using built-in methods and manual techniques like bubble or selection sort.
 Arrays.sort(arr);
 
 8. Find Largest Element in an Array
@@ -27,11 +27,11 @@ Arrays.sort(arr);
  - Use sets or other methods to remove duplicates from collections.arrays.
 
 10. Check for Anagram
- - Test two strings to see if they're anagrams by sorting or using character counts.
+ - Test two strings to see if they're anagrams by collections.sorting or using character counts.
 
 💡 Pro Tips:
 - Focus on writing clean, efficient, and readable code.
 - Use Stream API for modern, simplified solutions.
 - Master data structures like collections.arrays, lists, and sets.
-- Understand basic algorithms like sorting, searching, and recursion.
+- Understand basic algorithms like collections.sorting, searching, and recursion.
 

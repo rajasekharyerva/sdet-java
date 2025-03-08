@@ -22,7 +22,7 @@ public class ConfigReader {
             FileInputStream inputStream = new FileInputStream(System.getProperty("user.dir") + "/src/test/resources/config.properties");
             properties.load(inputStream);
         } catch (IOException e) {
-            logger.error("An exception occurred: ", e); // Log the exception with stack trace
+            logger.error("An exception occurred: ", e); // Log the exception with collections.stack trace
         }
     }
 

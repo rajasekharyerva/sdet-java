@@ -15,7 +15,7 @@ Questions:
 2. What are serialization and deserialization?
 3. How is a variable stored in memory in data structures and algorithms (DSA)?
 4. What are the types of data structures in DSA?
-5. How does a stack work? Can you provide pseudocode for it?
+5. How does a collections.stack work? Can you provide pseudocode for it?
 6. What challenges do you face during test automation?
 7. What is the singleton pattern, and how do you use it in your test automation framework?
 8. Explain the structure of your test automation framework.
@@ -29,5 +29,5 @@ Questions:
 R2- Techno Managerial ( 1 Program Manager) 45 mins
 Questions about projects, experience and test automation basic questions.
 Leadership principles and some scenario based testing questions.
-Discussed about architecture, tech stack used in my previous project and skills i have.
+Discussed about architecture, tech collections.stack used in my previous project and skills i have.
 QA Methodologies

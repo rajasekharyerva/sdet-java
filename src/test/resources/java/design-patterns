@@ -10,7 +10,7 @@ Purpose: Deal with object composition, creating relationships between objects to
 Examples:
 Adapter: Allows incompatible interfaces to work together.
 Decorator: Adds behavior to objects dynamically without altering their class.
-Composite: Composes objects into tree-like structures to represent part-whole hierarchies.
+Composite: Composes objects into collections.tree-like structures to represent part-whole hierarchies.
 
 3. Behavioral Patterns
 Purpose: Focus on communication and responsibilities between objects.

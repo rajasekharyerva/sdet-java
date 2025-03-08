@@ -70,7 +70,7 @@ Removal of Further Deprecated APIs
     Visibility: Accessible within the same package and by subclasses, even if they are in different packages.
     Usage: Can be applied to methods, fields, and constructors (not applicable to top-level classes)
     default
-    Visibility: Accessible only within the same package (no keyword needed).
+    Visibility: Accessible only within the same package (no frameworks.keyword needed).
     Usage: Can be applied to classes, methods, fields, and constructors. 
     private
     Visibility: Accessible only within the same class.

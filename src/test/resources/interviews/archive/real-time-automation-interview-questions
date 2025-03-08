@@ -29,7 +29,7 @@ Real time #Automation Testing Interview Questions
 
 11. How to implement parameterization in TestNG for running tests with multiple sets of data?
 12. How to use Java Streams to filter and process data from a list?
-13. Write a code snippet to retrieve and print all test case names containing a specific keyword from a list of strings using Streams.
+13. Write a code snippet to retrieve and print all test case names containing a specific frameworks.keyword from a list of strings using Streams.
 14. How to test APIs in Selenium or using Java?
 15. Write a simple script in Java to send a GET request to an API endpoint and validate the response status code.
 16. How can you validate test data stored in a database against the UI data displayed in the application?

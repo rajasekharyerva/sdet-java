@@ -30,7 +30,7 @@ infrastructure or automation scripts?
 
 Basics of OOP concepts( this is always the first question asked in almost all the 25+ interviews I attended).
 
-1. Deep dive into oop concepts. Questions on constructors,( use of base keyword), method overloading, method overriding, static class.
+1. Deep dive into oop concepts. Questions on constructors,( use of base frameworks.keyword), method overloading, method overriding, static class.
 2. Can we have a private constructor? if yes, then when do we use it?
 how do we prevent a class from being overridden?
 3. Can we extend the functionality of inbuilt methods like ‘strings’ without affecting its basic functionality(using extension methods)?

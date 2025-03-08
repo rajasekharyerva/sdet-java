@@ -1,7 +1,7 @@
 I. Automation Fundamentals:
 
 1) Why automate testing? When is it appropriate?(Focus on ROI, efficiency, and limitations)
-2) What are the different types of automation frameworks?(Data-driven, keyword-driven, hybrid, BDD)
+2) What are the different types of automation frameworks?(Data-driven, frameworks.keyword-driven, hybrid, BDD)
 3) Describe the automation testing lifecycle. (Planning, tool selection, design, execution, analysis, maintenance)
 4) Differentiate between manual and automated testing.(Strengths, weaknesses, and when to use each)
 5) What are the challenges of automation testing?(Maintenance, initial cost, choosing the right tools)

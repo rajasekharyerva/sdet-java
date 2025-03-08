@@ -1,7 +1,7 @@
 1. Reverse a linked list.
 2. Find the middle element of a linked list.
-3. Implement a stack using collections.arrays/linked list.
-4. Implement a queue using collections.arrays/linked list.
+3. Implement a collections.stack using collections.arrays/linked list.
+4. Implement a collections.queue using collections.arrays/linked list.
 5. Find the factorial of a number using recursion.
 6. Implement binary search in an array.
 7. Find the largest/smallest element in an array.
@@ -13,29 +13,29 @@
 8. Implement merge sort.
 36. Find the longest palindrome substring in a string.
 9. Implement quick sort.
-15. Find the height of a binary tree.
-14. Reverse a binary tree.
-13. Print all leaf nodes of a binary tree.
+15. Find the height of a binary collections.tree.
+14. Reverse a binary collections.tree.
+13. Print all leaf nodes of a binary collections.tree.
 35. Implement an LRU (Least Recently Used) Cache.
 11. Find the intersection point of two linked lists.
 10. Detect a cycle in a linked list.
 16. Implement depth-first search (DFS) on a graph.
 17. Implement breadth-first search (BFS) on a graph.
-12. Check if a binary tree is a binary search tree (BST).
+12. Check if a binary collections.tree is a binary search collections.tree (BST).
 40. Find the shortest path in a maze.
-37. Implement a priority queue.
+37. Implement a priority collections.queue.
 38. Implement a hashmap (dictionary).
 18. Check if a graph is connected.
 34. Implement the Josephus Problem.
 33. Find all permutations of a string.
 32. Find all subsets of a set.
 39. Count the number of inversions in an array.
-31. Implement a trie (prefix tree).
+31. Implement a trie (prefix collections.tree).
 30. Find the median of two sorted collections.arrays.
 22. Find the longest common subsequence of two strings.
 
 19. Implement Dijkstra's algorithm for shortest path.
-20. Implement Prim's algorithm for minimum spanning tree.
-21. Implement Kruskal's algorithm for minimum spanning tree.
+20. Implement Prim's algorithm for minimum spanning collections.tree.
+21. Implement Kruskal's algorithm for minimum spanning collections.tree.
 24. Implement the Knuth–Morris–Pratt (KMP) algorithm for string matching.
 25. Implement the Rabin-Karp algorithm for string matching.

@@ -34,7 +34,7 @@
 14. Database Testing Questions
 15. severity , priority
 16. framework development question
-17. java final keyword (detailed)
+17. java final frameworks.keyword (detailed)
 18. checked and unchecked exception with Ex.
 19. What is POM ? Why we need !
     POM stands for Page Object Model. It is a design pattern used in test automation to create reusable and maintainable code.
@@ -51,7 +51,7 @@
 21. Diff between Collection VS Collections
     Collection is an interface in Java that represents a group of objects, while Collections is a utility class in Java that contains static methods for operating on collections.
     Collection is an interface in Java, while Collections is a utility class.
-    Collection is used to represent a group of objects, while Collections is used for operations on collections like sorting, searching, etc.
+    Collection is used to represent a group of objects, while Collections is used for operations on collections like collections.sorting, searching, etc.
     Example: List is a Collection interface, while Collections.sort() is a method in the Collections class.
 22. POM and Page factory difference
 23. Driver Capabilities
