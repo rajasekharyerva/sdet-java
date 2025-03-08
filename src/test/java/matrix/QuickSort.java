@@ -7,7 +7,7 @@ public class QuickSort {
             // Partition the array and get the pivot index
             int pivotIndex = partition(arr, low, high);
 
-            // Recursively sort the left and right sub-arrays
+            // Recursively sort the left and right sub-collections.arrays
             quickSort(arr, low, pivotIndex - 1);
             quickSort(arr, pivotIndex + 1, high);
         }

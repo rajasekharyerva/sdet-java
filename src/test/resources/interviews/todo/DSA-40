@@ -1,7 +1,7 @@
 1. Reverse a linked list.
 2. Find the middle element of a linked list.
-3. Implement a stack using arrays/linked list.
-4. Implement a queue using arrays/linked list.
+3. Implement a stack using collections.arrays/linked list.
+4. Implement a queue using collections.arrays/linked list.
 5. Find the factorial of a number using recursion.
 6. Implement binary search in an array.
 7. Find the largest/smallest element in an array.
@@ -31,7 +31,7 @@
 32. Find all subsets of a set.
 39. Count the number of inversions in an array.
 31. Implement a trie (prefix tree).
-30. Find the median of two sorted arrays.
+30. Find the median of two sorted collections.arrays.
 22. Find the longest common subsequence of two strings.
 
 19. Implement Dijkstra's algorithm for shortest path.

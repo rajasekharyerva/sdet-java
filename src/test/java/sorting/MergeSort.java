@@ -24,11 +24,11 @@ public class MergeSort {
         merge(arr, left, right);
     }
 
-    // Helper function to merge two sorted arrays
+    // Helper function to merge two sorted collections.arrays
     public static void merge(int[] arr, int[] left, int[] right) {
         int i = 0, j = 0, k = 0;
 
-        // Merge the arrays while there are elements in both
+        // Merge the collections.arrays while there are elements in both
         while (i < left.length && j < right.length) {
             if (left[i] <= right[j]) {
                 arr[k++] = left[i++];

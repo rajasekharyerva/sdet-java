@@ -40,7 +40,7 @@ public class CompareParagraphJSON {
                 Map.Entry<String, JsonNode> field = fields.next();
                 JsonNode value = field.getValue();
 
-                // Recursively fetch values from nested objects or arrays
+                // Recursively fetch values from nested objects or collections.arrays
                 fetchValuesFromJsonNode(value);
             }
         } else {

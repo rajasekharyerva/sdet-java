@@ -57,7 +57,7 @@ public class JsonComparator {
             }
         }
 
-        // Compare arrays
+        // Compare collections.arrays
         else if (json1.isArray()) {
             if (json1.size() != json2.size()) {
                 differences.append("Array size mismatch at ").append(path).append(": ")

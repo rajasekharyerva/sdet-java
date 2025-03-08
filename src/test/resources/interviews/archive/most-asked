@@ -8,7 +8,7 @@ Core Java Concepts:
 
 ↳ Array Manipulation:
  * Finding the largest/smallest element
- * Sorting arrays (bubble sort, insertion sort, selection sort, merge sort, quick sort)
+ * Sorting collections.arrays (bubble sort, insertion sort, selection sort, merge sort, quick sort)
  * Reversing an array
  * Finding duplicates
  * Finding longest substring
@@ -26,5 +26,5 @@ Core Java Concepts:
  * Traversing and searching in these structures
 
 ↳ OOP Concepts:
- * Inheritance, polymorphism, encapsulation, abstraction
+ * Inheritance, polymorphism, encapsulation, oops.abstraction
  * Creating abstract classes and interfaces

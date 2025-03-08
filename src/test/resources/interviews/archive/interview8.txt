@@ -10,7 +10,7 @@
 
 ↳ Remove all the duplicate elements from integer array
 
-↳ Merge the 2 sorted arrays, Inputs: int[] arr1 = {1, 3, 5, 7};
+↳ Merge the 2 sorted collections.arrays, Inputs: int[] arr1 = {1, 3, 5, 7};
  int[] arr2 = {2, 4, 6, 8};
 
 ↳ Rotate an array by K number of steps, k = 3, Input Array: int[] arr2 = {2, 4, 6, 8};
